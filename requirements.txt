@@ -1,0 +1,7 @@
+# Fibre 360 - dependances Python du pipeline d'analyse
+pandas>=2.1
+numpy>=1.26
+scikit-learn>=1.3
+openpyxl>=3.1
+# Optionnel : agent IA brancher sur un LLM (fallback hors-ligne sinon)
+anthropic>=0.39 ; python_version >= "3.9"

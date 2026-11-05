@@ -1,0 +1,12 @@
+Indicateur,Valeur
+Commandes totales,"12,000"
+Commandes livrees,"10,349"
+Commandes en cours,422
+Taux de livraison dans les delais,64.0%
+Delai moyen commande -> mise en service,13.9 j
+Objectif SLA,15 j
+Taux d'echec de raccordement,5.4%
+Taux d'annulation,4.8%
+NPS moyen (livrees),31
+Taux de reclamation,12.9%
+Alertes SLA en cours,44

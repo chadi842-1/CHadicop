@@ -1,0 +1,19 @@
+# Donnees volumineuses et regenerables (via `make data` / `make mart`)
+data/raw/
+data/mart/
+
+# Les exports (KPI, process mining, scoring) sont versionnes : ce sont les
+# "resultats" directement consultables, et ils alimentent les specs BI.
+!data/exports/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# OS / editeurs
+.DS_Store
+.vscode/
+.idea/

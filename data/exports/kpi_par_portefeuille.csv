@@ -1,0 +1,7 @@
+gestionnaire_portefeuille,nb_commandes,nb_livrees,delai_moyen_j,taux_livraison_delai_%,taux_echec_%,taux_annulation_%,nps_moyen,taux_reclamation_%
+PF-Centre,2051,1785,14.1,62.2,4.6,4.9,31.0,13.9
+PF-Grands-Comptes,2036,1748,14.0,64.0,5.9,4.9,31.0,12.2
+PF-Est,2010,1734,13.6,65.1,5.5,5.0,31.0,12.7
+PF-Sud,2004,1725,13.9,63.3,5.2,4.8,32.0,13.2
+PF-Nord,1979,1711,13.7,65.7,5.6,4.0,31.0,12.2
+PF-Ouest,1920,1646,14.0,63.7,5.7,5.3,32.0,13.1

@@ -1,0 +1,30 @@
+facteur,poids,effet
+zone_a_construire_True,2.222,augmente le risque
+zone_a_construire_False,-1.845,reduit le risque
+sous_traitant_OptiReseau,1.079,augmente le risque
+sous_traitant_RacoNet,-0.823,reduit le risque
+canal_Distributeur,0.652,augmente le risque
+canal_Boutique,-0.448,reduit le risque
+sous_traitant_ConnectPlus,0.358,augmente le risque
+segment_Pro,0.283,augmente le risque
+canal_Web,0.279,augmente le risque
+sous_traitant_FibreExpress,-0.236,reduit le risque
+offre_Fibre 1 Gb/s,0.177,augmente le risque
+offre_Fibre 2 Gb/s,0.162,augmente le risque
+region_Auvergne-Rhone-Alpes,0.127,augmente le risque
+gestionnaire_portefeuille_PF-Centre,0.124,augmente le risque
+region_Occitanie,0.121,augmente le risque
+offre_Fibre 8 Gb/s,0.121,augmente le risque
+gestionnaire_portefeuille_PF-Est,0.115,augmente le risque
+canal_Telephone,-0.105,reduit le risque
+segment_Grand Public,0.095,augmente le risque
+offre_Fibre 5 Gb/s,-0.082,reduit le risque
+region_Ile-de-France,0.05,augmente le risque
+region_Hauts-de-France,0.049,augmente le risque
+gestionnaire_portefeuille_PF-Nord,0.041,augmente le risque
+debit_gbps,0.041,augmente le risque
+gestionnaire_portefeuille_PF-Sud,0.035,augmente le risque
+gestionnaire_portefeuille_PF-Grands-Comptes,0.032,augmente le risque
+gestionnaire_portefeuille_PF-Ouest,0.031,augmente le risque
+region_Nouvelle-Aquitaine,0.03,augmente le risque
+montant_mensuel,0.026,augmente le risque
