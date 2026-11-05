@@ -1,0 +1,5 @@
+offre,nb_commandes,nb_livrees,delai_moyen_j,taux_livraison_delai_pct,taux_echec_pct,taux_annulation_pct,nps_moyen,taux_reclamation_pct,taux_churn_pct
+Fibre 1 Gb/s,26549,23391,14.1,63.2,5.1,5.0,31.0,18.7,15.8
+Fibre 2 Gb/s,17973,15798,14.2,62.4,5.5,5.1,31.0,19.0,16.0
+Fibre 5 Gb/s,9550,8414,14.1,63.5,5.3,4.8,31.0,19.0,15.3
+Fibre 8 Gb/s,5928,5228,14.2,63.1,5.3,4.7,31.0,18.8,16.3

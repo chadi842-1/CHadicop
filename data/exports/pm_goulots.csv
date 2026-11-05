@@ -1,0 +1,9 @@
+transition,nb,duree_moyenne_j,duree_mediane_j,impact_j_total
+Prise de RDV -> Construction ligne,16146,12.53,12.56,202309.0
+Intervention technicien -> Mise en service,52831,3.7,1.58,195475.0
+Prise de RDV -> Intervention technicien,40211,3.0,3.0,120633.0
+Construction ligne -> Intervention technicien,15787,2.99,3.0,47203.0
+Etude eligibilite -> Prise de RDV,57032,2.5,2.5,142580.0
+Etude eligibilite -> Annulation client,2968,1.51,1.55,4482.0
+Commande enregistree -> Etude eligibilite,60000,1.5,1.49,90000.0
+Intervention technicien -> Echec raccordement,3167,0.1,0.1,317.0

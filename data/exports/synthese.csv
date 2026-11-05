@@ -1,0 +1,14 @@
+Indicateur,Valeur
+Commandes totales,"60,000"
+Commandes livrees,"52,831"
+Commandes en cours,"1,034"
+Taux de livraison dans les delais,63.0%
+Delai moyen (commande -> mise en service),14.1 j
+Objectif SLA,15 j
+Taux d'echec de raccordement,5.3%
+Taux d'annulation,4.9%
+NPS moyen (livrees),31
+Taux de reclamation,18.8%
+Taux de churn client,15.8%
+CA mensuel recurrent (livrees),"2,595,812 EUR"
+Alertes SLA en cours,116

@@ -1,0 +1,43 @@
+name: CI Fibre 360
+
+on:
+  push:
+    branches: [ main, "claude/**" ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.11", "3.12"]
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Installer Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: pip
+
+      - name: Installer les dependances
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Lancer les tests
+        run: pytest -q
+
+      - name: Smoke test du pipeline (petit volume)
+        run: python -m fibre360.cli all --n 2000 --seed 7
+
+      - name: Archiver les livrables
+        uses: actions/upload-artifact@v4
+        with:
+          name: livrables-fibre360-py${{ matrix.python-version }}
+          path: |
+            data/exports/KPI_pilotage_fibre.xlsx
+            dashboard/index.html
+            docs/note_analyse_auto.md
+          if-no-files-found: ignore

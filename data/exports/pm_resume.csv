@@ -1,0 +1,5 @@
+Indicateur,Valeur
+Cas analyses,60000.0
+Nombre de variantes,7.0
+Cas conformes (happy path),38323.0
+Taux de conformite %,63.9

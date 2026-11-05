@@ -1,0 +1,13 @@
+table,regle,statut,valeur,seuil,detail
+commandes,unicite(id_commande),PASS,0.0,== 0,0 doublons
+clients,unicite(id_client),PASS,0.0,== 0,0 doublons
+commandes,non_null(canal),PASS,0.0,<= 0%,0.00% de valeurs nulles
+commandes,non_null(montant_mensuel),PASS,0.0,<= 0%,0.00% de valeurs nulles
+commandes,"plage(montant_mensuel in [10,200])",PASS,0.0,== 0,0 valeurs hors plage
+commandes,"plage(debit_gbps in [1,8])",PASS,0.0,== 0,0 valeurs hors plage
+clients,"plage(age in [18,100])",PASS,0.0,== 0,0 valeurs hors plage
+commandes,domaine(canal),PASS,0.0,== 0,0 valeurs hors referentiel
+commandes,domaine(offre),PASS,0.0,== 0,0 valeurs hors referentiel
+commandes,integrite_ref(id_client),PASS,0.0,== 0,0 cles orphelines
+evenements,integrite_ref(id_commande),PASS,0.0,== 0,0 cles orphelines
+commandes,fraicheur(date_commande),PASS,1.0,<= 30 j,donnee la plus recente il y a 1 j

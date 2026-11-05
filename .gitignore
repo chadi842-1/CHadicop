@@ -1,0 +1,27 @@
+# Donnees volumineuses et regenerables (via `make generate` / `make datamart`)
+data/raw/
+data/mart/
+
+# Les exports (KPI, process mining, scoring, qualite) sont versionnes : ce sont
+# les "resultats" consultables, et ils alimentent les specs BI et le dashboard.
+!data/exports/
+
+# Modeles entraines : binaires regenerables -> ignores.
+# La carte de modele (JSON, lisible) est conservee.
+models/*.joblib
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+*.egg-info/
+build/
+dist/
+
+# OS / editeurs
+.DS_Store
+.vscode/
+.idea/

@@ -1,0 +1,6 @@
+canal,nb_commandes,nb_livrees,delai_moyen_j,taux_livraison_delai_pct,taux_echec_pct,taux_annulation_pct,nps_moyen,taux_reclamation_pct,taux_churn_pct
+Boutique,16807,15101,13.0,69.2,4.6,4.1,44.0,15.6,15.1
+Web,16331,14249,14.6,60.2,5.5,5.4,28.0,20.3,16.0
+Telephone,10772,9564,14.1,62.6,4.8,4.7,24.0,18.7,15.7
+Distributeur,8349,7097,16.0,52.7,6.7,6.1,13.0,24.5,17.1
+App mobile,7741,6820,13.6,66.4,5.4,5.0,36.0,17.2,15.9

@@ -1,0 +1,5 @@
+segment_kmeans,nb_clients,ca_mensuel_moyen,delai_moyen,nps_moyen,reclamations_moy,anciennete_moy,taux_churn_pct,libelle
+0,10307,68.8,11.5,40.2,0.1,181.3,9.8,Standard
+1,10110,68.9,11.3,39.3,0.1,56.8,10.2,Premium fideles
+2,6650,57.8,21.8,7.1,0.4,119.0,21.0,A risque / insatisfaits
+3,5916,136.2,14.9,28.0,1.0,118.4,24.6,A risque / insatisfaits

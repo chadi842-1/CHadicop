@@ -1,0 +1,8 @@
+region,nb_commandes,nb_livrees,delai_moyen_j,taux_livraison_delai_pct,taux_echec_pct,taux_annulation_pct,nps_moyen,taux_reclamation_pct,taux_churn_pct
+Ile-de-France,15385,13582,14.2,62.6,5.4,4.7,31.0,19.0,16.0
+Auvergne-Rhone-Alpes,10166,8952,14.1,63.6,5.1,5.1,31.0,18.8,15.1
+Occitanie,8510,7532,14.1,63.2,5.3,4.6,31.0,18.1,16.2
+Hauts-de-France,7429,6520,14.2,62.1,5.3,4.9,31.0,19.1,14.6
+Nouvelle-Aquitaine,7278,6391,14.1,63.2,5.2,5.3,31.0,18.7,16.1
+Grand-Est,5796,5124,14.0,63.5,5.0,5.0,31.0,19.2,16.3
+PACA,5436,4730,14.1,63.4,5.6,5.4,31.0,19.0,16.9
