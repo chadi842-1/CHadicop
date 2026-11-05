@@ -51,8 +51,8 @@ def generer(cfg: Config, data: dict) -> str:
         "mois_labels": mois.mois.tolist(),
         "mois_vol_hist": [v if t == "historique" else None
                           for v, t in zip(mois.nb_commandes, mois.type)],
-        "mois_vol_prev": [v if t == "prevision" else None
-                          for v, t in zip(mois.nb_commandes, mois.type)],
+        # la prevision reprend le dernier point historique pour relier les courbes
+        "mois_vol_prev": _serie_prevision(mois),
         "mois_delai": mois.delai_moyen_j.tolist(),
         "goulot_labels": goulots.transition.tolist(),
         "goulot_vals": goulots.duree_moyenne_j.tolist(),
@@ -96,6 +96,22 @@ def generer(cfg: Config, data: dict) -> str:
 
 def _cls(niveau):
     return {"Eleve": "bad", "Moyen": "warn", "Faible": "ok"}.get(str(niveau), "")
+
+
+def _serie_prevision(mois):
+    """Serie de prevision incluant le dernier point historique (jointure visuelle)."""
+    vals = mois.nb_commandes.tolist()
+    types = mois.type.tolist()
+    out = [None] * len(types)
+    dernier_hist = None
+    for i, t in enumerate(types):
+        if t == "historique":
+            dernier_hist = i
+        else:
+            out[i] = vals[i]
+    if dernier_hist is not None:
+        out[dernier_hist] = vals[dernier_hist]   # point de raccord
+    return out
 
 
 _TEMPLATE = r"""<!doctype html>
@@ -230,8 +246,8 @@ new Chart(c_vol, {{ type:'line', data:{{ labels:D.mois_labels, datasets:[
 new Chart(c_delai, {{ type:'line', data:{{ labels:D.mois_labels, datasets:[
   {{label:'Delai moyen (j)', data:D.mois_delai, borderColor:S[2],
     backgroundColor:S[2]+'33', tension:.25, pointRadius:2, fill:true}} ]}},
-  options:{{responsive:true, plugins:{{legend:{{display:false}},
-    annotation:false}}, scales:{{y:{{beginAtZero:false}}}}}} }});
+  options:{{responsive:true, plugins:{{legend:{{display:false}}}},
+    scales:{{y:{{beginAtZero:false}}}}}} }});
 
 new Chart(c_goulot, {{ type:'bar', data:{{ labels:D.goulot_labels, datasets:[
   {{label:'j/cas', data:D.goulot_vals, backgroundColor:S[3], borderRadius:4}} ]}},

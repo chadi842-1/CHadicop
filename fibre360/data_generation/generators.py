@@ -115,12 +115,10 @@ class DataGenerator:
                        ["id_technicien"].values for s in C.SOUS_TRAITANTS}
         id_tech = [rng.choice(tech_par_st[s]) for s in st]
 
-        # saisonnalite : pic en septembre (rentree) et janvier
+        # montee en charge progressive (plus de volume sur les mois recents)
         u = rng.random(n)
         days = (u ** 0.80) * self.total_days
         date_commande = [self.start + timedelta(days=float(d)) for d in days]
-        mois = pd.to_datetime(date_commande).month
-        boost = np.isin(mois, [9, 1]).astype(float) * 0.0  # structure deja via u
 
         return pd.DataFrame({
             "id_commande": [f"CMD{1_000_000 + i}" for i in range(n)],
