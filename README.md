@@ -45,7 +45,7 @@ Orchestration : `make all` (ou `python -m fibre360.cli all`).
 | Outil de l'offre | Où il est mobilisé |
 |------------------|--------------------|
 | **GCP / BigQuery (SQL)** | `sql/bigquery/` (staging, datamart partitionné, KPI, scoring & churn BigQuery ML, cohortes) |
-| **Power BI** | `powerbi/SPEC_powerbi.md` (modèle en étoile, DAX, 5 pages) |
+| **Power BI** | Kit prêt à l'emploi : modèle en étoile `powerbi/dataset/`, mesures `powerbi/DAX_measures.dax`, guide de construction `powerbi/GUIDE_construction_pbix.md` + spec `powerbi/SPEC_powerbi.md` |
 | **Looker Studio** | `looker_studio/SPEC_looker_studio.md` |
 | **Excel** | `data/exports/KPI_pilotage_fibre.xlsx` (20 onglets stylés) |
 | **Power Automate / process mining** | `power_automate/`, `analytics/process_mining.py` |
@@ -103,7 +103,8 @@ fibre360/              package Python
   reporting/           excel_report, dashboard HTML, insights (agent IA)
   cli.py               orchestration (sous-commandes)
 sql/bigquery/          équivalent GCP (staging, datamart, KPI, ML, cohortes)
-powerbi/ looker_studio/ power_automate/   spécifications de restitution/automatisation
+powerbi/               kit Power BI : dataset en étoile, mesures DAX, guide de construction, spec
+looker_studio/ power_automate/   spécifications de restitution/automatisation
 dashboard/             dashboard HTML généré (+ Chart.js embarqué)
 data/exports/          résultats versionnés (KPI, PM, scoring, qualité)
 models/                cartes de modèle (model cards)

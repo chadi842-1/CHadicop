@@ -10,6 +10,11 @@ data/mart/
 # La carte de modele (JSON, lisible) est conservee.
 models/*.joblib
 
+# Table de faits Power BI : volumineuse et regenerable
+# (python -m fibre360.reporting.powerbi_export). Les dimensions, legeres,
+# sont versionnees pour que le modele soit lisible dans le depot.
+powerbi/dataset/fact_parcours.csv
+
 # Python
 __pycache__/
 *.pyc

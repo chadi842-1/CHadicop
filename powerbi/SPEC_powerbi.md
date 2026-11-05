@@ -1,8 +1,16 @@
 # Spécification du rapport Power BI — « Fibre 360° »
 
 Rapport de pilotage du parcours **Commande → Livraison** des offres Fibre.
-Source de données : `data/mart/faits_parcours.csv` (ou connexion directe à
-BigQuery `fibre_mart` via le connecteur Google BigQuery).
+
+> 🛠️ **Pour construire concrètement le `.pbix`**, suivre
+> [`GUIDE_construction_pbix.md`](GUIDE_construction_pbix.md) : il s'appuie sur le
+> modèle en étoile prêt à l'emploi de `powerbi/dataset/` (table de faits +
+> dimensions, générées par `python -m fibre360.reporting.powerbi_export`) et sur
+> les mesures de [`DAX_measures.dax`](DAX_measures.dax). Le présent document
+> décrit la conception (modèle, mesures, pages).
+
+Source de données : modèle en étoile `powerbi/dataset/*.csv` (ou connexion
+directe à BigQuery `fibre_mart` via le connecteur Google BigQuery).
 
 > Les données sont **fictives** (générées par le pipeline). En production, la
 > connexion pointerait sur le dataset BigQuery `fibre_mart`.

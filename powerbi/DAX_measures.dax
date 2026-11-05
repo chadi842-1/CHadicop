@@ -1,0 +1,81 @@
+// =====================================================================
+// Fibre 360 - Mesures DAX
+// À créer dans Power BI Desktop sur la table 'fact_parcours'
+// (clic droit sur la table > Nouvelle mesure, puis coller chaque bloc).
+// Regroupées par thème. Les mesures de % sont à formater en Pourcentage.
+// =====================================================================
+
+// ---------- VOLUMES ----------
+Nb commandes = COUNTROWS ( fact_parcours )
+
+Nb livrees = CALCULATE ( [Nb commandes], fact_parcours[EstLivree] = 1 )
+
+Nb en cours = CALCULATE ( [Nb commandes], fact_parcours[EnCours] = 1 )
+
+Nb echecs = CALCULATE ( [Nb commandes], fact_parcours[EstEchec] = 1 )
+
+Nb annulees = CALCULATE ( [Nb commandes], fact_parcours[EstAnnulee] = 1 )
+
+// ---------- DELAIS / SLA ----------
+Delai moyen (j) =
+CALCULATE ( AVERAGE ( fact_parcours[DelaiLivraisonJ] ),
+            fact_parcours[EstLivree] = 1 )
+
+SLA cible (j) = 15
+
+Ecart SLA (j) = [Delai moyen (j)] - [SLA cible (j)]
+
+Taux livraison dans les delais =       // format %
+VAR _liv = [Nb livrees]
+VAR _ok  = CALCULATE ( [Nb commandes],
+               fact_parcours[EstLivree] = 1, fact_parcours[LivreeDansDelai] = 1 )
+RETURN DIVIDE ( _ok, _liv )
+
+// ---------- QUALITE DE SERVICE ----------
+Taux d'echec =                          // format %
+DIVIDE ( [Nb echecs], [Nb commandes] )
+
+Taux d'annulation =                     // format %
+DIVIDE ( [Nb annulees], [Nb commandes] )
+
+NPS moyen =
+CALCULATE ( AVERAGE ( fact_parcours[NPS] ), fact_parcours[EstLivree] = 1 )
+
+Taux de reclamation =                   // format %
+CALCULATE ( AVERAGE ( fact_parcours[Reclamation] ), fact_parcours[EstLivree] = 1 )
+
+// ---------- RETENTION / FINANCE ----------
+Taux de churn =                         // format %
+AVERAGE ( fact_parcours[Churn] )
+
+CA mensuel recurrent =                  // format monetaire
+CALCULATE ( SUM ( fact_parcours[MontantMensuel] ), fact_parcours[EstLivree] = 1 )
+
+CA facture (3 mois) =
+SUM ( fact_parcours[CAFacture] )
+
+// ---------- PILOTAGE OPERATIONNEL ----------
+Alertes SLA = CALCULATE ( [Nb commandes], fact_parcours[AlerteSLA] = 1 )
+
+Part zone a construire =                // format %
+DIVIDE ( CALCULATE ( [Nb commandes], fact_parcours[ZoneAConstruire] = 1 ),
+         [Nb commandes] )
+
+// ---------- TENDANCE (time intelligence, requiert dim_date) ----------
+Nb commandes M-1 =
+CALCULATE ( [Nb commandes], DATEADD ( dim_date[Date], -1, MONTH ) )
+
+Evolution commandes MoM =               // format %
+DIVIDE ( [Nb commandes] - [Nb commandes M-1], [Nb commandes M-1] )
+
+Taux livraison 3 mois glissants =       // format %
+CALCULATE ( [Taux livraison dans les delais],
+    DATESINRANGE ( dim_date[Date],
+        MAX ( dim_date[Date] ) - 90, MAX ( dim_date[Date] ) ) )
+
+// ---------- INDICATEUR COULEUR (pour mise en forme conditionnelle) ----------
+Couleur SLA =
+SWITCH ( TRUE (),
+    [Taux livraison dans les delais] < 0.60, "#e34948",   // rouge
+    [Taux livraison dans les delais] < 0.75, "#eda100",   // orange
+    "#008300" )                                           // vert
