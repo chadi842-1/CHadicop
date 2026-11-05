@@ -1,0 +1,4 @@
+modele,cv_auc_moyen,cv_auc_ecart_type
+Regression logistique,0.8795,0.0028
+Gradient Boosting,0.8791,0.0026
+Random Forest,0.8767,0.0029

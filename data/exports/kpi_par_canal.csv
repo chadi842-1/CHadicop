@@ -1,5 +1,0 @@
-canal,nb_commandes,nb_livrees,delai_moyen_j,taux_livraison_delai_%,taux_echec_%,taux_annulation_%,nps_moyen,taux_reclamation_%
-Boutique,4126,3638,12.8,69.7,4.7,4.4,45.0,7.7
-Web,3584,3053,14.6,59.7,5.6,5.0,28.0,15.9
-Telephone,2533,2191,13.8,65.3,5.5,4.5,25.0,12.9
-Distributeur,1757,1467,15.3,56.8,6.4,6.0,14.0,19.4

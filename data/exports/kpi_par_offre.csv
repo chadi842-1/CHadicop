@@ -1,5 +1,0 @@
-offre,nb_commandes,nb_livrees,delai_moyen_j,taux_livraison_delai_%,taux_echec_%,taux_annulation_%,nps_moyen,taux_reclamation_%
-Fibre 1 Gb/s,5445,4706,13.9,63.7,5.3,4.6,31.0,13.2
-Fibre 2 Gb/s,3612,3119,13.9,64.3,5.6,4.7,32.0,12.3
-Fibre 5 Gb/s,1851,1592,13.8,65.5,5.1,5.5,32.0,12.3
-Fibre 8 Gb/s,1092,932,14.0,61.5,5.8,5.5,31.0,14.2

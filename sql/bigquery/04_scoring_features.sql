@@ -12,6 +12,7 @@ SELECT
   id_commande,
   canal, offre, segment, region, gestionnaire_portefeuille,
   zone_a_construire, sous_traitant, debit_gbps, montant_mensuel,
+  anciennete_client_mois,
   statut_parcours,
   CASE
     WHEN statut_parcours = 'Echec raccordement' THEN 1
@@ -32,6 +33,7 @@ OPTIONS(
 SELECT
   canal, offre, segment, region, gestionnaire_portefeuille,
   zone_a_construire, sous_traitant, debit_gbps, montant_mensuel,
+  anciennete_client_mois,
   cible_risque
 FROM `fibre_mart.scoring_features`
 WHERE cible_risque IS NOT NULL;

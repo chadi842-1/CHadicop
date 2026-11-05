@@ -1,6 +1,0 @@
-region,nb_commandes,nb_livrees,delai_moyen_j,taux_livraison_delai_%,taux_echec_%,taux_annulation_%,nps_moyen,taux_reclamation_%
-Ile-de-France,3789,3285,13.8,64.6,5.3,4.8,31.0,12.8
-Auvergne-Rhone-Alpes,2625,2250,14.0,63.6,5.7,5.0,31.0,13.0
-Occitanie,2056,1776,14.1,61.8,5.4,4.6,31.0,13.9
-Hauts-de-France,1855,1603,13.9,64.6,5.3,5.0,32.0,12.1
-Nouvelle-Aquitaine,1675,1435,13.8,65.2,5.4,5.0,32.0,12.5

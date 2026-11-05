@@ -1,0 +1,11 @@
+# Configuration de la plateforme Fibre 360
+# (surcharge les valeurs par defaut de fibre360/config.py)
+
+n_commandes: 60000        # volume de commandes a generer
+seed: 42                  # graine de reproductibilite
+
+business:
+  sla_jours: 15           # objectif de delai commande -> mise en service
+
+# Les referentiels (canaux, offres, regions, sous-traitants...) sont
+# definis dans fibre360/config.py pour rester versionnes avec le code.

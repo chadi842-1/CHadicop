@@ -1,68 +1,84 @@
-# Dictionnaire de données — Projet « Fibre 360° »
+# Dictionnaire de données — Plateforme Fibre 360
 
-Données **fictives** générées par `scripts/01_generate_data.py`.
+Données **fictives** générées par `fibre360/data_generation/generators.py`
+(8 sources relationnelles sur 2 ans d'historique).
 
-## Source `commandes` (référentiel des commandes Fibre)
+## Schéma relationnel (simplifié)
 
+```
+clients (id_client) 1───* commandes (id_commande) 1───* evenements
+   │                          │ 1───* interventions *───1 techniciens (id_technicien)
+   │                          │ 1───* satisfaction
+   │                          │ 1───* reclamations
+   └──────────────────────────┘ 1───* factures
+```
+
+## `clients`
 | Champ | Type | Description |
 |-------|------|-------------|
-| id_commande | texte | Identifiant unique de la commande (clé) |
-| id_client | texte | Identifiant client |
-| date_commande | date | Date de passation de la commande |
-| canal | texte | Canal de vente : Boutique, Web, Telephone, Distributeur |
-| offre | texte | Offre Fibre souscrite |
-| debit_gbps | entier | Débit en Gb/s (1, 2, 5, 8) |
-| montant_mensuel | décimal | Abonnement mensuel (€) |
+| id_client | texte | Clé client |
+| age | entier | Âge |
+| csp | texte | Catégorie socio-pro |
 | segment | texte | Grand Public / Pro |
 | region, departement | texte | Localisation |
+| anciennete_client_mois | entier | Ancienneté chez l'opérateur |
+| churn | booléen | Client résilié |
+| date_resiliation | datetime | Date de résiliation (si churn) |
+
+## `techniciens`
+| Champ | Type | Description |
+|-------|------|-------------|
+| id_technicien | texte | Clé technicien |
+| sous_traitant | texte | Prestataire employeur |
+| region | texte | Zone d'intervention |
+| anciennete_mois | entier | Ancienneté |
+| taux_reussite_ref | décimal | Taux de réussite de référence |
+
+## `commandes`
+| Champ | Type | Description |
+|-------|------|-------------|
+| id_commande | texte | Clé commande |
+| id_client | texte | → clients |
+| date_commande | date | Date de passation |
+| canal | texte | Boutique, Web, Telephone, Distributeur, App mobile |
+| offre, debit_gbps, montant_mensuel | — | Offre Fibre souscrite |
+| segment, region, departement | texte | Attributs |
+| anciennete_client_mois | entier | Ancienneté à la commande |
 | gestionnaire_portefeuille | texte | Portefeuille responsable |
-| zone_a_construire | booléen | Vrai si raccordement nécessitant une construction |
-| sous_traitant | texte | Prestataire de raccordement |
+| zone_a_construire | booléen | Raccordement nécessitant une construction |
+| sous_traitant | texte | → prestataire |
+| id_technicien | texte | → techniciens |
 
-## Source `evenements` (journal d'événements = event log)
-
+## `evenements` (event log)
 | Champ | Type | Description |
 |-------|------|-------------|
-| id_commande | texte | Clé de rapprochement |
-| etape | texte | Activité du parcours (voir liste ci-dessous) |
-| horodatage | datetime | Date/heure de l'événement |
+| id_commande | texte | → commandes |
+| etape | texte | Activité du parcours |
+| horodatage | datetime | Date/heure |
 | statut | texte | OK / ECHEC / ANNULEE |
-| acteur | texte | Système ou acteur ayant produit l'événement |
+| acteur | texte | Système ou acteur |
 
-**Étapes du parcours** : Commande enregistree → Etude eligibilite →
-Prise de RDV → (Construction ligne) → Intervention technicien → Mise en service.
-Terminaisons alternatives : Echec raccordement, Annulation client.
+Étapes : Commande enregistree → Etude eligibilite → Prise de RDV →
+(Construction ligne) → Intervention technicien → Mise en service.
+Terminaisons : Echec raccordement, Annulation client.
 
-## Source `interventions` (interventions techniques)
+## `interventions`
+id_commande, id_intervention, date_prevue, date_realisee, sous_traitant,
+id_technicien, resultat (OK/Echec), motif_echec.
 
-| Champ | Type | Description |
-|-------|------|-------------|
-| id_commande | texte | Clé |
-| id_intervention | texte | Identifiant de l'intervention |
-| date_prevue / date_realisee | datetime | Planifié vs réalisé |
-| sous_traitant | texte | Prestataire |
-| resultat | texte | OK / Echec |
-| motif_echec | texte | Motif en cas d'échec (nullable) |
+## `satisfaction`
+id_commande, date_enquete, nps (-100..100), canal_contact.
 
-## Source `satisfaction` (enquête post-livraison)
+## `reclamations`
+id_commande, id_reclamation, date_reclamation, motif, canal, resolu,
+delai_resolution_j.
 
-| Champ | Type | Description |
-|-------|------|-------------|
-| id_commande | texte | Clé |
-| date_enquete | date | Date de l'enquête |
-| nps | entier | Score NPS (-100 à 100) |
-| canal_contact | texte | Email / SMS / Appel |
-| reclamation | booléen | Réclamation déposée |
+## `factures`
+id_commande, id_client, mois_facture, montant (3 mois post-livraison).
 
-## Table de faits `faits_parcours` (champs enrichis principaux)
-
-| Champ | Description |
-|-------|-------------|
-| statut_parcours | Livree / Echec raccordement / Annulee / En cours |
-| delai_livraison_j | Délai commande → mise en service (jours) |
-| livree_dans_delai | 1 si délai ≤ SLA (15 j), 0 sinon, NA si non livrée |
-| nb_interventions | Nombre d'interventions |
-| resultat_intervention, motif_echec | Dernière intervention |
-| nps, reclamation | Satisfaction |
-| age_jours | Ancienneté de la commande (vs 2026-11-01) |
-| alerte_sla | Vrai si commande en cours dépassant déjà le SLA |
+## Table de faits `faits_parcours` (champs enrichis)
+statut_parcours, delai_livraison_j, livree_dans_delai, nb_interventions,
+resultat_intervention, motif_echec, nps, nb_reclamations, reclamation,
+reclamation_resolue, delai_resolution_j, ca_facture, taux_reussite_ref,
+anciennete_technicien_mois, churn, date_resiliation, age, csp, annee_mois,
+trimestre, annee, age_jours, alerte_sla.

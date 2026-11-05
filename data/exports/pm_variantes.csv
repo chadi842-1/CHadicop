@@ -1,8 +1,8 @@
 variante,nb_cas,delai_moyen_j,part_pct
-Commande enregistree -> Etude eligibilite -> Prise de RDV -> Intervention technicien -> Mise en service,7613,11.2,63.4
-Commande enregistree -> Etude eligibilite -> Prise de RDV -> Construction ligne -> Intervention technicien -> Mise en service,2736,21.5,22.8
-Commande enregistree -> Etude eligibilite -> Annulation client,580,3.1,4.8
-Commande enregistree -> Etude eligibilite -> Prise de RDV -> Intervention technicien -> Echec raccordement,369,7.1,3.1
-Commande enregistree -> Etude eligibilite -> Prise de RDV -> Construction ligne -> Intervention technicien -> Echec raccordement,280,19.6,2.3
-Commande enregistree -> Etude eligibilite -> Prise de RDV,279,4.0,2.3
-Commande enregistree -> Etude eligibilite -> Prise de RDV -> Construction ligne,143,16.5,1.2
+Commande enregistree -> Etude eligibilite -> Prise de RDV -> Intervention technicien -> Mise en service,38323,11.3,63.9
+Commande enregistree -> Etude eligibilite -> Prise de RDV -> Construction ligne -> Intervention technicien -> Mise en service,14508,21.7,24.2
+Commande enregistree -> Etude eligibilite -> Annulation client,2968,3.0,4.9
+Commande enregistree -> Etude eligibilite -> Prise de RDV -> Intervention technicien -> Echec raccordement,1888,7.1,3.1
+Commande enregistree -> Etude eligibilite -> Prise de RDV -> Construction ligne -> Intervention technicien -> Echec raccordement,1279,19.9,2.1
+Commande enregistree -> Etude eligibilite -> Prise de RDV,675,4.1,1.1
+Commande enregistree -> Etude eligibilite -> Prise de RDV -> Construction ligne,359,16.4,0.6

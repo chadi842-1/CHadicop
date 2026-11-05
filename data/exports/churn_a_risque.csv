@@ -1,0 +1,501 @@
+id_client,canal,offre,segment,region,anciennete_client_mois,nps,nb_reclamations,score_churn
+CLI209207,Boutique,Fibre 2 Gb/s,Pro,Auvergne-Rhone-Alpes,7,2.0,0,0.5
+CLI246710,Distributeur,Fibre 1 Gb/s,Grand Public,PACA,116,-51.0,1,0.474
+CLI236912,Telephone,Fibre 1 Gb/s,Grand Public,Auvergne-Rhone-Alpes,5,100.0,0,0.456
+CLI231925,Distributeur,Fibre 5 Gb/s,Grand Public,Hauts-de-France,3,5.0,1,0.45
+CLI235858,Distributeur,Fibre 2 Gb/s,Grand Public,Nouvelle-Aquitaine,32,-52.0,1,0.444
+CLI214332,Telephone,Fibre 5 Gb/s,Grand Public,Hauts-de-France,10,100.0,0,0.443
+CLI234505,Boutique,Fibre 1 Gb/s,Grand Public,Ile-de-France,12,59.0,1,0.431
+CLI219181,Distributeur,Fibre 5 Gb/s,Grand Public,Ile-de-France,141,-54.0,0,0.425
+CLI245071,Web,Fibre 1 Gb/s,Grand Public,Hauts-de-France,64,-45.0,1,0.423
+CLI246882,Boutique,Fibre 2 Gb/s,Grand Public,PACA,52,4.0,1,0.419
+CLI242405,Boutique,Fibre 5 Gb/s,Grand Public,Occitanie,226,-1.0,1,0.418
+CLI249742,Telephone,Fibre 5 Gb/s,Grand Public,Hauts-de-France,72,-42.0,1,0.417
+CLI232395,Distributeur,Fibre 2 Gb/s,Grand Public,Hauts-de-France,7,-44.0,1,0.411
+CLI211162,Telephone,Fibre 2 Gb/s,Grand Public,Hauts-de-France,164,10.0,1,0.411
+CLI243019,Boutique,Fibre 2 Gb/s,Grand Public,PACA,163,68.0,1,0.402
+CLI219816,Web,Fibre 2 Gb/s,Pro,Hauts-de-France,225,-33.0,1,0.401
+CLI238843,Boutique,Fibre 2 Gb/s,Grand Public,PACA,141,0.0,1,0.4
+CLI239172,Telephone,Fibre 2 Gb/s,Pro,Auvergne-Rhone-Alpes,41,-46.0,1,0.395
+CLI204048,Boutique,Fibre 5 Gb/s,Grand Public,Nouvelle-Aquitaine,3,49.0,1,0.394
+CLI204471,Web,Fibre 1 Gb/s,Grand Public,PACA,7,50.0,1,0.391
+CLI228719,Web,Fibre 1 Gb/s,Grand Public,Ile-de-France,5,41.0,1,0.388
+CLI229219,Boutique,Fibre 1 Gb/s,Grand Public,Ile-de-France,6,42.0,1,0.387
+CLI220540,Distributeur,Fibre 1 Gb/s,Grand Public,Occitanie,157,-42.0,1,0.385
+CLI215685,Web,Fibre 1 Gb/s,Pro,Hauts-de-France,205,22.0,1,0.384
+CLI242380,Distributeur,Fibre 1 Gb/s,Grand Public,Ile-de-France,105,-49.0,1,0.383
+CLI219285,Boutique,Fibre 1 Gb/s,Pro,Hauts-de-France,52,8.0,1,0.382
+CLI248240,Telephone,Fibre 8 Gb/s,Grand Public,Occitanie,65,-18.0,1,0.381
+CLI231702,Boutique,Fibre 1 Gb/s,Grand Public,PACA,226,37.0,1,0.38
+CLI215008,Telephone,Fibre 5 Gb/s,Pro,Ile-de-France,155,-43.0,1,0.38
+CLI243360,Distributeur,Fibre 2 Gb/s,Grand Public,Occitanie,237,-17.0,1,0.379
+CLI218731,Web,Fibre 5 Gb/s,Pro,Grand-Est,238,5.0,1,0.375
+CLI236011,Distributeur,Fibre 2 Gb/s,Grand Public,PACA,6,-14.0,1,0.375
+CLI211300,Boutique,Fibre 1 Gb/s,Grand Public,Nouvelle-Aquitaine,52,38.0,1,0.374
+CLI219626,Web,Fibre 2 Gb/s,Grand Public,Auvergne-Rhone-Alpes,3,53.0,1,0.374
+CLI233856,App mobile,Fibre 2 Gb/s,Pro,Occitanie,222,-48.0,1,0.374
+CLI234875,Web,Fibre 2 Gb/s,Pro,Ile-de-France,102,-20.0,1,0.373
+CLI217286,Distributeur,Fibre 1 Gb/s,Pro,PACA,152,-37.0,1,0.373
+CLI235479,Boutique,Fibre 1 Gb/s,Grand Public,Ile-de-France,2,1.0,1,0.372
+CLI206215,Distributeur,Fibre 2 Gb/s,Grand Public,Grand-Est,4,29.0,1,0.372
+CLI213793,Distributeur,Fibre 8 Gb/s,Grand Public,PACA,189,-15.0,1,0.371
+CLI222988,Web,Fibre 2 Gb/s,Grand Public,Hauts-de-France,235,43.0,1,0.371
+CLI219199,Web,Fibre 2 Gb/s,Grand Public,Auvergne-Rhone-Alpes,234,2.0,1,0.369
+CLI201523,Web,Fibre 1 Gb/s,Pro,PACA,127,-14.0,1,0.369
+CLI224370,Boutique,Fibre 2 Gb/s,Pro,Ile-de-France,4,5.0,1,0.368
+CLI231566,Boutique,Fibre 1 Gb/s,Pro,Occitanie,107,6.0,1,0.368
+CLI234415,Web,Fibre 2 Gb/s,Pro,Auvergne-Rhone-Alpes,235,-6.0,1,0.368
+CLI249600,Boutique,Fibre 2 Gb/s,Grand Public,Occitanie,139,-9.0,1,0.368
+CLI200537,Distributeur,Fibre 8 Gb/s,Grand Public,Ile-de-France,4,34.0,0,0.367
+CLI229387,Boutique,Fibre 2 Gb/s,Grand Public,Nouvelle-Aquitaine,139,84.0,1,0.367
+CLI215840,Boutique,Fibre 1 Gb/s,Pro,Grand-Est,1,14.0,1,0.367
+CLI220520,Boutique,Fibre 1 Gb/s,Pro,Nouvelle-Aquitaine,27,13.0,1,0.366
+CLI239158,Boutique,Fibre 1 Gb/s,Grand Public,Nouvelle-Aquitaine,10,47.0,1,0.365
+CLI228378,App mobile,Fibre 1 Gb/s,Grand Public,Nouvelle-Aquitaine,119,79.0,1,0.365
+CLI214473,Boutique,Fibre 2 Gb/s,Grand Public,Hauts-de-France,239,17.0,1,0.364
+CLI238223,Web,Fibre 5 Gb/s,Grand Public,Hauts-de-France,238,-24.0,1,0.364
+CLI244855,Boutique,Fibre 5 Gb/s,Grand Public,Hauts-de-France,16,10.0,1,0.364
+CLI238710,Boutique,Fibre 8 Gb/s,Pro,PACA,228,69.0,1,0.364
+CLI227953,Boutique,Fibre 1 Gb/s,Grand Public,PACA,63,53.0,1,0.364
+CLI213684,Boutique,Fibre 2 Gb/s,Grand Public,Auvergne-Rhone-Alpes,3,59.0,1,0.364
+CLI246624,Boutique,Fibre 2 Gb/s,Grand Public,PACA,14,32.0,1,0.363
+CLI238054,Web,Fibre 1 Gb/s,Pro,Hauts-de-France,234,19.0,1,0.363
+CLI203300,Boutique,Fibre 5 Gb/s,Pro,PACA,212,30.0,1,0.362
+CLI209436,Boutique,Fibre 1 Gb/s,Grand Public,Grand-Est,0,7.0,1,0.362
+CLI229337,Web,Fibre 2 Gb/s,Grand Public,PACA,112,-2.0,1,0.362
+CLI207519,Boutique,Fibre 1 Gb/s,Grand Public,Occitanie,11,78.0,1,0.361
+CLI233329,Web,Fibre 2 Gb/s,Pro,Nouvelle-Aquitaine,238,37.0,1,0.361
+CLI237279,Boutique,Fibre 1 Gb/s,Pro,Occitanie,182,49.0,1,0.359
+CLI239891,Boutique,Fibre 1 Gb/s,Grand Public,Ile-de-France,0,15.0,1,0.359
+CLI226552,Telephone,Fibre 2 Gb/s,Pro,Ile-de-France,52,22.0,1,0.357
+CLI245627,Boutique,Fibre 2 Gb/s,Grand Public,Grand-Est,10,34.0,1,0.357
+CLI243774,Boutique,Fibre 1 Gb/s,Pro,PACA,232,23.0,1,0.357
+CLI213992,Distributeur,Fibre 8 Gb/s,Pro,Nouvelle-Aquitaine,150,-1.0,0,0.356
+CLI244575,Web,Fibre 2 Gb/s,Grand Public,Hauts-de-France,235,30.0,1,0.356
+CLI244729,Boutique,Fibre 1 Gb/s,Grand Public,Ile-de-France,142,35.0,1,0.355
+CLI243753,Distributeur,Fibre 1 Gb/s,Grand Public,PACA,4,-9.0,1,0.355
+CLI216957,Telephone,Fibre 2 Gb/s,Grand Public,PACA,6,22.0,1,0.354
+CLI211953,Distributeur,Fibre 2 Gb/s,Pro,Occitanie,1,45.0,1,0.354
+CLI211815,Web,Fibre 8 Gb/s,Grand Public,PACA,18,-17.0,1,0.354
+CLI237641,Boutique,Fibre 2 Gb/s,Pro,PACA,96,72.0,1,0.354
+CLI236055,Web,Fibre 2 Gb/s,Grand Public,Auvergne-Rhone-Alpes,12,-11.0,1,0.354
+CLI207609,Boutique,Fibre 2 Gb/s,Grand Public,PACA,161,34.0,1,0.354
+CLI212014,Web,Fibre 2 Gb/s,Grand Public,PACA,65,-18.0,1,0.353
+CLI203869,Boutique,Fibre 2 Gb/s,Grand Public,Auvergne-Rhone-Alpes,238,45.0,1,0.353
+CLI233749,Boutique,Fibre 1 Gb/s,Grand Public,Hauts-de-France,160,83.0,1,0.352
+CLI248984,Boutique,Fibre 5 Gb/s,Grand Public,Nouvelle-Aquitaine,7,70.0,1,0.352
+CLI225264,Boutique,Fibre 2 Gb/s,Grand Public,Grand-Est,6,64.0,1,0.351
+CLI224577,Distributeur,Fibre 2 Gb/s,Pro,Auvergne-Rhone-Alpes,91,-49.0,1,0.351
+CLI228464,Distributeur,Fibre 1 Gb/s,Grand Public,PACA,234,9.0,1,0.351
+CLI214850,Boutique,Fibre 1 Gb/s,Grand Public,Auvergne-Rhone-Alpes,5,8.0,1,0.351
+CLI217393,Web,Fibre 8 Gb/s,Grand Public,Hauts-de-France,0,-9.0,1,0.35
+CLI240365,App mobile,Fibre 2 Gb/s,Pro,PACA,63,38.0,1,0.35
+CLI219478,Web,Fibre 1 Gb/s,Pro,Auvergne-Rhone-Alpes,235,28.0,1,0.35
+CLI219276,Boutique,Fibre 5 Gb/s,Grand Public,Nouvelle-Aquitaine,104,68.0,1,0.35
+CLI208502,Boutique,Fibre 1 Gb/s,Grand Public,Ile-de-France,54,81.0,1,0.35
+CLI219879,Web,Fibre 1 Gb/s,Pro,Ile-de-France,195,-1.0,1,0.349
+CLI219025,Boutique,Fibre 5 Gb/s,Pro,Nouvelle-Aquitaine,232,16.0,1,0.349
+CLI217946,Web,Fibre 1 Gb/s,Grand Public,Grand-Est,32,1.0,1,0.349
+CLI201373,Boutique,Fibre 1 Gb/s,Grand Public,PACA,134,-7.0,1,0.349
+CLI203532,App mobile,Fibre 5 Gb/s,Pro,Occitanie,44,1.0,1,0.348
+CLI212012,Distributeur,Fibre 1 Gb/s,Grand Public,Auvergne-Rhone-Alpes,1,-17.0,1,0.348
+CLI214295,Web,Fibre 1 Gb/s,Grand Public,Hauts-de-France,0,-15.0,1,0.348
+CLI220030,Web,Fibre 1 Gb/s,Grand Public,PACA,135,-15.0,1,0.348
+CLI212822,Distributeur,Fibre 1 Gb/s,Pro,Occitanie,1,10.0,1,0.347
+CLI222345,Boutique,Fibre 1 Gb/s,Grand Public,Auvergne-Rhone-Alpes,234,0.0,1,0.347
+CLI228758,Boutique,Fibre 1 Gb/s,Grand Public,Auvergne-Rhone-Alpes,69,14.0,1,0.347
+CLI208452,Telephone,Fibre 2 Gb/s,Pro,Occitanie,170,-3.0,1,0.347
+CLI205927,App mobile,Fibre 2 Gb/s,Pro,Occitanie,236,59.0,1,0.347
+CLI203175,Boutique,Fibre 2 Gb/s,Grand Public,PACA,69,0.0,1,0.347
+CLI204815,Web,Fibre 8 Gb/s,Grand Public,Ile-de-France,1,7.0,1,0.346
+CLI235412,Web,Fibre 2 Gb/s,Grand Public,Auvergne-Rhone-Alpes,52,2.0,1,0.346
+CLI208110,Web,Fibre 1 Gb/s,Grand Public,Auvergne-Rhone-Alpes,66,-15.0,1,0.346
+CLI200027,Boutique,Fibre 2 Gb/s,Pro,PACA,201,39.0,1,0.345
+CLI246306,App mobile,Fibre 2 Gb/s,Grand Public,PACA,233,-4.0,1,0.345
+CLI236768,Distributeur,Fibre 1 Gb/s,Grand Public,Ile-de-France,1,39.0,1,0.345
+CLI208541,Boutique,Fibre 1 Gb/s,Grand Public,Auvergne-Rhone-Alpes,236,8.0,1,0.345
+CLI227537,Boutique,Fibre 2 Gb/s,Pro,Occitanie,19,0.0,1,0.345
+CLI247943,Boutique,Fibre 2 Gb/s,Grand Public,Auvergne-Rhone-Alpes,229,1.0,1,0.344
+CLI220409,Web,Fibre 5 Gb/s,Grand Public,PACA,6,-8.0,1,0.344
+CLI233086,Boutique,Fibre 1 Gb/s,Grand Public,PACA,36,-20.0,1,0.343
+CLI208090,Distributeur,Fibre 1 Gb/s,Grand Public,PACA,117,38.0,1,0.343
+CLI229138,Web,Fibre 2 Gb/s,Pro,Ile-de-France,2,9.0,1,0.343
+CLI247028,Web,Fibre 2 Gb/s,Grand Public,Auvergne-Rhone-Alpes,217,-11.0,1,0.343
+CLI239000,Boutique,Fibre 2 Gb/s,Grand Public,Nouvelle-Aquitaine,162,72.0,1,0.343
+CLI231761,Boutique,Fibre 1 Gb/s,Pro,Auvergne-Rhone-Alpes,170,72.0,1,0.343
+CLI244485,Boutique,Fibre 1 Gb/s,Pro,PACA,108,-7.0,1,0.343
+CLI214565,Boutique,Fibre 2 Gb/s,Pro,Occitanie,60,1.0,1,0.342
+CLI208560,Distributeur,Fibre 1 Gb/s,Grand Public,Occitanie,0,2.0,1,0.342
+CLI222831,Boutique,Fibre 2 Gb/s,Grand Public,Auvergne-Rhone-Alpes,8,8.0,1,0.342
+CLI203780,Web,Fibre 8 Gb/s,Grand Public,Auvergne-Rhone-Alpes,1,-3.0,1,0.342
+CLI215987,Telephone,Fibre 1 Gb/s,Grand Public,Nouvelle-Aquitaine,4,25.0,1,0.342
+CLI240794,Boutique,Fibre 1 Gb/s,Grand Public,Ile-de-France,228,66.0,1,0.341
+CLI233148,Web,Fibre 2 Gb/s,Pro,PACA,158,47.0,1,0.341
+CLI249075,Distributeur,Fibre 1 Gb/s,Grand Public,Grand-Est,135,-39.0,1,0.341
+CLI242467,Distributeur,Fibre 1 Gb/s,Pro,PACA,50,-14.0,1,0.341
+CLI244391,Distributeur,Fibre 1 Gb/s,Pro,PACA,72,-17.0,1,0.341
+CLI204972,Web,Fibre 2 Gb/s,Grand Public,Grand-Est,6,25.0,1,0.34
+CLI204535,Web,Fibre 2 Gb/s,Grand Public,PACA,175,-14.0,1,0.34
+CLI203660,Boutique,Fibre 1 Gb/s,Grand Public,Auvergne-Rhone-Alpes,9,21.0,1,0.34
+CLI240394,Web,Fibre 2 Gb/s,Grand Public,Auvergne-Rhone-Alpes,162,-8.0,1,0.34
+CLI200560,Telephone,Fibre 5 Gb/s,Grand Public,Auvergne-Rhone-Alpes,6,33.0,1,0.339
+CLI228142,Boutique,Fibre 2 Gb/s,Pro,Grand-Est,1,8.0,1,0.339
+CLI220376,Boutique,Fibre 1 Gb/s,Grand Public,Nouvelle-Aquitaine,54,26.0,1,0.339
+CLI243316,Boutique,Fibre 2 Gb/s,Pro,PACA,158,22.0,1,0.339
+CLI211526,Distributeur,Fibre 5 Gb/s,Pro,Occitanie,1,9.0,1,0.339
+CLI227405,Distributeur,Fibre 5 Gb/s,Pro,Nouvelle-Aquitaine,145,-43.0,1,0.339
+CLI227897,Boutique,Fibre 5 Gb/s,Grand Public,Nouvelle-Aquitaine,0,25.0,1,0.339
+CLI241548,Distributeur,Fibre 1 Gb/s,Grand Public,Ile-de-France,30,-15.0,0,0.339
+CLI228969,Boutique,Fibre 2 Gb/s,Grand Public,PACA,117,-12.0,1,0.339
+CLI213028,App mobile,Fibre 2 Gb/s,Grand Public,PACA,226,5.0,1,0.339
+CLI205828,Web,Fibre 5 Gb/s,Grand Public,Ile-de-France,7,19.0,1,0.339
+CLI201123,App mobile,Fibre 2 Gb/s,Grand Public,Ile-de-France,6,-2.0,0,0.338
+CLI201418,Web,Fibre 1 Gb/s,Grand Public,Ile-de-France,9,-25.0,1,0.338
+CLI204336,Boutique,Fibre 1 Gb/s,Grand Public,Auvergne-Rhone-Alpes,234,-4.0,1,0.338
+CLI212493,Boutique,Fibre 8 Gb/s,Pro,PACA,79,21.0,1,0.338
+CLI239227,Boutique,Fibre 1 Gb/s,Grand Public,PACA,194,25.0,1,0.337
+CLI241666,Web,Fibre 1 Gb/s,Grand Public,Grand-Est,4,-10.0,1,0.337
+CLI249095,App mobile,Fibre 5 Gb/s,Pro,Occitanie,234,46.0,1,0.337
+CLI233448,Distributeur,Fibre 1 Gb/s,Grand Public,Occitanie,5,-4.0,1,0.337
+CLI209479,Distributeur,Fibre 2 Gb/s,Grand Public,PACA,92,-14.0,1,0.337
+CLI226761,Web,Fibre 1 Gb/s,Pro,Grand-Est,58,26.0,1,0.337
+CLI222616,Web,Fibre 2 Gb/s,Grand Public,Hauts-de-France,214,-17.0,1,0.337
+CLI211100,Web,Fibre 1 Gb/s,Pro,Nouvelle-Aquitaine,3,-6.0,1,0.337
+CLI214650,Boutique,Fibre 1 Gb/s,Grand Public,Grand-Est,197,13.0,1,0.336
+CLI213558,Boutique,Fibre 1 Gb/s,Pro,PACA,165,22.0,1,0.336
+CLI219013,Telephone,Fibre 8 Gb/s,Grand Public,PACA,75,1.0,1,0.336
+CLI220413,Web,Fibre 5 Gb/s,Grand Public,Occitanie,219,16.0,1,0.336
+CLI200699,Boutique,Fibre 8 Gb/s,Grand Public,PACA,96,49.0,1,0.336
+CLI200594,Web,Fibre 2 Gb/s,Grand Public,Auvergne-Rhone-Alpes,7,18.0,1,0.336
+CLI237261,Web,Fibre 1 Gb/s,Grand Public,Occitanie,136,76.0,1,0.335
+CLI200369,Web,Fibre 2 Gb/s,Grand Public,Auvergne-Rhone-Alpes,232,-6.0,1,0.335
+CLI248650,Web,Fibre 8 Gb/s,Grand Public,Nouvelle-Aquitaine,150,74.0,1,0.335
+CLI231615,Boutique,Fibre 5 Gb/s,Pro,Nouvelle-Aquitaine,144,-2.0,1,0.335
+CLI230400,Web,Fibre 5 Gb/s,Grand Public,Occitanie,137,19.0,1,0.335
+CLI242379,Web,Fibre 8 Gb/s,Grand Public,Hauts-de-France,5,-2.0,1,0.334
+CLI201552,Boutique,Fibre 2 Gb/s,Grand Public,Auvergne-Rhone-Alpes,11,23.0,1,0.334
+CLI221969,Telephone,Fibre 2 Gb/s,Grand Public,Hauts-de-France,105,5.0,1,0.334
+CLI248134,Telephone,Fibre 2 Gb/s,Pro,Nouvelle-Aquitaine,5,-14.0,1,0.334
+CLI218836,Boutique,Fibre 1 Gb/s,Grand Public,Nouvelle-Aquitaine,233,22.0,1,0.334
+CLI243963,Web,Fibre 1 Gb/s,Pro,Grand-Est,21,1.0,1,0.334
+CLI219666,Telephone,Fibre 5 Gb/s,Grand Public,Nouvelle-Aquitaine,10,-37.0,1,0.334
+CLI206882,App mobile,Fibre 8 Gb/s,Grand Public,Occitanie,66,29.0,1,0.334
+CLI228224,Distributeur,Fibre 1 Gb/s,Grand Public,Auvergne-Rhone-Alpes,237,-15.0,1,0.334
+CLI238350,Web,Fibre 1 Gb/s,Grand Public,Grand-Est,29,1.0,1,0.333
+CLI201304,Web,Fibre 2 Gb/s,Grand Public,Ile-de-France,30,-17.0,1,0.333
+CLI222902,App mobile,Fibre 2 Gb/s,Pro,Hauts-de-France,4,-19.0,1,0.333
+CLI204937,Web,Fibre 8 Gb/s,Grand Public,Occitanie,20,0.0,1,0.333
+CLI247140,Web,Fibre 2 Gb/s,Grand Public,Auvergne-Rhone-Alpes,146,-12.0,1,0.333
+CLI226855,Distributeur,Fibre 1 Gb/s,Grand Public,Nouvelle-Aquitaine,11,-21.0,1,0.333
+CLI217397,Web,Fibre 1 Gb/s,Grand Public,Ile-de-France,8,17.0,1,0.333
+CLI238806,Web,Fibre 1 Gb/s,Pro,PACA,2,30.0,1,0.333
+CLI241509,Boutique,Fibre 2 Gb/s,Grand Public,Grand-Est,15,-18.0,1,0.333
+CLI200889,Telephone,Fibre 5 Gb/s,Grand Public,Ile-de-France,4,32.0,1,0.333
+CLI236643,Web,Fibre 1 Gb/s,Grand Public,Auvergne-Rhone-Alpes,0,5.0,1,0.332
+CLI247011,Distributeur,Fibre 1 Gb/s,Grand Public,PACA,212,-12.0,1,0.332
+CLI241863,App mobile,Fibre 5 Gb/s,Grand Public,Nouvelle-Aquitaine,227,-16.0,1,0.332
+CLI231023,Boutique,Fibre 8 Gb/s,Grand Public,Auvergne-Rhone-Alpes,238,15.0,1,0.332
+CLI232266,App mobile,Fibre 1 Gb/s,Grand Public,Ile-de-France,1,34.0,1,0.332
+CLI224055,Boutique,Fibre 5 Gb/s,Grand Public,PACA,178,9.0,1,0.332
+CLI237297,Web,Fibre 2 Gb/s,Grand Public,Auvergne-Rhone-Alpes,39,-16.0,1,0.332
+CLI231910,Web,Fibre 2 Gb/s,Grand Public,Ile-de-France,11,34.0,1,0.331
+CLI217756,App mobile,Fibre 1 Gb/s,Grand Public,Occitanie,133,66.0,1,0.331
+CLI207303,Distributeur,Fibre 2 Gb/s,Grand Public,PACA,60,5.0,1,0.331
+CLI201817,Boutique,Fibre 2 Gb/s,Grand Public,PACA,34,46.0,1,0.331
+CLI250246,Boutique,Fibre 1 Gb/s,Pro,Nouvelle-Aquitaine,9,18.0,1,0.331
+CLI232164,Boutique,Fibre 1 Gb/s,Grand Public,PACA,153,15.0,1,0.331
+CLI221353,Boutique,Fibre 8 Gb/s,Grand Public,Grand-Est,233,59.0,1,0.331
+CLI209501,Distributeur,Fibre 5 Gb/s,Pro,Occitanie,203,-17.0,1,0.331
+CLI237180,Web,Fibre 2 Gb/s,Grand Public,Occitanie,16,21.0,1,0.331
+CLI245091,Distributeur,Fibre 8 Gb/s,Grand Public,Grand-Est,8,-17.0,1,0.331
+CLI245314,Boutique,Fibre 2 Gb/s,Grand Public,Auvergne-Rhone-Alpes,38,31.0,1,0.331
+CLI226694,Distributeur,Fibre 8 Gb/s,Grand Public,Auvergne-Rhone-Alpes,32,1.0,1,0.33
+CLI213240,Boutique,Fibre 2 Gb/s,Grand Public,Auvergne-Rhone-Alpes,119,-18.0,1,0.33
+CLI223904,Web,Fibre 8 Gb/s,Grand Public,Auvergne-Rhone-Alpes,230,0.0,1,0.33
+CLI230436,Web,Fibre 1 Gb/s,Grand Public,Occitanie,12,-19.0,1,0.33
+CLI205590,Boutique,Fibre 2 Gb/s,Grand Public,PACA,193,4.0,1,0.33
+CLI212208,Boutique,Fibre 8 Gb/s,Pro,Ile-de-France,30,-3.0,1,0.33
+CLI219223,Telephone,Fibre 2 Gb/s,Grand Public,PACA,76,-10.0,1,0.33
+CLI201949,Distributeur,Fibre 5 Gb/s,Grand Public,Hauts-de-France,9,-1.0,1,0.329
+CLI241273,Web,Fibre 2 Gb/s,Pro,PACA,121,-17.0,1,0.329
+CLI218429,Distributeur,Fibre 2 Gb/s,Grand Public,Auvergne-Rhone-Alpes,2,20.0,1,0.329
+CLI250826,Boutique,Fibre 2 Gb/s,Grand Public,PACA,67,51.0,1,0.329
+CLI217603,Boutique,Fibre 2 Gb/s,Grand Public,PACA,180,42.0,1,0.329
+CLI250380,Distributeur,Fibre 2 Gb/s,Grand Public,Ile-de-France,0,-15.0,1,0.329
+CLI226937,Web,Fibre 1 Gb/s,Grand Public,PACA,176,30.0,1,0.328
+CLI241729,Boutique,Fibre 5 Gb/s,Grand Public,Auvergne-Rhone-Alpes,4,23.0,1,0.328
+CLI238020,Web,Fibre 1 Gb/s,Grand Public,Auvergne-Rhone-Alpes,7,23.0,1,0.328
+CLI209269,Boutique,Fibre 5 Gb/s,Grand Public,PACA,27,-11.0,1,0.328
+CLI249032,Web,Fibre 2 Gb/s,Pro,Ile-de-France,2,10.0,1,0.328
+CLI247332,Web,Fibre 1 Gb/s,Pro,Auvergne-Rhone-Alpes,4,-5.0,1,0.328
+CLI227938,Distributeur,Fibre 2 Gb/s,Grand Public,Ile-de-France,10,18.0,1,0.328
+CLI224846,Web,Fibre 1 Gb/s,Pro,PACA,38,-17.0,1,0.328
+CLI230619,Boutique,Fibre 1 Gb/s,Pro,PACA,64,5.0,1,0.327
+CLI216933,Telephone,Fibre 1 Gb/s,Grand Public,PACA,67,-3.0,1,0.327
+CLI243735,Web,Fibre 8 Gb/s,Grand Public,Occitanie,9,0.0,1,0.327
+CLI214208,App mobile,Fibre 2 Gb/s,Pro,Auvergne-Rhone-Alpes,233,-12.0,1,0.327
+CLI207894,Distributeur,Fibre 2 Gb/s,Grand Public,PACA,212,4.0,1,0.327
+CLI228003,Distributeur,Fibre 2 Gb/s,Pro,PACA,48,-8.0,1,0.327
+CLI229726,Boutique,Fibre 5 Gb/s,Grand Public,Auvergne-Rhone-Alpes,0,33.0,1,0.327
+CLI229958,Web,Fibre 5 Gb/s,Pro,Hauts-de-France,217,41.0,1,0.327
+CLI242384,Distributeur,Fibre 1 Gb/s,Grand Public,Auvergne-Rhone-Alpes,8,12.0,1,0.327
+CLI218276,Distributeur,Fibre 1 Gb/s,Grand Public,Occitanie,156,-37.0,1,0.327
+CLI220749,Web,Fibre 1 Gb/s,Pro,Ile-de-France,12,-5.0,1,0.327
+CLI222684,Distributeur,Fibre 1 Gb/s,Grand Public,PACA,86,-1.0,1,0.327
+CLI241897,Distributeur,Fibre 2 Gb/s,Grand Public,Ile-de-France,6,14.0,0,0.326
+CLI213059,Distributeur,Fibre 1 Gb/s,Grand Public,Ile-de-France,186,-33.0,1,0.326
+CLI249623,Web,Fibre 5 Gb/s,Grand Public,Ile-de-France,1,24.0,1,0.326
+CLI214824,Web,Fibre 2 Gb/s,Grand Public,Auvergne-Rhone-Alpes,211,-24.0,1,0.326
+CLI216074,Boutique,Fibre 1 Gb/s,Pro,Ile-de-France,6,10.0,1,0.326
+CLI222336,Web,Fibre 2 Gb/s,Grand Public,Auvergne-Rhone-Alpes,4,39.0,1,0.326
+CLI210475,App mobile,Fibre 1 Gb/s,Grand Public,Nouvelle-Aquitaine,11,-8.0,1,0.326
+CLI200926,Web,Fibre 1 Gb/s,Grand Public,Grand-Est,1,0.0,1,0.326
+CLI200346,Boutique,Fibre 2 Gb/s,Grand Public,PACA,158,27.0,1,0.326
+CLI207329,Web,Fibre 2 Gb/s,Pro,Auvergne-Rhone-Alpes,126,-26.0,1,0.326
+CLI223754,Distributeur,Fibre 8 Gb/s,Pro,Nouvelle-Aquitaine,57,-10.0,1,0.326
+CLI235435,Web,Fibre 8 Gb/s,Pro,PACA,112,-7.0,1,0.326
+CLI239798,Telephone,Fibre 5 Gb/s,Pro,Nouvelle-Aquitaine,5,4.0,1,0.326
+CLI203795,Boutique,Fibre 5 Gb/s,Grand Public,Ile-de-France,10,42.0,1,0.326
+CLI225153,Distributeur,Fibre 1 Gb/s,Grand Public,Nouvelle-Aquitaine,10,-7.0,1,0.326
+CLI245454,Web,Fibre 1 Gb/s,Grand Public,Occitanie,7,14.0,1,0.326
+CLI245646,Boutique,Fibre 1 Gb/s,Grand Public,Ile-de-France,24,-17.0,1,0.326
+CLI223952,Web,Fibre 1 Gb/s,Grand Public,Auvergne-Rhone-Alpes,226,-8.0,1,0.325
+CLI230564,Web,Fibre 5 Gb/s,Grand Public,PACA,145,77.0,1,0.325
+CLI229921,Telephone,Fibre 1 Gb/s,Grand Public,Grand-Est,9,12.0,1,0.325
+CLI229266,Web,Fibre 2 Gb/s,Grand Public,PACA,179,-2.0,1,0.325
+CLI214228,Boutique,Fibre 1 Gb/s,Grand Public,PACA,51,14.0,1,0.325
+CLI200732,Boutique,Fibre 2 Gb/s,Grand Public,Nouvelle-Aquitaine,209,20.0,1,0.325
+CLI220483,Web,Fibre 2 Gb/s,Pro,PACA,211,-19.0,1,0.325
+CLI246241,Web,Fibre 2 Gb/s,Grand Public,Grand-Est,227,-7.0,1,0.325
+CLI244172,Telephone,Fibre 1 Gb/s,Pro,Grand-Est,12,4.0,1,0.324
+CLI226924,Web,Fibre 5 Gb/s,Pro,Grand-Est,49,8.0,1,0.324
+CLI231370,Web,Fibre 2 Gb/s,Grand Public,PACA,172,1.0,1,0.324
+CLI201311,Web,Fibre 5 Gb/s,Grand Public,Hauts-de-France,8,4.0,1,0.324
+CLI207505,Web,Fibre 5 Gb/s,Grand Public,Ile-de-France,10,4.0,1,0.324
+CLI202410,Telephone,Fibre 5 Gb/s,Grand Public,Hauts-de-France,71,-27.0,1,0.324
+CLI248668,Boutique,Fibre 1 Gb/s,Grand Public,Nouvelle-Aquitaine,158,1.0,1,0.324
+CLI201042,Boutique,Fibre 1 Gb/s,Grand Public,PACA,146,42.0,1,0.324
+CLI245609,Web,Fibre 2 Gb/s,Pro,Hauts-de-France,227,-8.0,1,0.324
+CLI227754,Boutique,Fibre 1 Gb/s,Grand Public,PACA,194,-7.0,1,0.324
+CLI225567,Telephone,Fibre 2 Gb/s,Grand Public,Nouvelle-Aquitaine,167,-18.0,1,0.323
+CLI250090,Telephone,Fibre 2 Gb/s,Grand Public,Grand-Est,28,12.0,1,0.323
+CLI228671,Boutique,Fibre 2 Gb/s,Grand Public,Grand-Est,151,-13.0,1,0.323
+CLI241680,Boutique,Fibre 1 Gb/s,Grand Public,PACA,148,51.0,1,0.323
+CLI218915,App mobile,Fibre 2 Gb/s,Grand Public,Auvergne-Rhone-Alpes,222,77.0,1,0.323
+CLI239266,Distributeur,Fibre 1 Gb/s,Pro,Hauts-de-France,9,-33.0,1,0.323
+CLI235312,Distributeur,Fibre 8 Gb/s,Grand Public,Ile-de-France,5,23.0,1,0.323
+CLI212520,Web,Fibre 5 Gb/s,Grand Public,Ile-de-France,165,12.0,1,0.323
+CLI235164,Web,Fibre 1 Gb/s,Pro,PACA,183,13.0,1,0.323
+CLI224825,Telephone,Fibre 2 Gb/s,Pro,Hauts-de-France,227,8.0,1,0.323
+CLI204731,Web,Fibre 2 Gb/s,Grand Public,Auvergne-Rhone-Alpes,141,-13.0,1,0.323
+CLI217104,Boutique,Fibre 1 Gb/s,Grand Public,Auvergne-Rhone-Alpes,48,16.0,1,0.323
+CLI243336,Web,Fibre 1 Gb/s,Grand Public,Ile-de-France,6,3.0,1,0.323
+CLI223283,Distributeur,Fibre 1 Gb/s,Grand Public,Nouvelle-Aquitaine,237,54.0,1,0.322
+CLI247021,Web,Fibre 8 Gb/s,Grand Public,Ile-de-France,4,14.0,1,0.322
+CLI200166,Distributeur,Fibre 1 Gb/s,Pro,Auvergne-Rhone-Alpes,28,-8.0,1,0.322
+CLI226106,Web,Fibre 1 Gb/s,Grand Public,Ile-de-France,235,-14.0,1,0.322
+CLI240925,Distributeur,Fibre 1 Gb/s,Pro,Auvergne-Rhone-Alpes,204,-15.0,1,0.322
+CLI230343,Web,Fibre 5 Gb/s,Pro,Nouvelle-Aquitaine,61,1.0,1,0.322
+CLI249629,Boutique,Fibre 8 Gb/s,Pro,Auvergne-Rhone-Alpes,187,55.0,1,0.322
+CLI207711,Boutique,Fibre 1 Gb/s,Grand Public,PACA,219,15.0,1,0.322
+CLI240903,Boutique,Fibre 2 Gb/s,Grand Public,Hauts-de-France,189,12.0,1,0.322
+CLI249592,Boutique,Fibre 2 Gb/s,Pro,Nouvelle-Aquitaine,230,60.0,1,0.321
+CLI243509,Boutique,Fibre 1 Gb/s,Grand Public,PACA,217,30.0,1,0.321
+CLI219596,Web,Fibre 2 Gb/s,Pro,Ile-de-France,238,30.0,1,0.321
+CLI214617,Boutique,Fibre 1 Gb/s,Pro,Auvergne-Rhone-Alpes,204,-1.0,1,0.321
+CLI245605,Boutique,Fibre 1 Gb/s,Grand Public,Grand-Est,81,8.0,1,0.321
+CLI247974,Boutique,Fibre 1 Gb/s,Grand Public,PACA,179,20.0,1,0.321
+CLI209283,Telephone,Fibre 2 Gb/s,Pro,Ile-de-France,17,12.0,1,0.321
+CLI219113,Boutique,Fibre 1 Gb/s,Grand Public,Ile-de-France,20,6.0,1,0.321
+CLI203925,Boutique,Fibre 5 Gb/s,Pro,PACA,181,24.0,1,0.321
+CLI250235,Boutique,Fibre 1 Gb/s,Grand Public,PACA,126,23.0,1,0.321
+CLI212469,Web,Fibre 2 Gb/s,Grand Public,Grand-Est,3,22.0,1,0.321
+CLI211780,Boutique,Fibre 1 Gb/s,Grand Public,Hauts-de-France,42,10.0,1,0.321
+CLI234975,Boutique,Fibre 1 Gb/s,Grand Public,Occitanie,230,8.0,1,0.321
+CLI221230,Boutique,Fibre 5 Gb/s,Grand Public,PACA,57,47.0,1,0.321
+CLI220859,Distributeur,Fibre 1 Gb/s,Grand Public,Ile-de-France,10,12.0,1,0.321
+CLI250886,Boutique,Fibre 1 Gb/s,Grand Public,Occitanie,231,6.0,1,0.321
+CLI232149,Boutique,Fibre 8 Gb/s,Pro,Auvergne-Rhone-Alpes,15,4.0,1,0.321
+CLI228555,Boutique,Fibre 1 Gb/s,Grand Public,PACA,149,34.0,1,0.321
+CLI224297,Web,Fibre 2 Gb/s,Grand Public,Ile-de-France,236,24.0,1,0.321
+CLI220084,Distributeur,Fibre 8 Gb/s,Pro,Grand-Est,230,2.0,1,0.321
+CLI247553,Boutique,Fibre 2 Gb/s,Grand Public,PACA,105,49.0,1,0.32
+CLI221849,App mobile,Fibre 5 Gb/s,Grand Public,PACA,222,19.0,1,0.32
+CLI214519,Web,Fibre 2 Gb/s,Grand Public,Auvergne-Rhone-Alpes,46,-13.0,1,0.32
+CLI220051,Boutique,Fibre 2 Gb/s,Grand Public,Auvergne-Rhone-Alpes,208,-7.0,1,0.32
+CLI246608,Boutique,Fibre 8 Gb/s,Grand Public,Grand-Est,146,-1.0,1,0.32
+CLI204254,Distributeur,Fibre 1 Gb/s,Grand Public,PACA,66,13.0,1,0.32
+CLI220394,Distributeur,Fibre 5 Gb/s,Grand Public,Ile-de-France,22,-16.0,1,0.32
+CLI208362,Telephone,Fibre 1 Gb/s,Grand Public,PACA,119,14.0,1,0.319
+CLI232688,Web,Fibre 1 Gb/s,Grand Public,Ile-de-France,9,21.0,1,0.319
+CLI244641,Distributeur,Fibre 5 Gb/s,Pro,Ile-de-France,177,-16.0,1,0.319
+CLI223406,App mobile,Fibre 1 Gb/s,Grand Public,PACA,187,44.0,1,0.319
+CLI216723,Web,Fibre 1 Gb/s,Grand Public,Grand-Est,225,12.0,1,0.319
+CLI226774,Boutique,Fibre 1 Gb/s,Pro,Occitanie,128,35.0,1,0.319
+CLI230796,Web,Fibre 5 Gb/s,Grand Public,Grand-Est,0,-20.0,0,0.319
+CLI234602,Distributeur,Fibre 5 Gb/s,Pro,Auvergne-Rhone-Alpes,233,-11.0,1,0.319
+CLI208810,Telephone,Fibre 5 Gb/s,Grand Public,Nouvelle-Aquitaine,5,-19.0,1,0.319
+CLI230940,Web,Fibre 5 Gb/s,Pro,Grand-Est,10,46.0,1,0.319
+CLI243957,Boutique,Fibre 2 Gb/s,Pro,Auvergne-Rhone-Alpes,74,8.0,1,0.319
+CLI233969,Telephone,Fibre 2 Gb/s,Grand Public,PACA,43,2.0,1,0.319
+CLI225206,Telephone,Fibre 2 Gb/s,Grand Public,Nouvelle-Aquitaine,11,25.0,1,0.319
+CLI210198,Boutique,Fibre 5 Gb/s,Pro,Nouvelle-Aquitaine,231,14.0,1,0.319
+CLI203757,Boutique,Fibre 5 Gb/s,Grand Public,PACA,141,-10.0,1,0.319
+CLI214111,Web,Fibre 2 Gb/s,Grand Public,Ile-de-France,235,-30.0,1,0.319
+CLI238492,Web,Fibre 1 Gb/s,Grand Public,Ile-de-France,2,6.0,1,0.319
+CLI200146,Distributeur,Fibre 1 Gb/s,Grand Public,Ile-de-France,69,-21.0,1,0.318
+CLI247714,Web,Fibre 1 Gb/s,Grand Public,Occitanie,211,6.0,1,0.318
+CLI238638,Web,Fibre 5 Gb/s,Grand Public,Auvergne-Rhone-Alpes,8,14.0,1,0.318
+CLI212516,Web,Fibre 1 Gb/s,Grand Public,Occitanie,32,5.0,1,0.318
+CLI210814,Boutique,Fibre 8 Gb/s,Grand Public,Nouvelle-Aquitaine,233,33.0,1,0.318
+CLI200952,Boutique,Fibre 8 Gb/s,Grand Public,Auvergne-Rhone-Alpes,146,55.0,1,0.318
+CLI221586,Distributeur,Fibre 1 Gb/s,Grand Public,PACA,222,11.0,1,0.318
+CLI210303,Boutique,Fibre 1 Gb/s,Grand Public,PACA,201,46.0,1,0.318
+CLI241240,Web,Fibre 5 Gb/s,Grand Public,Occitanie,91,-3.0,1,0.318
+CLI229429,Boutique,Fibre 2 Gb/s,Pro,Auvergne-Rhone-Alpes,98,12.0,1,0.318
+CLI218127,Web,Fibre 2 Gb/s,Grand Public,Hauts-de-France,73,-17.0,1,0.318
+CLI245728,Web,Fibre 1 Gb/s,Pro,Ile-de-France,10,14.0,1,0.318
+CLI213747,Boutique,Fibre 2 Gb/s,Grand Public,Auvergne-Rhone-Alpes,7,40.0,1,0.318
+CLI234973,Boutique,Fibre 2 Gb/s,Grand Public,Auvergne-Rhone-Alpes,192,40.0,1,0.318
+CLI250732,App mobile,Fibre 2 Gb/s,Grand Public,PACA,36,7.0,1,0.317
+CLI228871,Distributeur,Fibre 5 Gb/s,Grand Public,Nouvelle-Aquitaine,238,-7.0,1,0.317
+CLI217442,Distributeur,Fibre 2 Gb/s,Grand Public,PACA,68,-21.0,1,0.317
+CLI200649,Web,Fibre 8 Gb/s,Pro,Auvergne-Rhone-Alpes,42,-14.0,1,0.317
+CLI228461,App mobile,Fibre 1 Gb/s,Grand Public,Hauts-de-France,198,35.0,1,0.317
+CLI228930,Boutique,Fibre 2 Gb/s,Grand Public,Auvergne-Rhone-Alpes,176,-34.0,1,0.317
+CLI234491,Web,Fibre 1 Gb/s,Grand Public,Nouvelle-Aquitaine,6,12.0,1,0.317
+CLI231256,Telephone,Fibre 1 Gb/s,Pro,PACA,226,-6.0,1,0.317
+CLI228979,Boutique,Fibre 1 Gb/s,Pro,Occitanie,75,10.0,1,0.317
+CLI244917,Web,Fibre 1 Gb/s,Grand Public,Ile-de-France,42,-5.0,1,0.317
+CLI215586,App mobile,Fibre 2 Gb/s,Grand Public,Auvergne-Rhone-Alpes,4,-3.0,1,0.317
+CLI203820,Web,Fibre 5 Gb/s,Grand Public,Occitanie,7,40.0,1,0.317
+CLI236027,Distributeur,Fibre 1 Gb/s,Grand Public,PACA,202,0.0,1,0.317
+CLI241149,Distributeur,Fibre 1 Gb/s,Pro,Auvergne-Rhone-Alpes,8,28.0,1,0.317
+CLI206426,Boutique,Fibre 1 Gb/s,Pro,Auvergne-Rhone-Alpes,74,12.0,1,0.317
+CLI230785,Boutique,Fibre 1 Gb/s,Grand Public,Grand-Est,89,52.0,1,0.316
+CLI214612,App mobile,Fibre 2 Gb/s,Pro,Auvergne-Rhone-Alpes,236,2.0,1,0.316
+CLI225931,Distributeur,Fibre 8 Gb/s,Grand Public,PACA,194,-18.0,1,0.316
+CLI210724,Boutique,Fibre 1 Gb/s,Grand Public,Ile-de-France,4,83.0,1,0.316
+CLI244727,Boutique,Fibre 2 Gb/s,Grand Public,Occitanie,222,9.0,1,0.316
+CLI200848,Telephone,Fibre 1 Gb/s,Grand Public,Grand-Est,5,-29.0,1,0.316
+CLI211842,App mobile,Fibre 2 Gb/s,Grand Public,Auvergne-Rhone-Alpes,24,-8.0,1,0.316
+CLI248485,Telephone,Fibre 2 Gb/s,Grand Public,PACA,134,10.0,1,0.316
+CLI234098,App mobile,Fibre 5 Gb/s,Grand Public,Occitanie,230,10.0,1,0.316
+CLI243411,Distributeur,Fibre 2 Gb/s,Grand Public,Auvergne-Rhone-Alpes,219,1.0,1,0.316
+CLI223487,App mobile,Fibre 1 Gb/s,Pro,Occitanie,159,1.0,1,0.316
+CLI239846,App mobile,Fibre 1 Gb/s,Grand Public,Hauts-de-France,228,19.0,1,0.316
+CLI208791,Telephone,Fibre 2 Gb/s,Grand Public,Occitanie,7,-5.0,1,0.316
+CLI241101,App mobile,Fibre 1 Gb/s,Grand Public,Ile-de-France,212,73.0,1,0.316
+CLI235375,Distributeur,Fibre 1 Gb/s,Pro,PACA,218,5.0,1,0.316
+CLI214851,App mobile,Fibre 1 Gb/s,Pro,PACA,29,5.0,1,0.316
+CLI231197,Boutique,Fibre 2 Gb/s,Grand Public,Nouvelle-Aquitaine,177,38.0,1,0.315
+CLI234349,Telephone,Fibre 1 Gb/s,Grand Public,Occitanie,120,1.0,1,0.315
+CLI233206,Web,Fibre 2 Gb/s,Pro,Ile-de-France,207,41.0,1,0.315
+CLI245097,Telephone,Fibre 2 Gb/s,Grand Public,Hauts-de-France,227,48.0,1,0.315
+CLI236376,Telephone,Fibre 2 Gb/s,Pro,PACA,62,-11.0,1,0.315
+CLI233425,Distributeur,Fibre 1 Gb/s,Grand Public,Ile-de-France,18,-35.0,1,0.315
+CLI205577,Boutique,Fibre 1 Gb/s,Grand Public,PACA,1,72.0,1,0.315
+CLI234754,Telephone,Fibre 5 Gb/s,Grand Public,PACA,18,-2.0,1,0.315
+CLI230014,Boutique,Fibre 2 Gb/s,Grand Public,Ile-de-France,203,10.0,1,0.315
+CLI243573,Web,Fibre 8 Gb/s,Grand Public,Ile-de-France,12,13.0,1,0.315
+CLI202470,Web,Fibre 5 Gb/s,Pro,PACA,185,17.0,1,0.315
+CLI233099,Boutique,Fibre 2 Gb/s,Grand Public,Ile-de-France,199,28.0,1,0.315
+CLI238805,Distributeur,Fibre 2 Gb/s,Grand Public,PACA,143,-1.0,1,0.315
+CLI219841,Web,Fibre 1 Gb/s,Pro,Auvergne-Rhone-Alpes,232,0.0,1,0.315
+CLI221526,Distributeur,Fibre 5 Gb/s,Grand Public,Auvergne-Rhone-Alpes,238,-14.0,1,0.315
+CLI241609,Web,Fibre 2 Gb/s,Grand Public,Ile-de-France,26,-16.0,1,0.315
+CLI216566,Boutique,Fibre 8 Gb/s,Grand Public,Grand-Est,27,6.0,1,0.315
+CLI245278,Telephone,Fibre 2 Gb/s,Grand Public,Hauts-de-France,6,-5.0,1,0.315
+CLI250156,Boutique,Fibre 5 Gb/s,Grand Public,Nouvelle-Aquitaine,47,18.0,1,0.314
+CLI234326,Web,Fibre 1 Gb/s,Pro,PACA,196,9.0,1,0.314
+CLI230349,Boutique,Fibre 2 Gb/s,Grand Public,Nouvelle-Aquitaine,171,30.0,1,0.314
+CLI211302,Web,Fibre 1 Gb/s,Grand Public,PACA,92,1.0,1,0.314
+CLI221508,Web,Fibre 1 Gb/s,Grand Public,PACA,38,5.0,1,0.314
+CLI202129,Distributeur,Fibre 1 Gb/s,Pro,PACA,76,6.0,1,0.314
+CLI227308,Distributeur,Fibre 8 Gb/s,Grand Public,Auvergne-Rhone-Alpes,109,1.0,1,0.314
+CLI208590,Web,Fibre 5 Gb/s,Pro,Hauts-de-France,11,16.0,1,0.314
+CLI235899,Boutique,Fibre 2 Gb/s,Grand Public,Occitanie,82,31.0,1,0.314
+CLI216834,Distributeur,Fibre 1 Gb/s,Grand Public,PACA,202,0.0,1,0.314
+CLI227944,App mobile,Fibre 8 Gb/s,Grand Public,PACA,56,43.0,1,0.314
+CLI209175,Boutique,Fibre 2 Gb/s,Grand Public,Ile-de-France,159,7.0,1,0.314
+CLI217203,Boutique,Fibre 2 Gb/s,Pro,Occitanie,141,5.0,1,0.314
+CLI244039,Boutique,Fibre 2 Gb/s,Grand Public,Grand-Est,35,-6.0,1,0.314
+CLI243934,Boutique,Fibre 2 Gb/s,Grand Public,Nouvelle-Aquitaine,162,-3.0,1,0.314
+CLI210951,Boutique,Fibre 2 Gb/s,Grand Public,Ile-de-France,135,38.0,1,0.314
+CLI241102,Boutique,Fibre 2 Gb/s,Pro,Nouvelle-Aquitaine,143,29.0,1,0.314
+CLI212221,Web,Fibre 1 Gb/s,Pro,Grand-Est,82,1.0,1,0.314
+CLI204446,Telephone,Fibre 8 Gb/s,Grand Public,PACA,176,-1.0,1,0.314
+CLI208310,Web,Fibre 1 Gb/s,Grand Public,PACA,185,-20.0,1,0.313
+CLI224574,Distributeur,Fibre 2 Gb/s,Grand Public,Nouvelle-Aquitaine,43,-10.0,1,0.313
+CLI208947,Distributeur,Fibre 2 Gb/s,Grand Public,Nouvelle-Aquitaine,66,-1.0,1,0.313
+CLI204410,Web,Fibre 2 Gb/s,Grand Public,Auvergne-Rhone-Alpes,32,39.0,1,0.313
+CLI213623,Telephone,Fibre 1 Gb/s,Pro,Nouvelle-Aquitaine,11,18.0,1,0.313
+CLI243389,Web,Fibre 1 Gb/s,Grand Public,Nouvelle-Aquitaine,164,44.0,1,0.313
+CLI227595,Web,Fibre 1 Gb/s,Grand Public,Auvergne-Rhone-Alpes,224,-13.0,1,0.313
+CLI206315,Distributeur,Fibre 2 Gb/s,Grand Public,Nouvelle-Aquitaine,220,1.0,1,0.313
+CLI240274,Distributeur,Fibre 5 Gb/s,Pro,Auvergne-Rhone-Alpes,1,6.0,1,0.313
+CLI241785,Boutique,Fibre 2 Gb/s,Grand Public,Ile-de-France,132,-1.0,1,0.313
+CLI220599,Boutique,Fibre 5 Gb/s,Grand Public,Auvergne-Rhone-Alpes,225,68.0,1,0.313
+CLI227580,Distributeur,Fibre 2 Gb/s,Pro,Auvergne-Rhone-Alpes,226,-13.0,1,0.313
+CLI228877,Boutique,Fibre 1 Gb/s,Grand Public,PACA,77,11.0,1,0.313
+CLI247581,Telephone,Fibre 8 Gb/s,Grand Public,PACA,167,8.0,1,0.313
+CLI222505,Web,Fibre 2 Gb/s,Grand Public,Ile-de-France,10,0.0,1,0.313
+CLI229188,Distributeur,Fibre 2 Gb/s,Grand Public,Occitanie,127,3.0,1,0.313
+CLI233919,Web,Fibre 1 Gb/s,Grand Public,Ile-de-France,23,8.0,1,0.313
+CLI247282,Web,Fibre 1 Gb/s,Grand Public,Auvergne-Rhone-Alpes,12,21.0,1,0.313
+CLI218863,Boutique,Fibre 2 Gb/s,Grand Public,Nouvelle-Aquitaine,213,13.0,1,0.313
+CLI245928,Boutique,Fibre 1 Gb/s,Grand Public,Ile-de-France,35,52.0,1,0.313
+CLI215542,Web,Fibre 2 Gb/s,Grand Public,Grand-Est,229,49.0,1,0.313
+CLI211761,Telephone,Fibre 5 Gb/s,Grand Public,Grand-Est,226,-5.0,1,0.313
+CLI234721,Boutique,Fibre 2 Gb/s,Grand Public,Nouvelle-Aquitaine,157,28.0,1,0.313
+CLI231565,Boutique,Fibre 1 Gb/s,Grand Public,Nouvelle-Aquitaine,121,27.0,1,0.313
+CLI230189,Telephone,Fibre 2 Gb/s,Grand Public,Ile-de-France,5,8.0,1,0.312
+CLI250512,App mobile,Fibre 5 Gb/s,Grand Public,Nouvelle-Aquitaine,230,2.0,1,0.312
+CLI241898,Boutique,Fibre 5 Gb/s,Pro,Hauts-de-France,215,-11.0,1,0.312
+CLI249538,Boutique,Fibre 1 Gb/s,Pro,Occitanie,231,-27.0,1,0.312
+CLI221820,Web,Fibre 8 Gb/s,Pro,Nouvelle-Aquitaine,3,12.0,1,0.312
+CLI247715,Web,Fibre 2 Gb/s,Grand Public,Auvergne-Rhone-Alpes,227,0.0,1,0.312
+CLI211856,Boutique,Fibre 1 Gb/s,Grand Public,Auvergne-Rhone-Alpes,18,-2.0,1,0.312
+CLI249222,Distributeur,Fibre 1 Gb/s,Grand Public,Hauts-de-France,16,19.0,1,0.312
+CLI238605,App mobile,Fibre 8 Gb/s,Pro,Ile-de-France,1,2.0,1,0.312
+CLI229542,Distributeur,Fibre 1 Gb/s,Grand Public,PACA,196,2.0,1,0.312
+CLI205844,Telephone,Fibre 8 Gb/s,Grand Public,Auvergne-Rhone-Alpes,111,54.0,0,0.312
+CLI222668,Telephone,Fibre 8 Gb/s,Grand Public,Ile-de-France,1,-3.0,1,0.312
+CLI238349,Boutique,Fibre 1 Gb/s,Grand Public,Nouvelle-Aquitaine,127,3.0,1,0.312
+CLI249649,App mobile,Fibre 8 Gb/s,Grand Public,Occitanie,1,41.0,1,0.312
+CLI226449,Distributeur,Fibre 2 Gb/s,Grand Public,Hauts-de-France,223,-6.0,1,0.312
+CLI222717,Boutique,Fibre 1 Gb/s,Grand Public,Auvergne-Rhone-Alpes,54,1.0,1,0.312
+CLI226114,Telephone,Fibre 1 Gb/s,Grand Public,Nouvelle-Aquitaine,8,-24.0,1,0.312
+CLI226287,Boutique,Fibre 8 Gb/s,Pro,Grand-Est,42,24.0,1,0.312
+CLI219544,Boutique,Fibre 1 Gb/s,Grand Public,Grand-Est,233,13.0,1,0.312
+CLI226505,Web,Fibre 2 Gb/s,Pro,Occitanie,84,-16.0,1,0.312
+CLI221702,App mobile,Fibre 1 Gb/s,Grand Public,Ile-de-France,159,71.0,1,0.312
+CLI250970,Boutique,Fibre 5 Gb/s,Pro,Occitanie,25,13.0,1,0.311
+CLI249689,Web,Fibre 8 Gb/s,Pro,PACA,153,-10.0,1,0.311
+CLI220441,Web,Fibre 1 Gb/s,Grand Public,Auvergne-Rhone-Alpes,122,-16.0,1,0.311
+CLI216105,Boutique,Fibre 5 Gb/s,Grand Public,Ile-de-France,44,14.0,1,0.311
+CLI212143,Boutique,Fibre 2 Gb/s,Grand Public,Grand-Est,140,-14.0,1,0.311
+CLI203873,Web,Fibre 1 Gb/s,Grand Public,Ile-de-France,60,-4.0,1,0.311
+CLI239663,Boutique,Fibre 1 Gb/s,Grand Public,Ile-de-France,76,48.0,1,0.311
+CLI238746,Distributeur,Fibre 1 Gb/s,Pro,Auvergne-Rhone-Alpes,10,-5.0,1,0.311
+CLI248219,Web,Fibre 2 Gb/s,Grand Public,Auvergne-Rhone-Alpes,135,43.0,1,0.311
+CLI204046,Telephone,Fibre 5 Gb/s,Pro,PACA,50,2.0,1,0.311
+CLI222502,App mobile,Fibre 1 Gb/s,Grand Public,Auvergne-Rhone-Alpes,237,22.0,1,0.311
+CLI234621,Distributeur,Fibre 1 Gb/s,Pro,Auvergne-Rhone-Alpes,205,1.0,1,0.311
+CLI200339,Boutique,Fibre 1 Gb/s,Grand Public,Auvergne-Rhone-Alpes,164,48.0,1,0.311
+CLI205065,Boutique,Fibre 2 Gb/s,Grand Public,Auvergne-Rhone-Alpes,165,54.0,1,0.311
+CLI222953,Web,Fibre 2 Gb/s,Grand Public,Nouvelle-Aquitaine,227,-13.0,1,0.311
+CLI213935,Boutique,Fibre 2 Gb/s,Grand Public,Grand-Est,66,33.0,1,0.311
+CLI215565,Boutique,Fibre 1 Gb/s,Grand Public,Hauts-de-France,75,-37.0,1,0.311
+CLI226160,Telephone,Fibre 1 Gb/s,Grand Public,Hauts-de-France,30,-7.0,1,0.311
+CLI241410,Boutique,Fibre 1 Gb/s,Grand Public,Ile-de-France,182,-19.0,1,0.311
+CLI215720,Distributeur,Fibre 1 Gb/s,Grand Public,PACA,65,-3.0,1,0.311
+CLI245300,Boutique,Fibre 8 Gb/s,Grand Public,Occitanie,224,-13.0,1,0.311
+CLI250293,Web,Fibre 1 Gb/s,Pro,Occitanie,228,21.0,1,0.311
+CLI249008,Boutique,Fibre 5 Gb/s,Grand Public,Occitanie,203,-2.0,1,0.311
+CLI227597,Boutique,Fibre 1 Gb/s,Grand Public,Occitanie,15,76.0,1,0.311
+CLI234983,Telephone,Fibre 1 Gb/s,Pro,Grand-Est,83,-38.0,1,0.31
+CLI206682,Boutique,Fibre 1 Gb/s,Grand Public,Grand-Est,34,12.0,1,0.31
+CLI217501,Web,Fibre 8 Gb/s,Grand Public,Grand-Est,3,32.0,1,0.31
+CLI204079,Boutique,Fibre 2 Gb/s,Grand Public,Nouvelle-Aquitaine,106,35.0,1,0.31
+CLI220916,Boutique,Fibre 1 Gb/s,Pro,Grand-Est,194,27.0,1,0.31

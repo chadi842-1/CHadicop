@@ -1,0 +1,3 @@
+segment,nb_commandes,nb_livrees,delai_moyen_j,taux_livraison_delai_pct,taux_echec_pct,taux_annulation_pct,nps_moyen,taux_reclamation_pct,taux_churn_pct
+Grand Public,48212,42508,13.9,64.0,5.3,4.9,32.0,18.3,15.7
+Pro,11788,10323,14.9,59.0,5.4,5.2,29.0,21.0,16.3

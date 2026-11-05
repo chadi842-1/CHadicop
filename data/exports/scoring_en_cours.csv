@@ -1,0 +1,1035 @@
+id_commande,canal,offre,segment,region,gestionnaire_portefeuille,sous_traitant,zone_a_construire,age_jours,alerte_sla,score_risque,niveau_risque
+CMD1057441,Distributeur,Fibre 1 Gb/s,Pro,Auvergne-Rhone-Alpes,PF-Sud,OptiReseau,True,16.0,True,0.994,Eleve
+CMD1000341,Distributeur,Fibre 1 Gb/s,Pro,PACA,PF-Pro-IDF,TelcoBuild,True,5.0,False,0.992,Eleve
+CMD1000094,Distributeur,Fibre 2 Gb/s,Grand Public,Ile-de-France,PF-Ouest,OptiReseau,True,15.0,False,0.992,Eleve
+CMD1004203,Distributeur,Fibre 5 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Sud,OptiReseau,True,3.0,False,0.992,Eleve
+CMD1028701,Distributeur,Fibre 1 Gb/s,Grand Public,Hauts-de-France,PF-Sud,OptiReseau,True,2.0,False,0.992,Eleve
+CMD1021842,Distributeur,Fibre 5 Gb/s,Grand Public,Occitanie,PF-Nord,OptiReseau,True,29.0,True,0.992,Eleve
+CMD1045186,Distributeur,Fibre 1 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Pro-IDF,OptiReseau,True,3.0,False,0.992,Eleve
+CMD1010082,Distributeur,Fibre 1 Gb/s,Grand Public,Hauts-de-France,PF-Est,OptiReseau,True,18.0,True,0.992,Eleve
+CMD1031062,Distributeur,Fibre 1 Gb/s,Grand Public,PACA,PF-Sud,OptiReseau,True,12.0,False,0.992,Eleve
+CMD1005296,Web,Fibre 1 Gb/s,Pro,Auvergne-Rhone-Alpes,PF-Nord,OptiReseau,True,11.0,False,0.991,Eleve
+CMD1038772,Distributeur,Fibre 5 Gb/s,Grand Public,Occitanie,PF-Centre,OptiReseau,True,6.0,False,0.991,Eleve
+CMD1041158,Distributeur,Fibre 1 Gb/s,Pro,Ile-de-France,PF-Ouest,TelcoBuild,True,33.0,True,0.991,Eleve
+CMD1039045,Distributeur,Fibre 8 Gb/s,Grand Public,Ile-de-France,PF-Centre,OptiReseau,True,15.0,False,0.991,Eleve
+CMD1018985,Web,Fibre 1 Gb/s,Pro,Ile-de-France,PF-Centre,OptiReseau,True,58.0,True,0.99,Eleve
+CMD1049689,Web,Fibre 1 Gb/s,Pro,Ile-de-France,PF-Est,OptiReseau,True,28.0,True,0.99,Eleve
+CMD1004041,Distributeur,Fibre 5 Gb/s,Grand Public,Ile-de-France,PF-Pro-IDF,TelcoBuild,True,19.0,True,0.988,Eleve
+CMD1008332,Distributeur,Fibre 8 Gb/s,Pro,Occitanie,PF-Nord,ConnectPlus,True,2.0,False,0.988,Eleve
+CMD1037468,Distributeur,Fibre 1 Gb/s,Grand Public,Ile-de-France,PF-Est,TelcoBuild,True,27.0,True,0.988,Eleve
+CMD1002125,Distributeur,Fibre 5 Gb/s,Grand Public,Hauts-de-France,PF-Ouest,TelcoBuild,True,35.0,True,0.988,Eleve
+CMD1025720,Telephone,Fibre 5 Gb/s,Pro,Ile-de-France,PF-Est,OptiReseau,True,29.0,True,0.988,Eleve
+CMD1025365,Distributeur,Fibre 1 Gb/s,Grand Public,Occitanie,PF-Est,TelcoBuild,True,1.0,False,0.988,Eleve
+CMD1043876,Distributeur,Fibre 2 Gb/s,Pro,Ile-de-France,PF-Ouest,ConnectPlus,True,17.0,True,0.988,Eleve
+CMD1020327,Telephone,Fibre 5 Gb/s,Pro,Hauts-de-France,PF-Grands-Comptes,OptiReseau,True,2.0,False,0.987,Eleve
+CMD1039189,Distributeur,Fibre 5 Gb/s,Grand Public,PACA,PF-Centre,TelcoBuild,True,8.0,False,0.987,Eleve
+CMD1020229,Distributeur,Fibre 1 Gb/s,Grand Public,Ile-de-France,PF-Centre,TelcoBuild,True,27.0,True,0.987,Eleve
+CMD1055441,Distributeur,Fibre 1 Gb/s,Pro,Grand-Est,PF-Grands-Comptes,ConnectPlus,True,26.0,True,0.987,Eleve
+CMD1051825,Distributeur,Fibre 2 Gb/s,Pro,Occitanie,PF-Grands-Comptes,ConnectPlus,True,14.0,False,0.987,Eleve
+CMD1028268,Web,Fibre 5 Gb/s,Grand Public,Hauts-de-France,PF-Ouest,OptiReseau,True,2.0,False,0.986,Eleve
+CMD1009683,Web,Fibre 1 Gb/s,Grand Public,Grand-Est,PF-Nord,OptiReseau,True,12.0,False,0.986,Eleve
+CMD1045366,Web,Fibre 2 Gb/s,Grand Public,Hauts-de-France,PF-Pro-IDF,OptiReseau,True,2.0,False,0.986,Eleve
+CMD1046606,Web,Fibre 5 Gb/s,Pro,Grand-Est,PF-Nord,TelcoBuild,True,12.0,False,0.986,Eleve
+CMD1052067,Web,Fibre 2 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Centre,OptiReseau,True,16.0,True,0.986,Eleve
+CMD1024113,Web,Fibre 1 Gb/s,Grand Public,Nouvelle-Aquitaine,PF-Pro-IDF,OptiReseau,True,6.0,False,0.986,Eleve
+CMD1042310,Web,Fibre 1 Gb/s,Pro,Occitanie,PF-Grands-Comptes,TelcoBuild,True,5.0,False,0.985,Eleve
+CMD1008276,Web,Fibre 1 Gb/s,Grand Public,Nouvelle-Aquitaine,PF-Ouest,OptiReseau,True,13.0,False,0.985,Eleve
+CMD1015545,Web,Fibre 1 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Grands-Comptes,OptiReseau,True,20.0,True,0.985,Eleve
+CMD1049032,Web,Fibre 1 Gb/s,Grand Public,Occitanie,PF-Sud,OptiReseau,True,11.0,False,0.985,Eleve
+CMD1053164,App mobile,Fibre 2 Gb/s,Pro,Grand-Est,PF-Nord,OptiReseau,True,4.0,False,0.985,Eleve
+CMD1056115,Web,Fibre 1 Gb/s,Grand Public,PACA,PF-Ouest,OptiReseau,True,19.0,True,0.985,Eleve
+CMD1024960,App mobile,Fibre 2 Gb/s,Pro,Grand-Est,PF-Est,OptiReseau,True,7.0,False,0.985,Eleve
+CMD1037774,Web,Fibre 1 Gb/s,Grand Public,Nouvelle-Aquitaine,PF-Centre,OptiReseau,True,11.0,False,0.985,Eleve
+CMD1024245,Distributeur,Fibre 2 Gb/s,Grand Public,Ile-de-France,PF-Sud,ConnectPlus,True,1.0,False,0.983,Eleve
+CMD1046310,App mobile,Fibre 5 Gb/s,Pro,Occitanie,PF-Grands-Comptes,OptiReseau,True,6.0,False,0.983,Eleve
+CMD1011533,Telephone,Fibre 2 Gb/s,Grand Public,PACA,PF-Sud,OptiReseau,True,17.0,True,0.983,Eleve
+CMD1010653,Telephone,Fibre 2 Gb/s,Grand Public,Grand-Est,PF-Nord,OptiReseau,True,5.0,False,0.983,Eleve
+CMD1039361,Telephone,Fibre 2 Gb/s,Grand Public,Hauts-de-France,PF-Ouest,OptiReseau,True,8.0,False,0.983,Eleve
+CMD1013125,Telephone,Fibre 1 Gb/s,Grand Public,Nouvelle-Aquitaine,PF-Sud,OptiReseau,True,7.0,False,0.982,Eleve
+CMD1007827,Distributeur,Fibre 5 Gb/s,Grand Public,Ile-de-France,PF-Pro-IDF,ConnectPlus,True,11.0,False,0.982,Eleve
+CMD1007433,Telephone,Fibre 5 Gb/s,Grand Public,Ile-de-France,PF-Sud,OptiReseau,True,10.0,False,0.982,Eleve
+CMD1012637,Telephone,Fibre 1 Gb/s,Grand Public,Occitanie,PF-Nord,OptiReseau,True,8.0,False,0.982,Eleve
+CMD1011577,Distributeur,Fibre 1 Gb/s,Grand Public,Grand-Est,PF-Est,ConnectPlus,True,16.0,True,0.982,Eleve
+CMD1057834,Distributeur,Fibre 1 Gb/s,Grand Public,Ile-de-France,PF-Sud,ConnectPlus,True,2.0,False,0.982,Eleve
+CMD1056887,Distributeur,Fibre 2 Gb/s,Grand Public,Nouvelle-Aquitaine,PF-Ouest,ConnectPlus,True,3.0,False,0.982,Eleve
+CMD1025536,Distributeur,Fibre 1 Gb/s,Grand Public,Ile-de-France,PF-Est,ConnectPlus,True,26.0,True,0.982,Eleve
+CMD1026798,Distributeur,Fibre 1 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Sud,ConnectPlus,True,3.0,False,0.982,Eleve
+CMD1006693,Distributeur,Fibre 1 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Sud,ConnectPlus,True,25.0,True,0.982,Eleve
+CMD1032768,Distributeur,Fibre 1 Gb/s,Grand Public,PACA,PF-Ouest,ConnectPlus,True,18.0,True,0.982,Eleve
+CMD1027912,Telephone,Fibre 1 Gb/s,Grand Public,Nouvelle-Aquitaine,PF-Est,OptiReseau,True,10.0,False,0.982,Eleve
+CMD1015110,Distributeur,Fibre 2 Gb/s,Grand Public,Occitanie,PF-Grands-Comptes,ConnectPlus,True,8.0,False,0.982,Eleve
+CMD1014633,Telephone,Fibre 2 Gb/s,Grand Public,PACA,PF-Ouest,OptiReseau,True,1.0,False,0.982,Eleve
+CMD1040774,Telephone,Fibre 5 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Ouest,OptiReseau,True,1.0,False,0.982,Eleve
+CMD1021498,Telephone,Fibre 1 Gb/s,Grand Public,PACA,PF-Sud,OptiReseau,True,11.0,False,0.982,Eleve
+CMD1028945,Distributeur,Fibre 8 Gb/s,Grand Public,Hauts-de-France,PF-Pro-IDF,ConnectPlus,True,4.0,False,0.982,Eleve
+CMD1005313,Telephone,Fibre 1 Gb/s,Grand Public,Occitanie,PF-Centre,OptiReseau,True,3.0,False,0.981,Eleve
+CMD1027499,Telephone,Fibre 1 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Centre,OptiReseau,True,10.0,False,0.981,Eleve
+CMD1003180,Telephone,Fibre 5 Gb/s,Grand Public,Ile-de-France,PF-Centre,OptiReseau,True,9.0,False,0.981,Eleve
+CMD1028796,Web,Fibre 2 Gb/s,Grand Public,Nouvelle-Aquitaine,PF-Est,TelcoBuild,True,21.0,True,0.98,Eleve
+CMD1056396,Web,Fibre 1 Gb/s,Grand Public,PACA,PF-Sud,TelcoBuild,True,8.0,False,0.98,Eleve
+CMD1029052,Web,Fibre 2 Gb/s,Grand Public,Occitanie,PF-Nord,TelcoBuild,True,6.0,False,0.98,Eleve
+CMD1016631,Web,Fibre 1 Gb/s,Grand Public,Ile-de-France,PF-Sud,TelcoBuild,True,12.0,False,0.98,Eleve
+CMD1059977,Web,Fibre 2 Gb/s,Grand Public,PACA,PF-Sud,TelcoBuild,True,10.0,False,0.98,Eleve
+CMD1024127,Boutique,Fibre 2 Gb/s,Pro,Auvergne-Rhone-Alpes,PF-Sud,OptiReseau,True,6.0,False,0.98,Eleve
+CMD1054649,Web,Fibre 2 Gb/s,Pro,Ile-de-France,PF-Pro-IDF,ConnectPlus,True,9.0,False,0.98,Eleve
+CMD1009565,Web,Fibre 5 Gb/s,Pro,Hauts-de-France,PF-Nord,ConnectPlus,True,17.0,True,0.98,Eleve
+CMD1014590,Web,Fibre 1 Gb/s,Grand Public,Ile-de-France,PF-Pro-IDF,TelcoBuild,True,4.0,False,0.98,Eleve
+CMD1042134,Web,Fibre 1 Gb/s,Pro,Nouvelle-Aquitaine,PF-Pro-IDF,ConnectPlus,True,4.0,False,0.979,Eleve
+CMD1046382,Web,Fibre 1 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Centre,TelcoBuild,True,6.0,False,0.979,Eleve
+CMD1049862,Web,Fibre 1 Gb/s,Pro,Auvergne-Rhone-Alpes,PF-Pro-IDF,ConnectPlus,True,1.0,False,0.979,Eleve
+CMD1003654,Web,Fibre 1 Gb/s,Pro,Hauts-de-France,PF-Ouest,ConnectPlus,True,1.0,False,0.979,Eleve
+CMD1046556,Boutique,Fibre 1 Gb/s,Pro,Auvergne-Rhone-Alpes,PF-Sud,OptiReseau,True,18.0,True,0.979,Eleve
+CMD1023925,Web,Fibre 1 Gb/s,Grand Public,Ile-de-France,PF-Grands-Comptes,TelcoBuild,True,1.0,False,0.979,Eleve
+CMD1014360,Web,Fibre 5 Gb/s,Grand Public,Grand-Est,PF-Ouest,TelcoBuild,True,16.0,True,0.979,Eleve
+CMD1050424,Web,Fibre 1 Gb/s,Grand Public,PACA,PF-Grands-Comptes,TelcoBuild,True,17.0,True,0.979,Eleve
+CMD1014731,Web,Fibre 5 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Sud,TelcoBuild,True,2.0,False,0.979,Eleve
+CMD1034596,Boutique,Fibre 1 Gb/s,Pro,Auvergne-Rhone-Alpes,PF-Sud,OptiReseau,True,5.0,False,0.979,Eleve
+CMD1020767,Distributeur,Fibre 1 Gb/s,Pro,Occitanie,PF-Nord,FibreExpress,True,33.0,True,0.978,Eleve
+CMD1000523,App mobile,Fibre 1 Gb/s,Grand Public,Nouvelle-Aquitaine,PF-Nord,OptiReseau,True,5.0,False,0.978,Eleve
+CMD1031652,App mobile,Fibre 8 Gb/s,Pro,Grand-Est,PF-Est,TelcoBuild,True,5.0,False,0.978,Eleve
+CMD1034666,Web,Fibre 8 Gb/s,Grand Public,Grand-Est,PF-Centre,TelcoBuild,True,1.0,False,0.978,Eleve
+CMD1029817,App mobile,Fibre 1 Gb/s,Grand Public,Nouvelle-Aquitaine,PF-Sud,OptiReseau,True,15.0,False,0.978,Eleve
+CMD1045650,App mobile,Fibre 1 Gb/s,Grand Public,PACA,PF-Sud,OptiReseau,True,7.0,False,0.978,Eleve
+CMD1039048,App mobile,Fibre 1 Gb/s,Grand Public,Ile-de-France,PF-Est,OptiReseau,True,1.0,False,0.978,Eleve
+CMD1038869,Distributeur,Fibre 1 Gb/s,Pro,Ile-de-France,PF-Sud,FibreExpress,True,15.0,False,0.978,Eleve
+CMD1011702,App mobile,Fibre 5 Gb/s,Grand Public,Nouvelle-Aquitaine,PF-Nord,OptiReseau,True,1.0,False,0.978,Eleve
+CMD1040868,Distributeur,Fibre 1 Gb/s,Pro,Auvergne-Rhone-Alpes,PF-Sud,FibreExpress,True,2.0,False,0.978,Eleve
+CMD1049717,Boutique,Fibre 1 Gb/s,Pro,Nouvelle-Aquitaine,PF-Ouest,OptiReseau,True,9.0,False,0.978,Eleve
+CMD1026122,App mobile,Fibre 5 Gb/s,Pro,Nouvelle-Aquitaine,PF-Pro-IDF,TelcoBuild,True,5.0,False,0.977,Eleve
+CMD1053066,App mobile,Fibre 5 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Pro-IDF,OptiReseau,True,1.0,False,0.977,Eleve
+CMD1012935,App mobile,Fibre 1 Gb/s,Pro,PACA,PF-Ouest,TelcoBuild,True,3.0,False,0.977,Eleve
+CMD1034151,App mobile,Fibre 8 Gb/s,Grand Public,Nouvelle-Aquitaine,PF-Ouest,OptiReseau,True,12.0,False,0.977,Eleve
+CMD1017868,App mobile,Fibre 5 Gb/s,Grand Public,Nouvelle-Aquitaine,PF-Ouest,OptiReseau,True,4.0,False,0.977,Eleve
+CMD1028028,App mobile,Fibre 5 Gb/s,Grand Public,Occitanie,PF-Est,OptiReseau,True,5.0,False,0.977,Eleve
+CMD1027572,App mobile,Fibre 1 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Grands-Comptes,OptiReseau,True,16.0,True,0.977,Eleve
+CMD1048163,Telephone,Fibre 2 Gb/s,Grand Public,Ile-de-France,PF-Nord,TelcoBuild,True,18.0,True,0.976,Eleve
+CMD1001298,App mobile,Fibre 1 Gb/s,Grand Public,Occitanie,PF-Grands-Comptes,OptiReseau,True,9.0,False,0.976,Eleve
+CMD1041326,Telephone,Fibre 2 Gb/s,Pro,Auvergne-Rhone-Alpes,PF-Nord,ConnectPlus,True,9.0,False,0.975,Eleve
+CMD1019908,Telephone,Fibre 2 Gb/s,Grand Public,Occitanie,PF-Nord,TelcoBuild,True,3.0,False,0.975,Eleve
+CMD1042755,Telephone,Fibre 2 Gb/s,Pro,Occitanie,PF-Sud,ConnectPlus,True,7.0,False,0.974,Eleve
+CMD1058137,Telephone,Fibre 8 Gb/s,Grand Public,PACA,PF-Sud,TelcoBuild,True,5.0,False,0.974,Eleve
+CMD1025229,Telephone,Fibre 1 Gb/s,Grand Public,Grand-Est,PF-Pro-IDF,TelcoBuild,True,17.0,True,0.974,Eleve
+CMD1012422,Telephone,Fibre 1 Gb/s,Pro,PACA,PF-Pro-IDF,ConnectPlus,True,19.0,True,0.974,Eleve
+CMD1030394,Telephone,Fibre 2 Gb/s,Grand Public,Occitanie,PF-Pro-IDF,TelcoBuild,True,10.0,False,0.974,Eleve
+CMD1015811,Telephone,Fibre 1 Gb/s,Grand Public,Occitanie,PF-Sud,TelcoBuild,True,10.0,False,0.973,Eleve
+CMD1041728,Telephone,Fibre 1 Gb/s,Grand Public,Nouvelle-Aquitaine,PF-Centre,TelcoBuild,True,15.0,False,0.973,Eleve
+CMD1005394,Boutique,Fibre 2 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Est,OptiReseau,True,4.0,False,0.972,Eleve
+CMD1049930,Web,Fibre 2 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Est,ConnectPlus,True,2.0,False,0.972,Eleve
+CMD1045898,Telephone,Fibre 1 Gb/s,Grand Public,Grand-Est,PF-Centre,TelcoBuild,True,3.0,False,0.972,Eleve
+CMD1052164,Web,Fibre 2 Gb/s,Grand Public,Grand-Est,PF-Sud,ConnectPlus,True,1.0,False,0.971,Eleve
+CMD1026128,Web,Fibre 1 Gb/s,Grand Public,Grand-Est,PF-Nord,ConnectPlus,True,7.0,False,0.971,Eleve
+CMD1031777,Web,Fibre 2 Gb/s,Grand Public,Grand-Est,PF-Sud,ConnectPlus,True,8.0,False,0.971,Eleve
+CMD1009212,Web,Fibre 2 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Sud,ConnectPlus,True,19.0,True,0.971,Eleve
+CMD1015874,Web,Fibre 2 Gb/s,Grand Public,Hauts-de-France,PF-Pro-IDF,ConnectPlus,True,7.0,False,0.971,Eleve
+CMD1029748,Boutique,Fibre 2 Gb/s,Pro,Ile-de-France,PF-Pro-IDF,TelcoBuild,True,8.0,False,0.971,Eleve
+CMD1049644,Web,Fibre 1 Gb/s,Grand Public,PACA,PF-Est,ConnectPlus,True,8.0,False,0.971,Eleve
+CMD1004326,Boutique,Fibre 1 Gb/s,Grand Public,Hauts-de-France,PF-Pro-IDF,OptiReseau,True,12.0,False,0.971,Eleve
+CMD1030383,Web,Fibre 5 Gb/s,Grand Public,Hauts-de-France,PF-Sud,ConnectPlus,True,10.0,False,0.971,Eleve
+CMD1021299,Boutique,Fibre 1 Gb/s,Grand Public,PACA,PF-Nord,OptiReseau,True,15.0,False,0.971,Eleve
+CMD1046662,Boutique,Fibre 1 Gb/s,Grand Public,Occitanie,PF-Sud,OptiReseau,True,8.0,False,0.97,Eleve
+CMD1011184,App mobile,Fibre 2 Gb/s,Grand Public,Hauts-de-France,PF-Est,TelcoBuild,True,21.0,True,0.97,Eleve
+CMD1059266,Distributeur,Fibre 2 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Est,FibreExpress,True,9.0,False,0.97,Eleve
+CMD1036677,Web,Fibre 1 Gb/s,Grand Public,Occitanie,PF-Est,ConnectPlus,True,18.0,True,0.97,Eleve
+CMD1001187,Distributeur,Fibre 2 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Est,FibreExpress,True,15.0,False,0.97,Eleve
+CMD1021348,Web,Fibre 1 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Ouest,ConnectPlus,True,20.0,True,0.97,Eleve
+CMD1021605,Boutique,Fibre 1 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Ouest,OptiReseau,True,14.0,False,0.97,Eleve
+CMD1051814,Web,Fibre 1 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Sud,ConnectPlus,True,13.0,False,0.97,Eleve
+CMD1018866,Web,Fibre 2 Gb/s,Grand Public,Nouvelle-Aquitaine,PF-Ouest,ConnectPlus,True,21.0,True,0.97,Eleve
+CMD1014958,Boutique,Fibre 8 Gb/s,Grand Public,PACA,PF-Ouest,OptiReseau,True,13.0,False,0.97,Eleve
+CMD1035567,Web,Fibre 1 Gb/s,Grand Public,Ile-de-France,PF-Ouest,ConnectPlus,True,5.0,False,0.97,Eleve
+CMD1001301,Web,Fibre 5 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Ouest,ConnectPlus,True,6.0,False,0.969,Eleve
+CMD1001909,Boutique,Fibre 8 Gb/s,Pro,Auvergne-Rhone-Alpes,PF-Grands-Comptes,TelcoBuild,True,26.0,True,0.969,Eleve
+CMD1000787,App mobile,Fibre 5 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Nord,TelcoBuild,True,10.0,False,0.969,Eleve
+CMD1000225,Boutique,Fibre 5 Gb/s,Grand Public,Ile-de-France,PF-Ouest,OptiReseau,True,14.0,False,0.969,Eleve
+CMD1004123,Distributeur,Fibre 2 Gb/s,Grand Public,Nouvelle-Aquitaine,PF-Est,FibreExpress,True,5.0,False,0.969,Eleve
+CMD1035323,Web,Fibre 1 Gb/s,Grand Public,Ile-de-France,PF-Grands-Comptes,ConnectPlus,True,2.0,False,0.969,Eleve
+CMD1017345,Web,Fibre 5 Gb/s,Grand Public,Occitanie,PF-Sud,ConnectPlus,True,17.0,True,0.969,Eleve
+CMD1049066,Boutique,Fibre 1 Gb/s,Grand Public,Ile-de-France,PF-Ouest,OptiReseau,True,5.0,False,0.969,Eleve
+CMD1018869,Distributeur,Fibre 2 Gb/s,Grand Public,Hauts-de-France,PF-Sud,FibreExpress,True,13.0,False,0.969,Eleve
+CMD1009893,Web,Fibre 1 Gb/s,Grand Public,Ile-de-France,PF-Ouest,ConnectPlus,True,8.0,False,0.969,Eleve
+CMD1037266,Boutique,Fibre 1 Gb/s,Grand Public,Ile-de-France,PF-Centre,OptiReseau,True,19.0,True,0.969,Eleve
+CMD1046640,Web,Fibre 1 Gb/s,Grand Public,Hauts-de-France,PF-Centre,ConnectPlus,True,13.0,False,0.969,Eleve
+CMD1053458,Boutique,Fibre 1 Gb/s,Grand Public,Occitanie,PF-Ouest,OptiReseau,True,12.0,False,0.969,Eleve
+CMD1051397,Web,Fibre 5 Gb/s,Grand Public,PACA,PF-Centre,ConnectPlus,True,5.0,False,0.968,Eleve
+CMD1021756,Web,Fibre 8 Gb/s,Grand Public,Grand-Est,PF-Centre,ConnectPlus,True,9.0,False,0.968,Eleve
+CMD1042299,Web,Fibre 1 Gb/s,Grand Public,Grand-Est,PF-Centre,ConnectPlus,True,14.0,False,0.968,Eleve
+CMD1035349,Distributeur,Fibre 2 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Ouest,FibreExpress,True,4.0,False,0.968,Eleve
+CMD1048558,Distributeur,Fibre 1 Gb/s,Grand Public,Occitanie,PF-Est,FibreExpress,True,7.0,False,0.968,Eleve
+CMD1037533,Distributeur,Fibre 1 Gb/s,Grand Public,Occitanie,PF-Est,FibreExpress,True,12.0,False,0.968,Eleve
+CMD1012310,Distributeur,Fibre 1 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Grands-Comptes,FibreExpress,True,28.0,True,0.967,Eleve
+CMD1014817,App mobile,Fibre 1 Gb/s,Grand Public,Occitanie,PF-Ouest,TelcoBuild,True,17.0,True,0.967,Eleve
+CMD1031593,Distributeur,Fibre 2 Gb/s,Grand Public,Nouvelle-Aquitaine,PF-Grands-Comptes,FibreExpress,True,23.0,True,0.967,Eleve
+CMD1006176,Distributeur,Fibre 1 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Grands-Comptes,FibreExpress,True,17.0,True,0.967,Eleve
+CMD1049453,Distributeur,Fibre 5 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Ouest,FibreExpress,True,13.0,False,0.967,Eleve
+CMD1053493,Distributeur,Fibre 1 Gb/s,Grand Public,Ile-de-France,PF-Grands-Comptes,FibreExpress,True,10.0,False,0.967,Eleve
+CMD1026219,App mobile,Fibre 5 Gb/s,Grand Public,PACA,PF-Centre,TelcoBuild,True,11.0,False,0.966,Eleve
+CMD1022304,Distributeur,Fibre 5 Gb/s,Grand Public,Nouvelle-Aquitaine,PF-Centre,FibreExpress,True,27.0,True,0.966,Eleve
+CMD1002904,Distributeur,Fibre 1 Gb/s,Grand Public,Nouvelle-Aquitaine,PF-Centre,FibreExpress,True,15.0,False,0.966,Eleve
+CMD1011478,Telephone,Fibre 2 Gb/s,Grand Public,Hauts-de-France,PF-Nord,ConnectPlus,True,16.0,True,0.965,Eleve
+CMD1059337,Telephone,Fibre 2 Gb/s,Grand Public,Hauts-de-France,PF-Nord,ConnectPlus,True,15.0,False,0.965,Eleve
+CMD1031826,Telephone,Fibre 8 Gb/s,Grand Public,Hauts-de-France,PF-Nord,ConnectPlus,True,1.0,False,0.964,Eleve
+CMD1001055,Telephone,Fibre 1 Gb/s,Grand Public,Hauts-de-France,PF-Nord,ConnectPlus,True,3.0,False,0.964,Eleve
+CMD1012442,Web,Fibre 1 Gb/s,Pro,Hauts-de-France,PF-Ouest,FibreExpress,True,14.0,False,0.963,Eleve
+CMD1022608,Telephone,Fibre 2 Gb/s,Grand Public,Nouvelle-Aquitaine,PF-Sud,ConnectPlus,True,2.0,False,0.963,Eleve
+CMD1019222,Telephone,Fibre 5 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Est,ConnectPlus,True,16.0,True,0.963,Eleve
+CMD1041721,Telephone,Fibre 8 Gb/s,Grand Public,Ile-de-France,PF-Est,ConnectPlus,True,9.0,False,0.963,Eleve
+CMD1046803,Web,Fibre 1 Gb/s,Pro,Auvergne-Rhone-Alpes,PF-Sud,FibreExpress,True,4.0,False,0.963,Eleve
+CMD1017672,Telephone,Fibre 1 Gb/s,Grand Public,Ile-de-France,PF-Est,ConnectPlus,True,6.0,False,0.963,Eleve
+CMD1044161,Telephone,Fibre 2 Gb/s,Grand Public,Nouvelle-Aquitaine,PF-Grands-Comptes,ConnectPlus,True,12.0,False,0.962,Eleve
+CMD1033765,Web,Fibre 1 Gb/s,Pro,Auvergne-Rhone-Alpes,PF-Grands-Comptes,FibreExpress,True,17.0,True,0.962,Eleve
+CMD1011898,Web,Fibre 1 Gb/s,Pro,Hauts-de-France,PF-Centre,FibreExpress,True,5.0,False,0.962,Eleve
+CMD1030718,Web,Fibre 1 Gb/s,Pro,Ile-de-France,PF-Centre,FibreExpress,True,5.0,False,0.961,Eleve
+CMD1042065,Telephone,Fibre 1 Gb/s,Grand Public,Occitanie,PF-Sud,ConnectPlus,True,1.0,False,0.961,Eleve
+CMD1023110,Telephone,Fibre 8 Gb/s,Grand Public,Ile-de-France,PF-Centre,ConnectPlus,True,22.0,True,0.96,Eleve
+CMD1052645,Boutique,Fibre 2 Gb/s,Grand Public,PACA,PF-Nord,TelcoBuild,True,1.0,False,0.96,Eleve
+CMD1036495,Telephone,Fibre 8 Gb/s,Grand Public,Grand-Est,PF-Ouest,ConnectPlus,True,21.0,True,0.96,Eleve
+CMD1039801,Boutique,Fibre 1 Gb/s,Grand Public,Ile-de-France,PF-Nord,TelcoBuild,True,1.0,False,0.959,Eleve
+CMD1050235,Telephone,Fibre 1 Gb/s,Grand Public,Occitanie,PF-Centre,ConnectPlus,True,4.0,False,0.959,Eleve
+CMD1037282,Boutique,Fibre 1 Gb/s,Grand Public,Hauts-de-France,PF-Est,TelcoBuild,True,4.0,False,0.959,Eleve
+CMD1044752,Boutique,Fibre 2 Gb/s,Grand Public,Nouvelle-Aquitaine,PF-Sud,TelcoBuild,True,17.0,True,0.959,Eleve
+CMD1044759,Boutique,Fibre 5 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Est,TelcoBuild,True,3.0,False,0.958,Eleve
+CMD1006526,Boutique,Fibre 1 Gb/s,Pro,Auvergne-Rhone-Alpes,PF-Nord,ConnectPlus,True,21.0,True,0.958,Eleve
+CMD1022331,Boutique,Fibre 1 Gb/s,Grand Public,Grand-Est,PF-Est,TelcoBuild,True,11.0,False,0.958,Eleve
+CMD1007346,Boutique,Fibre 2 Gb/s,Grand Public,Nouvelle-Aquitaine,PF-Pro-IDF,TelcoBuild,True,5.0,False,0.958,Eleve
+CMD1000873,Boutique,Fibre 5 Gb/s,Grand Public,Ile-de-France,PF-Est,TelcoBuild,True,13.0,False,0.958,Eleve
+CMD1002281,Boutique,Fibre 1 Gb/s,Pro,Auvergne-Rhone-Alpes,PF-Sud,ConnectPlus,True,1.0,False,0.957,Eleve
+CMD1020042,App mobile,Fibre 2 Gb/s,Grand Public,Hauts-de-France,PF-Est,ConnectPlus,True,11.0,False,0.957,Eleve
+CMD1047107,Boutique,Fibre 5 Gb/s,Pro,Grand-Est,PF-Sud,ConnectPlus,True,10.0,False,0.956,Eleve
+CMD1002766,Telephone,Fibre 2 Gb/s,Pro,Ile-de-France,PF-Nord,FibreExpress,True,10.0,False,0.956,Eleve
+CMD1000189,Boutique,Fibre 5 Gb/s,Pro,PACA,PF-Sud,ConnectPlus,True,7.0,False,0.956,Eleve
+CMD1052325,Boutique,Fibre 2 Gb/s,Pro,Ile-de-France,PF-Centre,ConnectPlus,True,13.0,False,0.956,Eleve
+CMD1041754,Boutique,Fibre 8 Gb/s,Grand Public,Nouvelle-Aquitaine,PF-Pro-IDF,TelcoBuild,True,8.0,False,0.956,Eleve
+CMD1027090,App mobile,Fibre 1 Gb/s,Grand Public,Nouvelle-Aquitaine,PF-Est,ConnectPlus,True,11.0,False,0.954,Eleve
+CMD1023930,Telephone,Fibre 1 Gb/s,Pro,Auvergne-Rhone-Alpes,PF-Pro-IDF,FibreExpress,True,11.0,False,0.953,Eleve
+CMD1042554,App mobile,Fibre 5 Gb/s,Grand Public,Nouvelle-Aquitaine,PF-Pro-IDF,ConnectPlus,True,4.0,False,0.953,Eleve
+CMD1037442,App mobile,Fibre 5 Gb/s,Grand Public,Ile-de-France,PF-Pro-IDF,ConnectPlus,True,3.0,False,0.953,Eleve
+CMD1021239,Telephone,Fibre 5 Gb/s,Pro,Ile-de-France,PF-Pro-IDF,FibreExpress,True,5.0,False,0.952,Eleve
+CMD1042467,App mobile,Fibre 8 Gb/s,Grand Public,Nouvelle-Aquitaine,PF-Ouest,ConnectPlus,True,8.0,False,0.952,Eleve
+CMD1059546,Web,Fibre 1 Gb/s,Grand Public,Hauts-de-France,PF-Nord,FibreExpress,True,4.0,False,0.95,Eleve
+CMD1034116,Web,Fibre 1 Gb/s,Grand Public,PACA,PF-Nord,FibreExpress,True,18.0,True,0.949,Eleve
+CMD1016504,Web,Fibre 2 Gb/s,Grand Public,Ile-de-France,PF-Sud,FibreExpress,True,6.0,False,0.949,Eleve
+CMD1040764,Web,Fibre 1 Gb/s,Grand Public,Ile-de-France,PF-Sud,FibreExpress,True,8.0,False,0.948,Eleve
+CMD1001874,Web,Fibre 2 Gb/s,Grand Public,Grand-Est,PF-Sud,FibreExpress,True,9.0,False,0.948,Eleve
+CMD1029278,Web,Fibre 2 Gb/s,Grand Public,Ile-de-France,PF-Ouest,FibreExpress,True,3.0,False,0.947,Eleve
+CMD1026883,Web,Fibre 1 Gb/s,Grand Public,Hauts-de-France,PF-Ouest,FibreExpress,True,6.0,False,0.947,Eleve
+CMD1056534,Distributeur,Fibre 2 Gb/s,Grand Public,Ile-de-France,PF-Sud,RacoNet,True,11.0,False,0.947,Eleve
+CMD1036261,Web,Fibre 8 Gb/s,Grand Public,Hauts-de-France,PF-Grands-Comptes,FibreExpress,True,9.0,False,0.947,Eleve
+CMD1048238,Distributeur,Fibre 5 Gb/s,Grand Public,Hauts-de-France,PF-Est,RacoNet,True,2.0,False,0.947,Eleve
+CMD1007677,Distributeur,Fibre 2 Gb/s,Grand Public,Grand-Est,PF-Est,RacoNet,True,11.0,False,0.947,Eleve
+CMD1042090,Web,Fibre 8 Gb/s,Grand Public,Hauts-de-France,PF-Ouest,FibreExpress,True,11.0,False,0.947,Eleve
+CMD1007774,Web,Fibre 8 Gb/s,Grand Public,Ile-de-France,PF-Sud,FibreExpress,True,21.0,True,0.947,Eleve
+CMD1054158,Web,Fibre 5 Gb/s,Grand Public,Nouvelle-Aquitaine,PF-Sud,FibreExpress,True,3.0,False,0.946,Eleve
+CMD1037440,Distributeur,Fibre 2 Gb/s,Grand Public,Ile-de-France,PF-Ouest,RacoNet,True,8.0,False,0.946,Eleve
+CMD1046910,Web,Fibre 1 Gb/s,Grand Public,Ile-de-France,PF-Ouest,FibreExpress,True,13.0,False,0.946,Eleve
+CMD1032694,Web,Fibre 1 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Ouest,FibreExpress,True,10.0,False,0.946,Eleve
+CMD1041868,Web,Fibre 1 Gb/s,Grand Public,Ile-de-France,PF-Grands-Comptes,FibreExpress,True,3.0,False,0.946,Eleve
+CMD1044045,Web,Fibre 1 Gb/s,Grand Public,Nouvelle-Aquitaine,PF-Ouest,FibreExpress,True,4.0,False,0.946,Eleve
+CMD1040940,App mobile,Fibre 2 Gb/s,Pro,Auvergne-Rhone-Alpes,PF-Nord,FibreExpress,True,1.0,False,0.945,Eleve
+CMD1052216,Distributeur,Fibre 8 Gb/s,Grand Public,Grand-Est,PF-Sud,RacoNet,True,9.0,False,0.945,Eleve
+CMD1009505,Distributeur,Fibre 1 Gb/s,Grand Public,Occitanie,PF-Sud,RacoNet,True,2.0,False,0.945,Eleve
+CMD1017686,Web,Fibre 1 Gb/s,Grand Public,Nouvelle-Aquitaine,PF-Grands-Comptes,FibreExpress,True,5.0,False,0.945,Eleve
+CMD1017160,Web,Fibre 1 Gb/s,Grand Public,PACA,PF-Centre,FibreExpress,True,8.0,False,0.945,Eleve
+CMD1014630,Web,Fibre 1 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Ouest,FibreExpress,True,3.0,False,0.945,Eleve
+CMD1002908,Distributeur,Fibre 5 Gb/s,Grand Public,Hauts-de-France,PF-Ouest,RacoNet,True,3.0,False,0.945,Eleve
+CMD1054781,App mobile,Fibre 1 Gb/s,Pro,Auvergne-Rhone-Alpes,PF-Est,FibreExpress,True,2.0,False,0.944,Eleve
+CMD1026047,Web,Fibre 1 Gb/s,Grand Public,Ile-de-France,PF-Centre,FibreExpress,True,3.0,False,0.944,Eleve
+CMD1056537,App mobile,Fibre 2 Gb/s,Pro,Ile-de-France,PF-Pro-IDF,FibreExpress,True,2.0,False,0.944,Eleve
+CMD1003673,Distributeur,Fibre 5 Gb/s,Grand Public,Ile-de-France,PF-Grands-Comptes,RacoNet,True,26.0,True,0.943,Eleve
+CMD1004491,Distributeur,Fibre 8 Gb/s,Grand Public,Occitanie,PF-Pro-IDF,RacoNet,True,13.0,False,0.943,Eleve
+CMD1054545,Distributeur,Fibre 1 Gb/s,Grand Public,Nouvelle-Aquitaine,PF-Centre,RacoNet,True,9.0,False,0.942,Eleve
+CMD1021082,Distributeur,Fibre 1 Gb/s,Grand Public,PACA,PF-Centre,RacoNet,True,3.0,False,0.942,Eleve
+CMD1035601,Web,Fibre 2 Gb/s,Pro,Hauts-de-France,PF-Nord,RacoNet,True,5.0,False,0.942,Eleve
+CMD1030058,Web,Fibre 5 Gb/s,Grand Public,Occitanie,PF-Centre,FibreExpress,True,17.0,True,0.942,Eleve
+CMD1044208,Boutique,Fibre 2 Gb/s,Grand Public,Ile-de-France,PF-Est,ConnectPlus,True,14.0,False,0.942,Eleve
+CMD1002490,Web,Fibre 5 Gb/s,Grand Public,Occitanie,PF-Centre,FibreExpress,True,12.0,False,0.942,Eleve
+CMD1023261,Boutique,Fibre 8 Gb/s,Grand Public,Ile-de-France,PF-Nord,ConnectPlus,True,14.0,False,0.941,Eleve
+CMD1012284,Boutique,Fibre 5 Gb/s,Grand Public,Hauts-de-France,PF-Nord,ConnectPlus,True,18.0,True,0.941,Eleve
+CMD1019713,Boutique,Fibre 1 Gb/s,Grand Public,Hauts-de-France,PF-Sud,ConnectPlus,True,2.0,False,0.94,Eleve
+CMD1041332,Boutique,Fibre 2 Gb/s,Grand Public,Ile-de-France,PF-Sud,ConnectPlus,True,4.0,False,0.94,Eleve
+CMD1010401,Boutique,Fibre 1 Gb/s,Grand Public,Hauts-de-France,PF-Pro-IDF,ConnectPlus,True,8.0,False,0.939,Eleve
+CMD1058890,Web,Fibre 1 Gb/s,Pro,Nouvelle-Aquitaine,PF-Nord,RacoNet,True,10.0,False,0.939,Eleve
+CMD1007967,Boutique,Fibre 2 Gb/s,Grand Public,Ile-de-France,PF-Ouest,ConnectPlus,True,7.0,False,0.939,Eleve
+CMD1031953,Boutique,Fibre 1 Gb/s,Grand Public,Ile-de-France,PF-Pro-IDF,ConnectPlus,True,3.0,False,0.939,Eleve
+CMD1013684,Boutique,Fibre 1 Gb/s,Grand Public,Hauts-de-France,PF-Grands-Comptes,ConnectPlus,True,7.0,False,0.938,Eleve
+CMD1013521,Boutique,Fibre 1 Gb/s,Grand Public,Occitanie,PF-Est,ConnectPlus,True,5.0,False,0.938,Eleve
+CMD1012888,Boutique,Fibre 5 Gb/s,Grand Public,Occitanie,PF-Est,ConnectPlus,True,12.0,False,0.938,Eleve
+CMD1033569,Web,Fibre 5 Gb/s,Pro,Ile-de-France,PF-Nord,RacoNet,True,7.0,False,0.938,Eleve
+CMD1018131,Boutique,Fibre 1 Gb/s,Grand Public,Occitanie,PF-Est,ConnectPlus,True,1.0,False,0.938,Eleve
+CMD1023276,Boutique,Fibre 1 Gb/s,Grand Public,PACA,PF-Pro-IDF,ConnectPlus,True,22.0,True,0.938,Eleve
+CMD1019007,Boutique,Fibre 8 Gb/s,Grand Public,Hauts-de-France,PF-Grands-Comptes,ConnectPlus,True,13.0,False,0.938,Eleve
+CMD1004894,Boutique,Fibre 8 Gb/s,Grand Public,Nouvelle-Aquitaine,PF-Pro-IDF,ConnectPlus,True,7.0,False,0.938,Eleve
+CMD1017349,Boutique,Fibre 2 Gb/s,Grand Public,Grand-Est,PF-Grands-Comptes,ConnectPlus,True,8.0,False,0.938,Eleve
+CMD1011951,Boutique,Fibre 8 Gb/s,Grand Public,Hauts-de-France,PF-Grands-Comptes,ConnectPlus,True,2.0,False,0.937,Eleve
+CMD1026758,Boutique,Fibre 1 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Grands-Comptes,ConnectPlus,True,10.0,False,0.937,Eleve
+CMD1016435,Boutique,Fibre 5 Gb/s,Grand Public,Ile-de-France,PF-Grands-Comptes,ConnectPlus,True,6.0,False,0.936,Eleve
+CMD1055584,Telephone,Fibre 1 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Nord,FibreExpress,True,9.0,False,0.935,Eleve
+CMD1058356,Boutique,Fibre 1 Gb/s,Grand Public,Occitanie,PF-Grands-Comptes,ConnectPlus,True,4.0,False,0.935,Eleve
+CMD1005879,Boutique,Fibre 1 Gb/s,Grand Public,Ile-de-France,PF-Centre,ConnectPlus,True,9.0,False,0.935,Eleve
+CMD1045033,Telephone,Fibre 2 Gb/s,Grand Public,PACA,PF-Pro-IDF,FibreExpress,True,11.0,False,0.935,Eleve
+CMD1036288,Telephone,Fibre 2 Gb/s,Grand Public,Grand-Est,PF-Sud,FibreExpress,True,7.0,False,0.935,Eleve
+CMD1016007,Web,Fibre 1 Gb/s,Pro,Ile-de-France,PF-Centre,RacoNet,True,4.0,False,0.934,Eleve
+CMD1027437,Telephone,Fibre 8 Gb/s,Grand Public,Ile-de-France,PF-Est,FibreExpress,True,2.0,False,0.934,Eleve
+CMD1040429,Telephone,Fibre 8 Gb/s,Grand Public,Ile-de-France,PF-Est,FibreExpress,True,13.0,False,0.934,Eleve
+CMD1011239,Telephone,Fibre 5 Gb/s,Grand Public,PACA,PF-Est,FibreExpress,True,1.0,False,0.933,Eleve
+CMD1049004,Telephone,Fibre 1 Gb/s,Grand Public,Hauts-de-France,PF-Grands-Comptes,FibreExpress,True,3.0,False,0.933,Eleve
+CMD1054589,Telephone,Fibre 1 Gb/s,Grand Public,Ile-de-France,PF-Pro-IDF,FibreExpress,True,5.0,False,0.933,Eleve
+CMD1039696,Telephone,Fibre 5 Gb/s,Grand Public,Hauts-de-France,PF-Ouest,FibreExpress,True,4.0,False,0.932,Eleve
+CMD1050441,Telephone,Fibre 1 Gb/s,Grand Public,Ile-de-France,PF-Ouest,FibreExpress,True,10.0,False,0.932,Eleve
+CMD1005288,Telephone,Fibre 2 Gb/s,Grand Public,Nouvelle-Aquitaine,PF-Ouest,FibreExpress,True,7.0,False,0.932,Eleve
+CMD1040703,Telephone,Fibre 1 Gb/s,Grand Public,Nouvelle-Aquitaine,PF-Ouest,FibreExpress,True,9.0,False,0.931,Eleve
+CMD1053171,Telephone,Fibre 5 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Ouest,FibreExpress,True,7.0,False,0.931,Eleve
+CMD1033308,Telephone,Fibre 8 Gb/s,Grand Public,Nouvelle-Aquitaine,PF-Ouest,FibreExpress,True,7.0,False,0.931,Eleve
+CMD1053401,Telephone,Fibre 5 Gb/s,Grand Public,Ile-de-France,PF-Centre,FibreExpress,True,4.0,False,0.929,Eleve
+CMD1003608,Telephone,Fibre 5 Gb/s,Grand Public,Occitanie,PF-Centre,FibreExpress,True,6.0,False,0.928,Eleve
+CMD1056343,Boutique,Fibre 5 Gb/s,Pro,Hauts-de-France,PF-Est,FibreExpress,True,9.0,False,0.927,Eleve
+CMD1030004,Boutique,Fibre 5 Gb/s,Pro,Hauts-de-France,PF-Nord,FibreExpress,True,17.0,True,0.927,Eleve
+CMD1059308,Boutique,Fibre 2 Gb/s,Pro,Nouvelle-Aquitaine,PF-Est,FibreExpress,True,6.0,False,0.926,Eleve
+CMD1006017,Telephone,Fibre 2 Gb/s,Pro,PACA,PF-Nord,RacoNet,True,9.0,False,0.925,Eleve
+CMD1000653,Boutique,Fibre 1 Gb/s,Pro,Occitanie,PF-Nord,FibreExpress,True,10.0,False,0.924,Eleve
+CMD1009159,App mobile,Fibre 2 Gb/s,Grand Public,Hauts-de-France,PF-Pro-IDF,FibreExpress,True,5.0,False,0.923,Eleve
+CMD1046862,Telephone,Fibre 1 Gb/s,Pro,Hauts-de-France,PF-Pro-IDF,RacoNet,True,2.0,False,0.923,Eleve
+CMD1035239,Telephone,Fibre 5 Gb/s,Pro,Auvergne-Rhone-Alpes,PF-Est,RacoNet,True,5.0,False,0.922,Eleve
+CMD1033668,Boutique,Fibre 1 Gb/s,Pro,Auvergne-Rhone-Alpes,PF-Grands-Comptes,FibreExpress,True,11.0,False,0.921,Eleve
+CMD1022450,Boutique,Fibre 1 Gb/s,Pro,Ile-de-France,PF-Grands-Comptes,FibreExpress,True,6.0,False,0.921,Eleve
+CMD1055176,App mobile,Fibre 1 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Sud,FibreExpress,True,10.0,False,0.919,Eleve
+CMD1006553,Boutique,Fibre 1 Gb/s,Pro,Nouvelle-Aquitaine,PF-Centre,FibreExpress,True,5.0,False,0.919,Eleve
+CMD1010551,App mobile,Fibre 1 Gb/s,Grand Public,Nouvelle-Aquitaine,PF-Pro-IDF,FibreExpress,True,3.0,False,0.918,Eleve
+CMD1003318,App mobile,Fibre 1 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Ouest,FibreExpress,True,9.0,False,0.917,Eleve
+CMD1025744,App mobile,Fibre 2 Gb/s,Grand Public,PACA,PF-Centre,FibreExpress,True,8.0,False,0.917,Eleve
+CMD1005498,App mobile,Fibre 8 Gb/s,Grand Public,Occitanie,PF-Sud,FibreExpress,True,3.0,False,0.916,Eleve
+CMD1049389,App mobile,Fibre 5 Gb/s,Grand Public,Occitanie,PF-Pro-IDF,FibreExpress,True,11.0,False,0.916,Eleve
+CMD1020017,Web,Fibre 1 Gb/s,Grand Public,Hauts-de-France,PF-Nord,RacoNet,True,2.0,False,0.915,Eleve
+CMD1031381,Web,Fibre 2 Gb/s,Grand Public,Nouvelle-Aquitaine,PF-Est,RacoNet,True,11.0,False,0.915,Eleve
+CMD1040938,Web,Fibre 2 Gb/s,Grand Public,PACA,PF-Pro-IDF,RacoNet,True,14.0,False,0.915,Eleve
+CMD1050438,App mobile,Fibre 5 Gb/s,Grand Public,Hauts-de-France,PF-Centre,FibreExpress,True,3.0,False,0.915,Eleve
+CMD1045835,Web,Fibre 1 Gb/s,Grand Public,PACA,PF-Est,RacoNet,True,7.0,False,0.914,Eleve
+CMD1048207,App mobile,Fibre 1 Gb/s,Grand Public,Occitanie,PF-Grands-Comptes,FibreExpress,True,3.0,False,0.914,Eleve
+CMD1035099,Web,Fibre 1 Gb/s,Grand Public,Ile-de-France,PF-Nord,RacoNet,True,3.0,False,0.914,Eleve
+CMD1012184,Web,Fibre 2 Gb/s,Grand Public,Grand-Est,PF-Pro-IDF,RacoNet,True,15.0,False,0.913,Eleve
+CMD1023148,Web,Fibre 1 Gb/s,Grand Public,PACA,PF-Est,RacoNet,True,8.0,False,0.913,Eleve
+CMD1043450,Web,Fibre 1 Gb/s,Grand Public,Hauts-de-France,PF-Pro-IDF,RacoNet,True,10.0,False,0.913,Eleve
+CMD1005501,Web,Fibre 5 Gb/s,Grand Public,PACA,PF-Est,RacoNet,True,14.0,False,0.912,Eleve
+CMD1031780,Web,Fibre 5 Gb/s,Grand Public,Ile-de-France,PF-Sud,RacoNet,True,2.0,False,0.911,Eleve
+CMD1043856,Web,Fibre 1 Gb/s,Grand Public,Hauts-de-France,PF-Grands-Comptes,RacoNet,True,12.0,False,0.911,Eleve
+CMD1023405,Web,Fibre 1 Gb/s,Grand Public,PACA,PF-Sud,RacoNet,True,3.0,False,0.911,Eleve
+CMD1009686,Web,Fibre 8 Gb/s,Grand Public,Nouvelle-Aquitaine,PF-Sud,RacoNet,True,1.0,False,0.911,Eleve
+CMD1049396,Web,Fibre 5 Gb/s,Grand Public,PACA,PF-Grands-Comptes,RacoNet,True,6.0,False,0.908,Eleve
+CMD1047587,Web,Fibre 8 Gb/s,Grand Public,Nouvelle-Aquitaine,PF-Grands-Comptes,RacoNet,True,10.0,False,0.907,Eleve
+CMD1053083,Boutique,Fibre 2 Gb/s,Grand Public,PACA,PF-Sud,FibreExpress,True,2.0,False,0.897,Eleve
+CMD1034879,App mobile,Fibre 1 Gb/s,Pro,Occitanie,PF-Centre,RacoNet,True,6.0,False,0.897,Eleve
+CMD1037581,Boutique,Fibre 1 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Nord,FibreExpress,True,1.0,False,0.897,Eleve
+CMD1011623,Boutique,Fibre 2 Gb/s,Grand Public,PACA,PF-Sud,FibreExpress,True,4.0,False,0.896,Eleve
+CMD1019086,Boutique,Fibre 8 Gb/s,Grand Public,Ile-de-France,PF-Nord,FibreExpress,True,4.0,False,0.896,Eleve
+CMD1051035,Telephone,Fibre 5 Gb/s,Grand Public,Hauts-de-France,PF-Nord,RacoNet,True,4.0,False,0.895,Eleve
+CMD1032124,Boutique,Fibre 1 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Pro-IDF,FibreExpress,True,12.0,False,0.894,Eleve
+CMD1039024,Boutique,Fibre 1 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Sud,FibreExpress,True,7.0,False,0.894,Eleve
+CMD1005729,Boutique,Fibre 5 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Pro-IDF,FibreExpress,True,9.0,False,0.893,Eleve
+CMD1053408,Boutique,Fibre 1 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Pro-IDF,FibreExpress,True,9.0,False,0.893,Eleve
+CMD1010485,Telephone,Fibre 2 Gb/s,Grand Public,Occitanie,PF-Nord,RacoNet,True,3.0,False,0.892,Eleve
+CMD1014537,Boutique,Fibre 2 Gb/s,Grand Public,Occitanie,PF-Ouest,FibreExpress,True,8.0,False,0.892,Eleve
+CMD1050232,Boutique,Fibre 1 Gb/s,Grand Public,Grand-Est,PF-Pro-IDF,FibreExpress,True,12.0,False,0.892,Eleve
+CMD1012515,Boutique,Fibre 1 Gb/s,Grand Public,Nouvelle-Aquitaine,PF-Sud,FibreExpress,True,7.0,False,0.892,Eleve
+CMD1009242,Boutique,Fibre 1 Gb/s,Grand Public,Grand-Est,PF-Ouest,FibreExpress,True,9.0,False,0.89,Eleve
+CMD1024903,Telephone,Fibre 8 Gb/s,Grand Public,Ile-de-France,PF-Pro-IDF,RacoNet,True,10.0,False,0.89,Eleve
+CMD1029127,Telephone,Fibre 1 Gb/s,Grand Public,Nouvelle-Aquitaine,PF-Pro-IDF,RacoNet,True,2.0,False,0.889,Eleve
+CMD1013094,Boutique,Fibre 1 Gb/s,Grand Public,PACA,PF-Centre,FibreExpress,True,5.0,False,0.889,Eleve
+CMD1039216,Telephone,Fibre 1 Gb/s,Grand Public,Ile-de-France,PF-Pro-IDF,RacoNet,True,5.0,False,0.889,Eleve
+CMD1033597,Telephone,Fibre 2 Gb/s,Grand Public,Nouvelle-Aquitaine,PF-Grands-Comptes,RacoNet,True,14.0,False,0.888,Eleve
+CMD1056321,Telephone,Fibre 1 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Grands-Comptes,RacoNet,True,3.0,False,0.887,Eleve
+CMD1025063,Boutique,Fibre 5 Gb/s,Grand Public,Occitanie,PF-Grands-Comptes,FibreExpress,True,6.0,False,0.887,Eleve
+CMD1004135,Telephone,Fibre 1 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Grands-Comptes,RacoNet,True,1.0,False,0.886,Eleve
+CMD1051897,Telephone,Fibre 1 Gb/s,Grand Public,Hauts-de-France,PF-Centre,RacoNet,True,15.0,False,0.886,Eleve
+CMD1042772,Telephone,Fibre 8 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Grands-Comptes,RacoNet,True,7.0,False,0.885,Eleve
+CMD1040871,Telephone,Fibre 1 Gb/s,Grand Public,Ile-de-France,PF-Centre,RacoNet,True,1.0,False,0.883,Eleve
+CMD1054229,Boutique,Fibre 1 Gb/s,Pro,Hauts-de-France,PF-Nord,RacoNet,True,3.0,False,0.882,Eleve
+CMD1053433,Boutique,Fibre 1 Gb/s,Pro,Auvergne-Rhone-Alpes,PF-Est,RacoNet,True,2.0,False,0.877,Eleve
+CMD1019846,Boutique,Fibre 5 Gb/s,Pro,Occitanie,PF-Pro-IDF,RacoNet,True,6.0,False,0.871,Eleve
+CMD1049889,Boutique,Fibre 1 Gb/s,Pro,Nouvelle-Aquitaine,PF-Ouest,RacoNet,True,9.0,False,0.87,Eleve
+CMD1019937,App mobile,Fibre 1 Gb/s,Grand Public,Hauts-de-France,PF-Sud,RacoNet,True,16.0,True,0.87,Eleve
+CMD1032050,App mobile,Fibre 2 Gb/s,Grand Public,Occitanie,PF-Grands-Comptes,RacoNet,True,13.0,False,0.862,Eleve
+CMD1020708,App mobile,Fibre 5 Gb/s,Grand Public,Occitanie,PF-Ouest,RacoNet,True,7.0,False,0.858,Eleve
+CMD1027343,Boutique,Fibre 2 Gb/s,Grand Public,Ile-de-France,PF-Est,RacoNet,True,8.0,False,0.834,Eleve
+CMD1031227,Boutique,Fibre 1 Gb/s,Grand Public,Ile-de-France,PF-Nord,RacoNet,True,8.0,False,0.833,Eleve
+CMD1057679,Boutique,Fibre 2 Gb/s,Grand Public,Occitanie,PF-Pro-IDF,RacoNet,True,7.0,False,0.83,Eleve
+CMD1003792,Boutique,Fibre 2 Gb/s,Grand Public,Hauts-de-France,PF-Centre,RacoNet,True,11.0,False,0.829,Eleve
+CMD1055942,Boutique,Fibre 1 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Pro-IDF,RacoNet,True,5.0,False,0.829,Eleve
+CMD1037538,Boutique,Fibre 8 Gb/s,Grand Public,Occitanie,PF-Nord,RacoNet,True,7.0,False,0.828,Eleve
+CMD1029182,Boutique,Fibre 5 Gb/s,Grand Public,Occitanie,PF-Est,RacoNet,True,4.0,False,0.826,Eleve
+CMD1025678,Boutique,Fibre 1 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Grands-Comptes,RacoNet,True,5.0,False,0.825,Eleve
+CMD1038112,Boutique,Fibre 2 Gb/s,Grand Public,Nouvelle-Aquitaine,PF-Centre,RacoNet,True,7.0,False,0.822,Eleve
+CMD1042148,Boutique,Fibre 1 Gb/s,Grand Public,Grand-Est,PF-Grands-Comptes,RacoNet,True,8.0,False,0.82,Eleve
+CMD1050703,Distributeur,Fibre 5 Gb/s,Pro,Auvergne-Rhone-Alpes,PF-Est,OptiReseau,False,2.0,False,0.729,Eleve
+CMD1031096,Distributeur,Fibre 1 Gb/s,Pro,Auvergne-Rhone-Alpes,PF-Sud,OptiReseau,False,4.0,False,0.725,Eleve
+CMD1056648,Distributeur,Fibre 5 Gb/s,Pro,Nouvelle-Aquitaine,PF-Sud,OptiReseau,False,2.0,False,0.722,Eleve
+CMD1010459,Distributeur,Fibre 2 Gb/s,Grand Public,Ile-de-France,PF-Est,OptiReseau,False,23.0,True,0.661,Eleve
+CMD1052744,Distributeur,Fibre 2 Gb/s,Grand Public,Nouvelle-Aquitaine,PF-Sud,OptiReseau,False,1.0,False,0.654,Moyen
+CMD1035528,Distributeur,Fibre 1 Gb/s,Grand Public,PACA,PF-Nord,OptiReseau,False,3.0,False,0.653,Moyen
+CMD1020216,Distributeur,Fibre 2 Gb/s,Grand Public,PACA,PF-Pro-IDF,OptiReseau,False,14.0,False,0.652,Moyen
+CMD1054704,Distributeur,Fibre 8 Gb/s,Grand Public,Hauts-de-France,PF-Pro-IDF,OptiReseau,False,10.0,False,0.652,Moyen
+CMD1058339,Distributeur,Fibre 5 Gb/s,Grand Public,Hauts-de-France,PF-Pro-IDF,OptiReseau,False,4.0,False,0.65,Moyen
+CMD1018856,Distributeur,Fibre 2 Gb/s,Pro,Ile-de-France,PF-Ouest,TelcoBuild,False,15.0,False,0.65,Moyen
+CMD1035711,Distributeur,Fibre 1 Gb/s,Grand Public,Hauts-de-France,PF-Pro-IDF,OptiReseau,False,12.0,False,0.65,Moyen
+CMD1040918,Distributeur,Fibre 1 Gb/s,Grand Public,Hauts-de-France,PF-Ouest,OptiReseau,False,7.0,False,0.648,Moyen
+CMD1005213,Distributeur,Fibre 1 Gb/s,Pro,Nouvelle-Aquitaine,PF-Sud,TelcoBuild,False,8.0,False,0.647,Moyen
+CMD1042352,Distributeur,Fibre 1 Gb/s,Grand Public,Ile-de-France,PF-Sud,OptiReseau,False,3.0,False,0.646,Moyen
+CMD1001641,Distributeur,Fibre 8 Gb/s,Grand Public,Ile-de-France,PF-Pro-IDF,OptiReseau,False,3.0,False,0.643,Moyen
+CMD1008511,Distributeur,Fibre 1 Gb/s,Grand Public,PACA,PF-Ouest,OptiReseau,False,10.0,False,0.643,Moyen
+CMD1043173,Distributeur,Fibre 1 Gb/s,Grand Public,Ile-de-France,PF-Ouest,OptiReseau,False,13.0,False,0.642,Moyen
+CMD1008028,Distributeur,Fibre 8 Gb/s,Grand Public,Ile-de-France,PF-Grands-Comptes,OptiReseau,False,21.0,True,0.64,Moyen
+CMD1030481,Distributeur,Fibre 8 Gb/s,Grand Public,Nouvelle-Aquitaine,PF-Grands-Comptes,OptiReseau,False,5.0,False,0.638,Moyen
+CMD1024753,Distributeur,Fibre 1 Gb/s,Grand Public,PACA,PF-Centre,OptiReseau,False,7.0,False,0.636,Moyen
+CMD1023506,Distributeur,Fibre 5 Gb/s,Grand Public,Grand-Est,PF-Ouest,OptiReseau,False,12.0,False,0.634,Moyen
+CMD1043709,Distributeur,Fibre 1 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Centre,OptiReseau,False,4.0,False,0.634,Moyen
+CMD1045183,Distributeur,Fibre 5 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Centre,OptiReseau,False,18.0,True,0.63,Moyen
+CMD1015710,Web,Fibre 2 Gb/s,Pro,Auvergne-Rhone-Alpes,PF-Est,OptiReseau,False,16.0,True,0.626,Moyen
+CMD1048973,Web,Fibre 2 Gb/s,Pro,PACA,PF-Est,OptiReseau,False,18.0,True,0.626,Moyen
+CMD1023549,Web,Fibre 2 Gb/s,Pro,Occitanie,PF-Est,OptiReseau,False,18.0,True,0.62,Moyen
+CMD1043896,Web,Fibre 1 Gb/s,Pro,Auvergne-Rhone-Alpes,PF-Nord,OptiReseau,False,2.0,False,0.619,Moyen
+CMD1052083,Web,Fibre 1 Gb/s,Pro,Ile-de-France,PF-Nord,OptiReseau,False,7.0,False,0.618,Moyen
+CMD1022733,Web,Fibre 1 Gb/s,Pro,Ile-de-France,PF-Est,OptiReseau,False,9.0,False,0.616,Moyen
+CMD1006334,Web,Fibre 1 Gb/s,Pro,Hauts-de-France,PF-Pro-IDF,OptiReseau,False,21.0,True,0.615,Moyen
+CMD1024010,Web,Fibre 2 Gb/s,Pro,PACA,PF-Ouest,OptiReseau,False,1.0,False,0.613,Moyen
+CMD1021261,Web,Fibre 5 Gb/s,Pro,Nouvelle-Aquitaine,PF-Pro-IDF,OptiReseau,False,17.0,True,0.607,Moyen
+CMD1025847,Web,Fibre 5 Gb/s,Pro,Grand-Est,PF-Sud,OptiReseau,False,12.0,False,0.606,Moyen
+CMD1011363,Web,Fibre 1 Gb/s,Pro,Occitanie,PF-Ouest,OptiReseau,False,9.0,False,0.602,Moyen
+CMD1049151,Distributeur,Fibre 2 Gb/s,Grand Public,Grand-Est,PF-Nord,TelcoBuild,False,3.0,False,0.574,Moyen
+CMD1002040,Distributeur,Fibre 2 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Est,TelcoBuild,False,6.0,False,0.573,Moyen
+CMD1044802,Distributeur,Fibre 1 Gb/s,Grand Public,Hauts-de-France,PF-Est,TelcoBuild,False,1.0,False,0.569,Moyen
+CMD1025020,Distributeur,Fibre 2 Gb/s,Grand Public,Nouvelle-Aquitaine,PF-Pro-IDF,TelcoBuild,False,4.0,False,0.566,Moyen
+CMD1042622,Distributeur,Fibre 8 Gb/s,Grand Public,Ile-de-France,PF-Est,TelcoBuild,False,4.0,False,0.566,Moyen
+CMD1000724,Distributeur,Fibre 1 Gb/s,Grand Public,Hauts-de-France,PF-Pro-IDF,TelcoBuild,False,10.0,False,0.564,Moyen
+CMD1026768,Distributeur,Fibre 1 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Est,TelcoBuild,False,7.0,False,0.564,Moyen
+CMD1035339,Distributeur,Fibre 5 Gb/s,Grand Public,Hauts-de-France,PF-Sud,TelcoBuild,False,18.0,True,0.564,Moyen
+CMD1022569,Telephone,Fibre 5 Gb/s,Pro,Hauts-de-France,PF-Est,OptiReseau,False,12.0,False,0.561,Moyen
+CMD1011913,Distributeur,Fibre 2 Gb/s,Pro,Ile-de-France,PF-Pro-IDF,ConnectPlus,False,13.0,False,0.56,Moyen
+CMD1015941,Telephone,Fibre 1 Gb/s,Pro,Ile-de-France,PF-Nord,OptiReseau,False,20.0,True,0.56,Moyen
+CMD1038204,Distributeur,Fibre 2 Gb/s,Pro,Ile-de-France,PF-Pro-IDF,ConnectPlus,False,15.0,False,0.558,Moyen
+CMD1029744,Distributeur,Fibre 1 Gb/s,Grand Public,Ile-de-France,PF-Pro-IDF,TelcoBuild,False,1.0,False,0.558,Moyen
+CMD1014250,Telephone,Fibre 2 Gb/s,Pro,Ile-de-France,PF-Pro-IDF,OptiReseau,False,7.0,False,0.557,Moyen
+CMD1028485,Distributeur,Fibre 5 Gb/s,Pro,Nouvelle-Aquitaine,PF-Nord,ConnectPlus,False,13.0,False,0.557,Moyen
+CMD1026370,Distributeur,Fibre 2 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Centre,TelcoBuild,False,3.0,False,0.553,Moyen
+CMD1033163,Telephone,Fibre 1 Gb/s,Pro,Ile-de-France,PF-Sud,OptiReseau,False,4.0,False,0.553,Moyen
+CMD1043521,Telephone,Fibre 1 Gb/s,Pro,PACA,PF-Sud,OptiReseau,False,15.0,False,0.552,Moyen
+CMD1034746,Distributeur,Fibre 1 Gb/s,Pro,Occitanie,PF-Pro-IDF,ConnectPlus,False,4.0,False,0.549,Moyen
+CMD1016244,Distributeur,Fibre 1 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Centre,TelcoBuild,False,21.0,True,0.549,Moyen
+CMD1009011,Distributeur,Fibre 1 Gb/s,Pro,Hauts-de-France,PF-Centre,ConnectPlus,False,3.0,False,0.548,Moyen
+CMD1056305,Distributeur,Fibre 1 Gb/s,Grand Public,Grand-Est,PF-Grands-Comptes,TelcoBuild,False,4.0,False,0.547,Moyen
+CMD1004986,Distributeur,Fibre 1 Gb/s,Grand Public,Occitanie,PF-Ouest,TelcoBuild,False,13.0,False,0.546,Moyen
+CMD1012755,Distributeur,Fibre 8 Gb/s,Pro,Hauts-de-France,PF-Centre,ConnectPlus,False,15.0,False,0.545,Moyen
+CMD1057668,Distributeur,Fibre 1 Gb/s,Pro,Nouvelle-Aquitaine,PF-Grands-Comptes,ConnectPlus,False,10.0,False,0.543,Moyen
+CMD1028811,Distributeur,Fibre 8 Gb/s,Pro,Ile-de-France,PF-Centre,ConnectPlus,False,7.0,False,0.541,Moyen
+CMD1047119,Distributeur,Fibre 5 Gb/s,Pro,Auvergne-Rhone-Alpes,PF-Centre,ConnectPlus,False,2.0,False,0.538,Moyen
+CMD1010227,Distributeur,Fibre 1 Gb/s,Pro,Ile-de-France,PF-Centre,ConnectPlus,False,16.0,True,0.538,Moyen
+CMD1055654,Web,Fibre 2 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Est,OptiReseau,False,21.0,True,0.535,Moyen
+CMD1013191,Web,Fibre 1 Gb/s,Pro,Hauts-de-France,PF-Nord,TelcoBuild,False,14.0,False,0.535,Moyen
+CMD1051408,Web,Fibre 2 Gb/s,Grand Public,Ile-de-France,PF-Est,OptiReseau,False,14.0,False,0.534,Moyen
+CMD1004306,Web,Fibre 2 Gb/s,Pro,Ile-de-France,PF-Sud,TelcoBuild,False,4.0,False,0.532,Moyen
+CMD1025791,Web,Fibre 2 Gb/s,Grand Public,Grand-Est,PF-Est,OptiReseau,False,11.0,False,0.529,Moyen
+CMD1056680,Web,Fibre 1 Gb/s,Grand Public,Ile-de-France,PF-Est,OptiReseau,False,16.0,True,0.529,Moyen
+CMD1050692,Web,Fibre 1 Gb/s,Grand Public,Grand-Est,PF-Nord,OptiReseau,False,1.0,False,0.527,Moyen
+CMD1024999,Web,Fibre 1 Gb/s,Grand Public,Hauts-de-France,PF-Sud,OptiReseau,False,5.0,False,0.527,Moyen
+CMD1037688,Web,Fibre 1 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Est,OptiReseau,False,12.0,False,0.525,Moyen
+CMD1002059,Web,Fibre 2 Gb/s,Grand Public,Ile-de-France,PF-Ouest,OptiReseau,False,11.0,False,0.525,Moyen
+CMD1019435,Web,Fibre 1 Gb/s,Grand Public,Nouvelle-Aquitaine,PF-Est,OptiReseau,False,3.0,False,0.525,Moyen
+CMD1009757,Web,Fibre 8 Gb/s,Grand Public,PACA,PF-Est,OptiReseau,False,11.0,False,0.523,Moyen
+CMD1041686,Web,Fibre 2 Gb/s,Grand Public,Ile-de-France,PF-Grands-Comptes,OptiReseau,False,7.0,False,0.521,Moyen
+CMD1015958,Web,Fibre 2 Gb/s,Grand Public,Ile-de-France,PF-Ouest,OptiReseau,False,9.0,False,0.521,Moyen
+CMD1007321,Web,Fibre 2 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Grands-Comptes,OptiReseau,False,7.0,False,0.521,Moyen
+CMD1028946,Web,Fibre 5 Gb/s,Grand Public,Occitanie,PF-Est,OptiReseau,False,3.0,False,0.52,Moyen
+CMD1044668,Web,Fibre 1 Gb/s,Grand Public,Ile-de-France,PF-Pro-IDF,OptiReseau,False,7.0,False,0.519,Moyen
+CMD1033129,Web,Fibre 1 Gb/s,Grand Public,Occitanie,PF-Est,OptiReseau,False,7.0,False,0.519,Moyen
+CMD1036340,Web,Fibre 2 Gb/s,Grand Public,Ile-de-France,PF-Grands-Comptes,OptiReseau,False,12.0,False,0.518,Moyen
+CMD1015392,Web,Fibre 8 Gb/s,Grand Public,PACA,PF-Ouest,OptiReseau,False,15.0,False,0.515,Moyen
+CMD1026333,Web,Fibre 8 Gb/s,Grand Public,Hauts-de-France,PF-Centre,OptiReseau,False,6.0,False,0.514,Moyen
+CMD1058536,Web,Fibre 8 Gb/s,Grand Public,Ile-de-France,PF-Grands-Comptes,OptiReseau,False,2.0,False,0.514,Moyen
+CMD1029549,Web,Fibre 1 Gb/s,Grand Public,Grand-Est,PF-Grands-Comptes,OptiReseau,False,2.0,False,0.512,Moyen
+CMD1024890,Web,Fibre 2 Gb/s,Grand Public,Grand-Est,PF-Centre,OptiReseau,False,9.0,False,0.512,Moyen
+CMD1010679,Web,Fibre 2 Gb/s,Grand Public,Occitanie,PF-Grands-Comptes,OptiReseau,False,11.0,False,0.511,Moyen
+CMD1010430,Web,Fibre 2 Gb/s,Grand Public,Occitanie,PF-Centre,OptiReseau,False,20.0,True,0.508,Moyen
+CMD1008765,Web,Fibre 1 Gb/s,Grand Public,Occitanie,PF-Grands-Comptes,OptiReseau,False,11.0,False,0.507,Moyen
+CMD1027559,Web,Fibre 1 Gb/s,Grand Public,Occitanie,PF-Centre,OptiReseau,False,2.0,False,0.503,Moyen
+CMD1024798,Distributeur,Fibre 2 Gb/s,Grand Public,Ile-de-France,PF-Nord,ConnectPlus,False,22.0,True,0.48,Moyen
+CMD1009929,Distributeur,Fibre 2 Gb/s,Grand Public,PACA,PF-Nord,ConnectPlus,False,8.0,False,0.478,Moyen
+CMD1016757,Distributeur,Fibre 2 Gb/s,Grand Public,Hauts-de-France,PF-Pro-IDF,ConnectPlus,False,7.0,False,0.476,Moyen
+CMD1024396,Telephone,Fibre 2 Gb/s,Pro,PACA,PF-Est,TelcoBuild,False,2.0,False,0.476,Moyen
+CMD1028624,Distributeur,Fibre 8 Gb/s,Grand Public,Hauts-de-France,PF-Nord,ConnectPlus,False,28.0,True,0.476,Moyen
+CMD1006826,Distributeur,Fibre 2 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Est,ConnectPlus,False,26.0,True,0.474,Moyen
+CMD1039053,Telephone,Fibre 2 Gb/s,Pro,Hauts-de-France,PF-Sud,TelcoBuild,False,9.0,False,0.474,Moyen
+CMD1035636,Distributeur,Fibre 2 Gb/s,Grand Public,Hauts-de-France,PF-Sud,ConnectPlus,False,6.0,False,0.474,Moyen
+CMD1050434,Telephone,Fibre 8 Gb/s,Grand Public,Hauts-de-France,PF-Est,OptiReseau,False,16.0,True,0.471,Moyen
+CMD1031682,Distributeur,Fibre 1 Gb/s,Grand Public,Ile-de-France,PF-Nord,ConnectPlus,False,6.0,False,0.47,Moyen
+CMD1013438,Distributeur,Fibre 8 Gb/s,Grand Public,PACA,PF-Nord,ConnectPlus,False,7.0,False,0.47,Moyen
+CMD1030221,Telephone,Fibre 2 Gb/s,Grand Public,Hauts-de-France,PF-Ouest,OptiReseau,False,8.0,False,0.468,Moyen
+CMD1055655,Telephone,Fibre 2 Gb/s,Grand Public,Hauts-de-France,PF-Ouest,OptiReseau,False,4.0,False,0.468,Moyen
+CMD1027503,Telephone,Fibre 1 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Est,OptiReseau,False,17.0,True,0.467,Moyen
+CMD1000486,Telephone,Fibre 2 Gb/s,Grand Public,Hauts-de-France,PF-Ouest,OptiReseau,False,5.0,False,0.467,Moyen
+CMD1040742,Telephone,Fibre 1 Gb/s,Grand Public,Grand-Est,PF-Nord,OptiReseau,False,4.0,False,0.466,Moyen
+CMD1045907,Distributeur,Fibre 1 Gb/s,Grand Public,Grand-Est,PF-Nord,ConnectPlus,False,13.0,False,0.465,Moyen
+CMD1027159,Distributeur,Fibre 8 Gb/s,Grand Public,Hauts-de-France,PF-Sud,ConnectPlus,False,19.0,True,0.465,Moyen
+CMD1038911,Telephone,Fibre 2 Gb/s,Grand Public,Ile-de-France,PF-Pro-IDF,OptiReseau,False,8.0,False,0.464,Moyen
+CMD1032719,Telephone,Fibre 2 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Ouest,OptiReseau,False,19.0,True,0.464,Moyen
+CMD1029221,Distributeur,Fibre 1 Gb/s,Grand Public,Grand-Est,PF-Nord,ConnectPlus,False,14.0,False,0.464,Moyen
+CMD1032034,Distributeur,Fibre 5 Gb/s,Grand Public,Hauts-de-France,PF-Pro-IDF,ConnectPlus,False,8.0,False,0.463,Moyen
+CMD1006310,Distributeur,Fibre 1 Gb/s,Grand Public,Ile-de-France,PF-Sud,ConnectPlus,False,4.0,False,0.463,Moyen
+CMD1033182,Telephone,Fibre 5 Gb/s,Grand Public,Hauts-de-France,PF-Sud,OptiReseau,False,15.0,False,0.462,Moyen
+CMD1002009,Distributeur,Fibre 2 Gb/s,Grand Public,Occitanie,PF-Pro-IDF,ConnectPlus,False,16.0,True,0.462,Moyen
+CMD1009856,Distributeur,Fibre 2 Gb/s,Grand Public,Grand-Est,PF-Pro-IDF,ConnectPlus,False,3.0,False,0.462,Moyen
+CMD1034878,Telephone,Fibre 1 Gb/s,Grand Public,Ile-de-France,PF-Pro-IDF,OptiReseau,False,8.0,False,0.462,Moyen
+CMD1051338,Telephone,Fibre 8 Gb/s,Grand Public,Ile-de-France,PF-Sud,OptiReseau,False,5.0,False,0.461,Moyen
+CMD1001604,Distributeur,Fibre 1 Gb/s,Grand Public,Hauts-de-France,PF-Grands-Comptes,ConnectPlus,False,12.0,False,0.461,Moyen
+CMD1044049,Distributeur,Fibre 1 Gb/s,Grand Public,Nouvelle-Aquitaine,PF-Sud,ConnectPlus,False,10.0,False,0.46,Moyen
+CMD1056149,Distributeur,Fibre 2 Gb/s,Grand Public,Occitanie,PF-Pro-IDF,ConnectPlus,False,3.0,False,0.46,Moyen
+CMD1004684,Telephone,Fibre 2 Gb/s,Grand Public,PACA,PF-Grands-Comptes,OptiReseau,False,15.0,False,0.458,Moyen
+CMD1005028,Telephone,Fibre 5 Gb/s,Grand Public,Occitanie,PF-Est,OptiReseau,False,4.0,False,0.457,Moyen
+CMD1012076,Telephone,Fibre 8 Gb/s,Grand Public,PACA,PF-Pro-IDF,OptiReseau,False,8.0,False,0.457,Moyen
+CMD1014565,Distributeur,Fibre 1 Gb/s,Grand Public,Hauts-de-France,PF-Grands-Comptes,ConnectPlus,False,13.0,False,0.457,Moyen
+CMD1012877,Telephone,Fibre 1 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Ouest,OptiReseau,False,3.0,False,0.456,Moyen
+CMD1038064,Telephone,Fibre 2 Gb/s,Grand Public,Occitanie,PF-Ouest,OptiReseau,False,16.0,True,0.455,Moyen
+CMD1022072,Distributeur,Fibre 1 Gb/s,Grand Public,Ile-de-France,PF-Grands-Comptes,ConnectPlus,False,6.0,False,0.454,Moyen
+CMD1017097,Distributeur,Fibre 5 Gb/s,Grand Public,Grand-Est,PF-Pro-IDF,ConnectPlus,False,2.0,False,0.453,Moyen
+CMD1005481,Distributeur,Fibre 5 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Ouest,ConnectPlus,False,13.0,False,0.453,Moyen
+CMD1018070,Distributeur,Fibre 5 Gb/s,Grand Public,PACA,PF-Ouest,ConnectPlus,False,10.0,False,0.453,Moyen
+CMD1049699,Telephone,Fibre 8 Gb/s,Grand Public,Occitanie,PF-Pro-IDF,OptiReseau,False,22.0,True,0.452,Moyen
+CMD1003132,Telephone,Fibre 1 Gb/s,Grand Public,Occitanie,PF-Pro-IDF,OptiReseau,False,27.0,True,0.451,Moyen
+CMD1026178,Distributeur,Fibre 5 Gb/s,Grand Public,Occitanie,PF-Ouest,ConnectPlus,False,16.0,True,0.446,Moyen
+CMD1053789,Web,Fibre 2 Gb/s,Grand Public,Hauts-de-France,PF-Pro-IDF,TelcoBuild,False,8.0,False,0.446,Moyen
+CMD1015600,Telephone,Fibre 8 Gb/s,Grand Public,Ile-de-France,PF-Centre,OptiReseau,False,1.0,False,0.445,Moyen
+CMD1005300,Telephone,Fibre 5 Gb/s,Grand Public,Occitanie,PF-Grands-Comptes,OptiReseau,False,6.0,False,0.444,Moyen
+CMD1052877,Web,Fibre 2 Gb/s,Pro,Auvergne-Rhone-Alpes,PF-Nord,ConnectPlus,False,13.0,False,0.443,Moyen
+CMD1030586,Web,Fibre 1 Gb/s,Grand Public,PACA,PF-Nord,TelcoBuild,False,12.0,False,0.442,Moyen
+CMD1010273,Web,Fibre 2 Gb/s,Grand Public,Ile-de-France,PF-Est,TelcoBuild,False,20.0,True,0.441,Moyen
+CMD1018943,Telephone,Fibre 1 Gb/s,Grand Public,Grand-Est,PF-Centre,OptiReseau,False,2.0,False,0.44,Moyen
+CMD1025231,Web,Fibre 1 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Nord,TelcoBuild,False,11.0,False,0.439,Moyen
+CMD1006795,Web,Fibre 1 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Nord,TelcoBuild,False,4.0,False,0.439,Moyen
+CMD1058639,Boutique,Fibre 5 Gb/s,Pro,Hauts-de-France,PF-Nord,OptiReseau,False,1.0,False,0.439,Moyen
+CMD1056111,Web,Fibre 8 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Nord,TelcoBuild,False,1.0,False,0.438,Moyen
+CMD1027337,Boutique,Fibre 5 Gb/s,Pro,Hauts-de-France,PF-Nord,OptiReseau,False,1.0,False,0.438,Moyen
+CMD1009444,Web,Fibre 1 Gb/s,Grand Public,Hauts-de-France,PF-Pro-IDF,TelcoBuild,False,7.0,False,0.437,Moyen
+CMD1017352,Web,Fibre 1 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Nord,TelcoBuild,False,1.0,False,0.437,Moyen
+CMD1011250,Web,Fibre 2 Gb/s,Grand Public,PACA,PF-Pro-IDF,TelcoBuild,False,3.0,False,0.435,Moyen
+CMD1014401,Web,Fibre 2 Gb/s,Grand Public,Ile-de-France,PF-Ouest,TelcoBuild,False,1.0,False,0.434,Moyen
+CMD1015271,Web,Fibre 1 Gb/s,Grand Public,Ile-de-France,PF-Pro-IDF,TelcoBuild,False,16.0,True,0.432,Moyen
+CMD1048516,Web,Fibre 2 Gb/s,Pro,Hauts-de-France,PF-Grands-Comptes,ConnectPlus,False,13.0,False,0.431,Moyen
+CMD1018636,Web,Fibre 1 Gb/s,Pro,Ile-de-France,PF-Est,ConnectPlus,False,12.0,False,0.429,Moyen
+CMD1019945,Boutique,Fibre 1 Gb/s,Pro,Auvergne-Rhone-Alpes,PF-Sud,OptiReseau,False,5.0,False,0.428,Moyen
+CMD1014316,Web,Fibre 1 Gb/s,Pro,PACA,PF-Est,ConnectPlus,False,27.0,True,0.428,Moyen
+CMD1052154,Web,Fibre 1 Gb/s,Grand Public,Occitanie,PF-Sud,TelcoBuild,False,2.0,False,0.427,Moyen
+CMD1000320,Web,Fibre 8 Gb/s,Grand Public,Ile-de-France,PF-Sud,TelcoBuild,False,1.0,False,0.427,Moyen
+CMD1021862,Web,Fibre 2 Gb/s,Pro,Auvergne-Rhone-Alpes,PF-Grands-Comptes,ConnectPlus,False,6.0,False,0.425,Moyen
+CMD1029378,Web,Fibre 1 Gb/s,Grand Public,Nouvelle-Aquitaine,PF-Pro-IDF,TelcoBuild,False,6.0,False,0.425,Moyen
+CMD1030082,Web,Fibre 1 Gb/s,Grand Public,Occitanie,PF-Pro-IDF,TelcoBuild,False,16.0,True,0.424,Moyen
+CMD1018942,Boutique,Fibre 1 Gb/s,Pro,Occitanie,PF-Est,OptiReseau,False,3.0,False,0.424,Moyen
+CMD1047205,Web,Fibre 2 Gb/s,Pro,Ile-de-France,PF-Ouest,ConnectPlus,False,7.0,False,0.423,Moyen
+CMD1008439,Web,Fibre 8 Gb/s,Grand Public,Grand-Est,PF-Sud,TelcoBuild,False,5.0,False,0.423,Moyen
+CMD1029629,Web,Fibre 2 Gb/s,Grand Public,Ile-de-France,PF-Centre,TelcoBuild,False,14.0,False,0.422,Moyen
+CMD1042736,Web,Fibre 1 Gb/s,Grand Public,PACA,PF-Grands-Comptes,TelcoBuild,False,6.0,False,0.422,Moyen
+CMD1019075,Web,Fibre 1 Gb/s,Grand Public,Ile-de-France,PF-Grands-Comptes,TelcoBuild,False,1.0,False,0.422,Moyen
+CMD1043214,Boutique,Fibre 5 Gb/s,Pro,Grand-Est,PF-Est,OptiReseau,False,4.0,False,0.422,Moyen
+CMD1036800,Web,Fibre 5 Gb/s,Pro,Auvergne-Rhone-Alpes,PF-Sud,ConnectPlus,False,10.0,False,0.421,Moyen
+CMD1005186,Web,Fibre 1 Gb/s,Grand Public,Nouvelle-Aquitaine,PF-Grands-Comptes,TelcoBuild,False,9.0,False,0.42,Moyen
+CMD1002696,Web,Fibre 5 Gb/s,Pro,Occitanie,PF-Est,ConnectPlus,False,9.0,False,0.42,Moyen
+CMD1004007,Web,Fibre 8 Gb/s,Grand Public,Nouvelle-Aquitaine,PF-Grands-Comptes,TelcoBuild,False,9.0,False,0.419,Moyen
+CMD1050120,Boutique,Fibre 1 Gb/s,Pro,PACA,PF-Ouest,OptiReseau,False,5.0,False,0.419,Moyen
+CMD1023646,Web,Fibre 5 Gb/s,Grand Public,Nouvelle-Aquitaine,PF-Ouest,TelcoBuild,False,1.0,False,0.418,Moyen
+CMD1021117,Boutique,Fibre 2 Gb/s,Pro,Grand-Est,PF-Grands-Comptes,OptiReseau,False,1.0,False,0.418,Moyen
+CMD1035424,Web,Fibre 5 Gb/s,Pro,Occitanie,PF-Pro-IDF,ConnectPlus,False,9.0,False,0.416,Moyen
+CMD1035082,Web,Fibre 5 Gb/s,Grand Public,Ile-de-France,PF-Centre,TelcoBuild,False,8.0,False,0.416,Moyen
+CMD1024644,Web,Fibre 1 Gb/s,Pro,Hauts-de-France,PF-Centre,ConnectPlus,False,7.0,False,0.416,Moyen
+CMD1047499,Web,Fibre 1 Gb/s,Pro,PACA,PF-Ouest,ConnectPlus,False,16.0,True,0.416,Moyen
+CMD1026656,App mobile,Fibre 1 Gb/s,Grand Public,Hauts-de-France,PF-Est,OptiReseau,False,5.0,False,0.416,Moyen
+CMD1046449,Web,Fibre 5 Gb/s,Pro,Ile-de-France,PF-Grands-Comptes,ConnectPlus,False,7.0,False,0.414,Moyen
+CMD1005316,Web,Fibre 1 Gb/s,Pro,Auvergne-Rhone-Alpes,PF-Centre,ConnectPlus,False,1.0,False,0.413,Moyen
+CMD1030734,Boutique,Fibre 2 Gb/s,Pro,Grand-Est,PF-Centre,OptiReseau,False,8.0,False,0.413,Moyen
+CMD1059467,Web,Fibre 8 Gb/s,Pro,PACA,PF-Grands-Comptes,ConnectPlus,False,1.0,False,0.413,Moyen
+CMD1031944,Distributeur,Fibre 1 Gb/s,Pro,Hauts-de-France,PF-Sud,FibreExpress,False,10.0,False,0.41,Moyen
+CMD1046042,Web,Fibre 5 Gb/s,Pro,Ile-de-France,PF-Centre,ConnectPlus,False,3.0,False,0.41,Moyen
+CMD1054330,Distributeur,Fibre 1 Gb/s,Pro,Hauts-de-France,PF-Ouest,FibreExpress,False,11.0,False,0.407,Moyen
+CMD1041000,App mobile,Fibre 2 Gb/s,Grand Public,Occitanie,PF-Pro-IDF,OptiReseau,False,8.0,False,0.407,Moyen
+CMD1053064,App mobile,Fibre 1 Gb/s,Grand Public,Nouvelle-Aquitaine,PF-Sud,OptiReseau,False,4.0,False,0.406,Moyen
+CMD1022084,App mobile,Fibre 8 Gb/s,Grand Public,Occitanie,PF-Est,OptiReseau,False,10.0,False,0.405,Moyen
+CMD1055419,Distributeur,Fibre 8 Gb/s,Pro,Ile-de-France,PF-Pro-IDF,FibreExpress,False,3.0,False,0.404,Moyen
+CMD1014620,Distributeur,Fibre 1 Gb/s,Pro,Ile-de-France,PF-Sud,FibreExpress,False,1.0,False,0.404,Moyen
+CMD1033789,Distributeur,Fibre 2 Gb/s,Pro,Nouvelle-Aquitaine,PF-Ouest,FibreExpress,False,5.0,False,0.402,Moyen
+CMD1032516,Distributeur,Fibre 2 Gb/s,Pro,Ile-de-France,PF-Centre,FibreExpress,False,2.0,False,0.4,Moyen
+CMD1017062,App mobile,Fibre 2 Gb/s,Grand Public,Occitanie,PF-Grands-Comptes,OptiReseau,False,18.0,True,0.4,Moyen
+CMD1038565,App mobile,Fibre 1 Gb/s,Pro,Ile-de-France,PF-Grands-Comptes,TelcoBuild,False,9.0,False,0.399,Moyen
+CMD1022219,App mobile,Fibre 1 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Grands-Comptes,OptiReseau,False,10.0,False,0.399,Moyen
+CMD1018532,Distributeur,Fibre 5 Gb/s,Pro,Grand-Est,PF-Ouest,FibreExpress,False,9.0,False,0.394,Moyen
+CMD1043154,App mobile,Fibre 5 Gb/s,Grand Public,Nouvelle-Aquitaine,PF-Grands-Comptes,OptiReseau,False,5.0,False,0.394,Moyen
+CMD1005318,App mobile,Fibre 8 Gb/s,Grand Public,Ile-de-France,PF-Centre,OptiReseau,False,23.0,True,0.392,Moyen
+CMD1002271,Telephone,Fibre 2 Gb/s,Grand Public,Hauts-de-France,PF-Est,TelcoBuild,False,8.0,False,0.39,Moyen
+CMD1028630,App mobile,Fibre 1 Gb/s,Grand Public,Nouvelle-Aquitaine,PF-Centre,OptiReseau,False,11.0,False,0.389,Moyen
+CMD1018463,Telephone,Fibre 2 Gb/s,Grand Public,PACA,PF-Est,TelcoBuild,False,4.0,False,0.384,Moyen
+CMD1047066,Telephone,Fibre 2 Gb/s,Grand Public,Grand-Est,PF-Est,TelcoBuild,False,12.0,False,0.379,Moyen
+CMD1028758,Telephone,Fibre 2 Gb/s,Pro,Hauts-de-France,PF-Pro-IDF,ConnectPlus,False,8.0,False,0.376,Moyen
+CMD1051139,Telephone,Fibre 2 Gb/s,Grand Public,Nouvelle-Aquitaine,PF-Sud,TelcoBuild,False,4.0,False,0.374,Moyen
+CMD1013586,Telephone,Fibre 1 Gb/s,Grand Public,Ile-de-France,PF-Pro-IDF,TelcoBuild,False,3.0,False,0.372,Moyen
+CMD1005435,Telephone,Fibre 1 Gb/s,Grand Public,Ile-de-France,PF-Sud,TelcoBuild,False,9.0,False,0.371,Moyen
+CMD1048517,Telephone,Fibre 1 Gb/s,Pro,Ile-de-France,PF-Est,ConnectPlus,False,12.0,False,0.369,Moyen
+CMD1013149,Telephone,Fibre 1 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Grands-Comptes,TelcoBuild,False,7.0,False,0.365,Moyen
+CMD1052139,Telephone,Fibre 1 Gb/s,Pro,Hauts-de-France,PF-Ouest,ConnectPlus,False,3.0,False,0.365,Moyen
+CMD1034142,Telephone,Fibre 5 Gb/s,Grand Public,Occitanie,PF-Pro-IDF,TelcoBuild,False,2.0,False,0.363,Moyen
+CMD1008547,Telephone,Fibre 5 Gb/s,Grand Public,PACA,PF-Centre,TelcoBuild,False,6.0,False,0.358,Moyen
+CMD1033140,Telephone,Fibre 1 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Centre,TelcoBuild,False,1.0,False,0.358,Moyen
+CMD1031633,Telephone,Fibre 1 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Centre,TelcoBuild,False,3.0,False,0.357,Moyen
+CMD1032546,Telephone,Fibre 1 Gb/s,Grand Public,Ile-de-France,PF-Centre,TelcoBuild,False,2.0,False,0.357,Moyen
+CMD1003022,Boutique,Fibre 2 Gb/s,Grand Public,Ile-de-France,PF-Nord,OptiReseau,False,20.0,True,0.354,Moyen
+CMD1053750,Telephone,Fibre 1 Gb/s,Pro,Occitanie,PF-Ouest,ConnectPlus,False,6.0,False,0.354,Moyen
+CMD1007235,Web,Fibre 2 Gb/s,Grand Public,PACA,PF-Nord,ConnectPlus,False,3.0,False,0.351,Moyen
+CMD1039119,Boutique,Fibre 2 Gb/s,Grand Public,Hauts-de-France,PF-Sud,OptiReseau,False,2.0,False,0.349,Moyen
+CMD1017504,Web,Fibre 1 Gb/s,Grand Public,Ile-de-France,PF-Nord,ConnectPlus,False,9.0,False,0.348,Moyen
+CMD1038693,Boutique,Fibre 2 Gb/s,Grand Public,Hauts-de-France,PF-Sud,OptiReseau,False,6.0,False,0.348,Moyen
+CMD1020053,Boutique,Fibre 1 Gb/s,Grand Public,Hauts-de-France,PF-Est,OptiReseau,False,10.0,False,0.348,Moyen
+CMD1029273,Web,Fibre 1 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Nord,ConnectPlus,False,2.0,False,0.347,Moyen
+CMD1002996,Web,Fibre 1 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Nord,ConnectPlus,False,3.0,False,0.346,Moyen
+CMD1021943,Web,Fibre 1 Gb/s,Grand Public,Hauts-de-France,PF-Sud,ConnectPlus,False,14.0,False,0.346,Moyen
+CMD1028904,Boutique,Fibre 2 Gb/s,Grand Public,Ile-de-France,PF-Sud,OptiReseau,False,4.0,False,0.346,Moyen
+CMD1006761,Web,Fibre 2 Gb/s,Grand Public,Hauts-de-France,PF-Ouest,ConnectPlus,False,11.0,False,0.346,Moyen
+CMD1001833,Boutique,Fibre 2 Gb/s,Pro,Auvergne-Rhone-Alpes,PF-Sud,TelcoBuild,False,23.0,True,0.346,Moyen
+CMD1050328,Web,Fibre 2 Gb/s,Grand Public,Hauts-de-France,PF-Ouest,ConnectPlus,False,1.0,False,0.345,Moyen
+CMD1011850,Boutique,Fibre 2 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Sud,OptiReseau,False,3.0,False,0.345,Moyen
+CMD1006752,Web,Fibre 5 Gb/s,Grand Public,Hauts-de-France,PF-Est,ConnectPlus,False,14.0,False,0.345,Moyen
+CMD1059513,Web,Fibre 2 Gb/s,Grand Public,Ile-de-France,PF-Sud,ConnectPlus,False,4.0,False,0.344,Moyen
+CMD1022176,Web,Fibre 8 Gb/s,Grand Public,Hauts-de-France,PF-Pro-IDF,ConnectPlus,False,3.0,False,0.344,Moyen
+CMD1035399,Web,Fibre 8 Gb/s,Grand Public,Nouvelle-Aquitaine,PF-Nord,ConnectPlus,False,7.0,False,0.344,Moyen
+CMD1038292,Web,Fibre 2 Gb/s,Grand Public,PACA,PF-Pro-IDF,ConnectPlus,False,5.0,False,0.343,Moyen
+CMD1054378,Boutique,Fibre 1 Gb/s,Grand Public,Hauts-de-France,PF-Sud,OptiReseau,False,8.0,False,0.343,Moyen
+CMD1028089,Web,Fibre 2 Gb/s,Grand Public,Occitanie,PF-Est,ConnectPlus,False,3.0,False,0.342,Moyen
+CMD1024145,Web,Fibre 8 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Est,ConnectPlus,False,12.0,False,0.341,Moyen
+CMD1028006,Web,Fibre 1 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Sud,ConnectPlus,False,4.0,False,0.341,Moyen
+CMD1035888,Web,Fibre 2 Gb/s,Grand Public,Hauts-de-France,PF-Grands-Comptes,ConnectPlus,False,5.0,False,0.341,Moyen
+CMD1016802,Web,Fibre 5 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Est,ConnectPlus,False,1.0,False,0.34,Moyen
+CMD1030313,Web,Fibre 1 Gb/s,Grand Public,Hauts-de-France,PF-Ouest,ConnectPlus,False,3.0,False,0.34,Moyen
+CMD1039305,Web,Fibre 1 Gb/s,Grand Public,Grand-Est,PF-Est,ConnectPlus,False,19.0,True,0.34,Moyen
+CMD1005127,Web,Fibre 1 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Sud,ConnectPlus,False,14.0,False,0.339,Moyen
+CMD1017714,Web,Fibre 2 Gb/s,Grand Public,Grand-Est,PF-Pro-IDF,ConnectPlus,False,13.0,False,0.339,Moyen
+CMD1001626,Web,Fibre 2 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Ouest,ConnectPlus,False,5.0,False,0.339,Moyen
+CMD1027814,Web,Fibre 5 Gb/s,Grand Public,Nouvelle-Aquitaine,PF-Est,ConnectPlus,False,9.0,False,0.338,Moyen
+CMD1017674,Web,Fibre 1 Gb/s,Grand Public,Ile-de-France,PF-Sud,ConnectPlus,False,16.0,True,0.338,Moyen
+CMD1053525,Web,Fibre 1 Gb/s,Grand Public,Grand-Est,PF-Est,ConnectPlus,False,15.0,False,0.338,Moyen
+CMD1048028,Web,Fibre 8 Gb/s,Grand Public,Ile-de-France,PF-Pro-IDF,ConnectPlus,False,11.0,False,0.338,Moyen
+CMD1010903,Boutique,Fibre 1 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Sud,OptiReseau,False,2.0,False,0.338,Moyen
+CMD1026187,Boutique,Fibre 8 Gb/s,Grand Public,Ile-de-France,PF-Sud,OptiReseau,False,8.0,False,0.338,Moyen
+CMD1057515,Boutique,Fibre 2 Gb/s,Grand Public,Ile-de-France,PF-Ouest,OptiReseau,False,4.0,False,0.337,Moyen
+CMD1022917,Boutique,Fibre 1 Gb/s,Grand Public,Occitanie,PF-Est,OptiReseau,False,11.0,False,0.337,Moyen
+CMD1032289,Boutique,Fibre 1 Gb/s,Grand Public,PACA,PF-Pro-IDF,OptiReseau,False,7.0,False,0.336,Moyen
+CMD1014707,Web,Fibre 1 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Pro-IDF,ConnectPlus,False,17.0,True,0.336,Moyen
+CMD1026405,Web,Fibre 2 Gb/s,Grand Public,Nouvelle-Aquitaine,PF-Ouest,ConnectPlus,False,4.0,False,0.336,Moyen
+CMD1002580,Boutique,Fibre 2 Gb/s,Grand Public,Hauts-de-France,PF-Centre,OptiReseau,False,4.0,False,0.336,Moyen
+CMD1017409,Web,Fibre 1 Gb/s,Grand Public,Ile-de-France,PF-Sud,ConnectPlus,False,20.0,True,0.336,Moyen
+CMD1052340,Distributeur,Fibre 2 Gb/s,Grand Public,Hauts-de-France,PF-Est,FibreExpress,False,17.0,True,0.335,Moyen
+CMD1013310,Distributeur,Fibre 2 Gb/s,Grand Public,PACA,PF-Nord,FibreExpress,False,1.0,False,0.335,Moyen
+CMD1052252,Distributeur,Fibre 2 Gb/s,Grand Public,Hauts-de-France,PF-Est,FibreExpress,False,3.0,False,0.335,Moyen
+CMD1026981,Web,Fibre 5 Gb/s,Grand Public,Hauts-de-France,PF-Grands-Comptes,ConnectPlus,False,14.0,False,0.335,Moyen
+CMD1035109,Web,Fibre 5 Gb/s,Grand Public,Ile-de-France,PF-Pro-IDF,ConnectPlus,False,14.0,False,0.334,Moyen
+CMD1035699,Web,Fibre 1 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Ouest,ConnectPlus,False,2.0,False,0.334,Moyen
+CMD1044302,Web,Fibre 8 Gb/s,Grand Public,Nouvelle-Aquitaine,PF-Sud,ConnectPlus,False,2.0,False,0.334,Moyen
+CMD1038378,Boutique,Fibre 2 Gb/s,Grand Public,Occitanie,PF-Ouest,OptiReseau,False,8.0,False,0.334,Moyen
+CMD1027558,Boutique,Fibre 2 Gb/s,Grand Public,Occitanie,PF-Ouest,OptiReseau,False,5.0,False,0.334,Moyen
+CMD1009844,App mobile,Fibre 2 Gb/s,Grand Public,Nouvelle-Aquitaine,PF-Est,TelcoBuild,False,7.0,False,0.333,Moyen
+CMD1030449,Web,Fibre 8 Gb/s,Grand Public,Ile-de-France,PF-Ouest,ConnectPlus,False,15.0,False,0.333,Moyen
+CMD1045032,Boutique,Fibre 8 Gb/s,Pro,Ile-de-France,PF-Grands-Comptes,TelcoBuild,False,9.0,False,0.332,Moyen
+CMD1023269,App mobile,Fibre 2 Gb/s,Pro,Hauts-de-France,PF-Est,ConnectPlus,False,2.0,False,0.331,Moyen
+CMD1012634,Web,Fibre 1 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Ouest,ConnectPlus,False,6.0,False,0.331,Moyen
+CMD1002434,Boutique,Fibre 1 Gb/s,Pro,Auvergne-Rhone-Alpes,PF-Grands-Comptes,TelcoBuild,False,3.0,False,0.33,Faible
+CMD1000902,Web,Fibre 1 Gb/s,Grand Public,Nouvelle-Aquitaine,PF-Ouest,ConnectPlus,False,8.0,False,0.33,Faible
+CMD1056826,Boutique,Fibre 1 Gb/s,Grand Public,Nouvelle-Aquitaine,PF-Grands-Comptes,OptiReseau,False,7.0,False,0.33,Faible
+CMD1001048,Boutique,Fibre 2 Gb/s,Pro,Occitanie,PF-Ouest,TelcoBuild,False,11.0,False,0.33,Faible
+CMD1013486,Web,Fibre 1 Gb/s,Grand Public,Occitanie,PF-Pro-IDF,ConnectPlus,False,4.0,False,0.33,Faible
+CMD1018989,Web,Fibre 8 Gb/s,Grand Public,Grand-Est,PF-Pro-IDF,ConnectPlus,False,3.0,False,0.33,Faible
+CMD1056898,Distributeur,Fibre 2 Gb/s,Grand Public,Ile-de-France,PF-Est,FibreExpress,False,5.0,False,0.329,Faible
+CMD1049711,Web,Fibre 1 Gb/s,Grand Public,Hauts-de-France,PF-Centre,ConnectPlus,False,6.0,False,0.329,Faible
+CMD1030311,Boutique,Fibre 8 Gb/s,Grand Public,Ile-de-France,PF-Grands-Comptes,OptiReseau,False,7.0,False,0.329,Faible
+CMD1023672,Boutique,Fibre 1 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Grands-Comptes,OptiReseau,False,12.0,False,0.329,Faible
+CMD1009062,Web,Fibre 1 Gb/s,Grand Public,Ile-de-France,PF-Grands-Comptes,ConnectPlus,False,9.0,False,0.329,Faible
+CMD1041952,Distributeur,Fibre 2 Gb/s,Grand Public,Grand-Est,PF-Est,FibreExpress,False,6.0,False,0.329,Faible
+CMD1020715,App mobile,Fibre 8 Gb/s,Grand Public,Ile-de-France,PF-Nord,TelcoBuild,False,12.0,False,0.328,Faible
+CMD1051506,Web,Fibre 8 Gb/s,Grand Public,Grand-Est,PF-Ouest,ConnectPlus,False,3.0,False,0.328,Faible
+CMD1024897,Boutique,Fibre 5 Gb/s,Pro,Ile-de-France,PF-Ouest,TelcoBuild,False,19.0,True,0.328,Faible
+CMD1036012,Web,Fibre 1 Gb/s,Grand Public,Grand-Est,PF-Ouest,ConnectPlus,False,10.0,False,0.327,Faible
+CMD1028084,Distributeur,Fibre 1 Gb/s,Grand Public,PACA,PF-Est,FibreExpress,False,7.0,False,0.326,Faible
+CMD1042074,Distributeur,Fibre 5 Gb/s,Grand Public,Ile-de-France,PF-Nord,FibreExpress,False,3.0,False,0.326,Faible
+CMD1014991,Boutique,Fibre 5 Gb/s,Pro,Occitanie,PF-Ouest,TelcoBuild,False,5.0,False,0.326,Faible
+CMD1022775,Boutique,Fibre 1 Gb/s,Grand Public,Ile-de-France,PF-Centre,OptiReseau,False,4.0,False,0.325,Faible
+CMD1023029,Distributeur,Fibre 1 Gb/s,Grand Public,PACA,PF-Est,FibreExpress,False,3.0,False,0.325,Faible
+CMD1043261,Distributeur,Fibre 1 Gb/s,Grand Public,Hauts-de-France,PF-Pro-IDF,FibreExpress,False,17.0,True,0.325,Faible
+CMD1010278,App mobile,Fibre 8 Gb/s,Grand Public,PACA,PF-Est,TelcoBuild,False,4.0,False,0.325,Faible
+CMD1038561,Web,Fibre 5 Gb/s,Grand Public,Occitanie,PF-Ouest,ConnectPlus,False,9.0,False,0.325,Faible
+CMD1034100,Web,Fibre 1 Gb/s,Grand Public,Ile-de-France,PF-Centre,ConnectPlus,False,2.0,False,0.324,Faible
+CMD1042644,Distributeur,Fibre 1 Gb/s,Grand Public,Ile-de-France,PF-Est,FibreExpress,False,3.0,False,0.324,Faible
+CMD1046251,Distributeur,Fibre 1 Gb/s,Grand Public,Nouvelle-Aquitaine,PF-Nord,FibreExpress,False,4.0,False,0.324,Faible
+CMD1022816,Web,Fibre 1 Gb/s,Grand Public,Nouvelle-Aquitaine,PF-Centre,ConnectPlus,False,1.0,False,0.324,Faible
+CMD1011636,Distributeur,Fibre 2 Gb/s,Grand Public,Nouvelle-Aquitaine,PF-Pro-IDF,FibreExpress,False,9.0,False,0.323,Faible
+CMD1036039,App mobile,Fibre 2 Gb/s,Grand Public,Occitanie,PF-Sud,TelcoBuild,False,2.0,False,0.321,Faible
+CMD1035846,App mobile,Fibre 1 Gb/s,Grand Public,PACA,PF-Pro-IDF,TelcoBuild,False,13.0,False,0.321,Faible
+CMD1042221,Distributeur,Fibre 2 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Ouest,FibreExpress,False,14.0,False,0.321,Faible
+CMD1002722,Distributeur,Fibre 1 Gb/s,Grand Public,Nouvelle-Aquitaine,PF-Sud,FibreExpress,False,2.0,False,0.32,Faible
+CMD1052095,App mobile,Fibre 1 Gb/s,Grand Public,Ile-de-France,PF-Ouest,TelcoBuild,False,2.0,False,0.319,Faible
+CMD1029215,App mobile,Fibre 2 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Centre,TelcoBuild,False,30.0,True,0.318,Faible
+CMD1047826,Distributeur,Fibre 2 Gb/s,Grand Public,Grand-Est,PF-Ouest,FibreExpress,False,8.0,False,0.318,Faible
+CMD1015143,App mobile,Fibre 1 Gb/s,Pro,Occitanie,PF-Est,ConnectPlus,False,5.0,False,0.317,Faible
+CMD1001902,App mobile,Fibre 1 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Ouest,TelcoBuild,False,8.0,False,0.317,Faible
+CMD1003108,Distributeur,Fibre 1 Gb/s,Grand Public,PACA,PF-Ouest,FibreExpress,False,5.0,False,0.317,Faible
+CMD1039061,Distributeur,Fibre 1 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Ouest,FibreExpress,False,7.0,False,0.316,Faible
+CMD1044313,Distributeur,Fibre 1 Gb/s,Grand Public,Occitanie,PF-Pro-IDF,FibreExpress,False,6.0,False,0.315,Faible
+CMD1005468,Distributeur,Fibre 2 Gb/s,Grand Public,PACA,PF-Centre,FibreExpress,False,25.0,True,0.315,Faible
+CMD1005751,App mobile,Fibre 1 Gb/s,Grand Public,Nouvelle-Aquitaine,PF-Grands-Comptes,TelcoBuild,False,4.0,False,0.315,Faible
+CMD1055950,Distributeur,Fibre 8 Gb/s,Grand Public,Ile-de-France,PF-Grands-Comptes,FibreExpress,False,7.0,False,0.314,Faible
+CMD1059147,App mobile,Fibre 1 Gb/s,Grand Public,PACA,PF-Grands-Comptes,TelcoBuild,False,6.0,False,0.313,Faible
+CMD1040496,Distributeur,Fibre 1 Gb/s,Grand Public,Nouvelle-Aquitaine,PF-Grands-Comptes,FibreExpress,False,8.0,False,0.313,Faible
+CMD1014497,Distributeur,Fibre 5 Gb/s,Grand Public,Ile-de-France,PF-Ouest,FibreExpress,False,1.0,False,0.31,Faible
+CMD1034130,Distributeur,Fibre 8 Gb/s,Grand Public,Ile-de-France,PF-Grands-Comptes,FibreExpress,False,9.0,False,0.31,Faible
+CMD1037318,Web,Fibre 1 Gb/s,Pro,Hauts-de-France,PF-Est,FibreExpress,False,4.0,False,0.299,Faible
+CMD1056989,Web,Fibre 2 Gb/s,Pro,Ile-de-France,PF-Est,FibreExpress,False,3.0,False,0.299,Faible
+CMD1018611,Distributeur,Fibre 2 Gb/s,Pro,Hauts-de-France,PF-Est,RacoNet,False,8.0,False,0.297,Faible
+CMD1029652,Telephone,Fibre 2 Gb/s,Grand Public,Grand-Est,PF-Nord,ConnectPlus,False,1.0,False,0.295,Faible
+CMD1032854,Web,Fibre 1 Gb/s,Pro,Ile-de-France,PF-Est,FibreExpress,False,1.0,False,0.294,Faible
+CMD1042943,Web,Fibre 5 Gb/s,Pro,PACA,PF-Nord,FibreExpress,False,12.0,False,0.291,Faible
+CMD1032974,Telephone,Fibre 5 Gb/s,Grand Public,Ile-de-France,PF-Nord,ConnectPlus,False,7.0,False,0.291,Faible
+CMD1010225,Telephone,Fibre 1 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Nord,ConnectPlus,False,1.0,False,0.291,Faible
+CMD1024800,Telephone,Fibre 2 Gb/s,Grand Public,Ile-de-France,PF-Sud,ConnectPlus,False,4.0,False,0.289,Faible
+CMD1058490,Web,Fibre 5 Gb/s,Pro,Auvergne-Rhone-Alpes,PF-Sud,FibreExpress,False,1.0,False,0.289,Faible
+CMD1009527,Web,Fibre 5 Gb/s,Pro,Ile-de-France,PF-Sud,FibreExpress,False,5.0,False,0.288,Faible
+CMD1047194,Web,Fibre 1 Gb/s,Pro,Occitanie,PF-Est,FibreExpress,False,2.0,False,0.286,Faible
+CMD1024338,Telephone,Fibre 5 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Sud,ConnectPlus,False,9.0,False,0.286,Faible
+CMD1016328,Distributeur,Fibre 2 Gb/s,Pro,Nouvelle-Aquitaine,PF-Pro-IDF,RacoNet,False,9.0,False,0.285,Faible
+CMD1032520,Telephone,Fibre 8 Gb/s,Grand Public,Nouvelle-Aquitaine,PF-Est,ConnectPlus,False,8.0,False,0.285,Faible
+CMD1002285,Telephone,Fibre 1 Gb/s,Grand Public,Nouvelle-Aquitaine,PF-Sud,ConnectPlus,False,10.0,False,0.285,Faible
+CMD1037736,Telephone,Fibre 5 Gb/s,Grand Public,Hauts-de-France,PF-Ouest,ConnectPlus,False,2.0,False,0.284,Faible
+CMD1008082,Telephone,Fibre 1 Gb/s,Grand Public,Grand-Est,PF-Sud,ConnectPlus,False,9.0,False,0.283,Faible
+CMD1048101,Telephone,Fibre 8 Gb/s,Grand Public,Ile-de-France,PF-Pro-IDF,ConnectPlus,False,1.0,False,0.282,Faible
+CMD1035066,Web,Fibre 2 Gb/s,Pro,Ile-de-France,PF-Centre,FibreExpress,False,7.0,False,0.281,Faible
+CMD1031132,Telephone,Fibre 1 Gb/s,Grand Public,Ile-de-France,PF-Ouest,ConnectPlus,False,15.0,False,0.281,Faible
+CMD1049471,Telephone,Fibre 5 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Ouest,ConnectPlus,False,3.0,False,0.28,Faible
+CMD1043861,Telephone,Fibre 1 Gb/s,Grand Public,Ile-de-France,PF-Grands-Comptes,ConnectPlus,False,7.0,False,0.279,Faible
+CMD1023383,Telephone,Fibre 5 Gb/s,Grand Public,Ile-de-France,PF-Ouest,ConnectPlus,False,4.0,False,0.278,Faible
+CMD1015113,Web,Fibre 1 Gb/s,Pro,Auvergne-Rhone-Alpes,PF-Centre,FibreExpress,False,10.0,False,0.278,Faible
+CMD1049806,Web,Fibre 5 Gb/s,Pro,Auvergne-Rhone-Alpes,PF-Grands-Comptes,FibreExpress,False,10.0,False,0.278,Faible
+CMD1054288,Distributeur,Fibre 1 Gb/s,Pro,Nouvelle-Aquitaine,PF-Pro-IDF,RacoNet,False,12.0,False,0.277,Faible
+CMD1039132,Telephone,Fibre 1 Gb/s,Grand Public,Grand-Est,PF-Grands-Comptes,ConnectPlus,False,7.0,False,0.277,Faible
+CMD1051441,Web,Fibre 1 Gb/s,Pro,Grand-Est,PF-Grands-Comptes,FibreExpress,False,5.0,False,0.276,Faible
+CMD1027033,Telephone,Fibre 1 Gb/s,Grand Public,PACA,PF-Grands-Comptes,ConnectPlus,False,4.0,False,0.276,Faible
+CMD1059205,Telephone,Fibre 5 Gb/s,Grand Public,PACA,PF-Ouest,ConnectPlus,False,7.0,False,0.276,Faible
+CMD1035789,Telephone,Fibre 1 Gb/s,Grand Public,Ile-de-France,PF-Grands-Comptes,ConnectPlus,False,8.0,False,0.276,Faible
+CMD1006272,Distributeur,Fibre 2 Gb/s,Pro,Ile-de-France,PF-Centre,RacoNet,False,6.0,False,0.276,Faible
+CMD1018272,Telephone,Fibre 2 Gb/s,Grand Public,Grand-Est,PF-Centre,ConnectPlus,False,12.0,False,0.276,Faible
+CMD1035001,Telephone,Fibre 1 Gb/s,Grand Public,Ile-de-France,PF-Centre,ConnectPlus,False,6.0,False,0.275,Faible
+CMD1012940,Telephone,Fibre 1 Gb/s,Grand Public,Occitanie,PF-Ouest,ConnectPlus,False,17.0,True,0.275,Faible
+CMD1057908,Telephone,Fibre 1 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Centre,ConnectPlus,False,10.0,False,0.274,Faible
+CMD1020460,Telephone,Fibre 1 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Centre,ConnectPlus,False,7.0,False,0.272,Faible
+CMD1032300,Web,Fibre 8 Gb/s,Pro,Occitanie,PF-Centre,FibreExpress,False,2.0,False,0.271,Faible
+CMD1040672,Distributeur,Fibre 1 Gb/s,Pro,Ile-de-France,PF-Centre,RacoNet,False,1.0,False,0.27,Faible
+CMD1036146,Boutique,Fibre 2 Gb/s,Grand Public,Occitanie,PF-Nord,TelcoBuild,False,8.0,False,0.27,Faible
+CMD1050295,Distributeur,Fibre 8 Gb/s,Pro,Ile-de-France,PF-Centre,RacoNet,False,2.0,False,0.27,Faible
+CMD1056737,Telephone,Fibre 5 Gb/s,Grand Public,Occitanie,PF-Centre,ConnectPlus,False,2.0,False,0.267,Faible
+CMD1020579,Boutique,Fibre 1 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Nord,TelcoBuild,False,8.0,False,0.267,Faible
+CMD1018472,Boutique,Fibre 1 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Nord,TelcoBuild,False,10.0,False,0.267,Faible
+CMD1019458,Boutique,Fibre 2 Gb/s,Grand Public,Ile-de-France,PF-Pro-IDF,TelcoBuild,False,5.0,False,0.266,Faible
+CMD1006400,Boutique,Fibre 5 Gb/s,Grand Public,Nouvelle-Aquitaine,PF-Nord,TelcoBuild,False,4.0,False,0.264,Faible
+CMD1035205,Boutique,Fibre 1 Gb/s,Grand Public,PACA,PF-Sud,TelcoBuild,False,6.0,False,0.263,Faible
+CMD1043218,Boutique,Fibre 1 Gb/s,Grand Public,Ile-de-France,PF-Sud,TelcoBuild,False,1.0,False,0.262,Faible
+CMD1054104,Boutique,Fibre 2 Gb/s,Pro,Grand-Est,PF-Sud,ConnectPlus,False,1.0,False,0.261,Faible
+CMD1011097,Boutique,Fibre 1 Gb/s,Grand Public,Grand-Est,PF-Est,TelcoBuild,False,9.0,False,0.261,Faible
+CMD1053540,Boutique,Fibre 2 Gb/s,Grand Public,Nouvelle-Aquitaine,PF-Ouest,TelcoBuild,False,5.0,False,0.259,Faible
+CMD1030045,Boutique,Fibre 8 Gb/s,Grand Public,Occitanie,PF-Nord,TelcoBuild,False,4.0,False,0.259,Faible
+CMD1008592,Boutique,Fibre 5 Gb/s,Grand Public,Nouvelle-Aquitaine,PF-Sud,TelcoBuild,False,7.0,False,0.258,Faible
+CMD1012530,Boutique,Fibre 1 Gb/s,Pro,Hauts-de-France,PF-Ouest,ConnectPlus,False,9.0,False,0.258,Faible
+CMD1051206,Boutique,Fibre 2 Gb/s,Grand Public,Occitanie,PF-Ouest,TelcoBuild,False,4.0,False,0.258,Faible
+CMD1029290,Boutique,Fibre 1 Gb/s,Pro,Nouvelle-Aquitaine,PF-Est,ConnectPlus,False,6.0,False,0.257,Faible
+CMD1032970,Boutique,Fibre 2 Gb/s,Grand Public,Ile-de-France,PF-Centre,TelcoBuild,False,16.0,True,0.257,Faible
+CMD1009460,Boutique,Fibre 1 Gb/s,Grand Public,Grand-Est,PF-Pro-IDF,TelcoBuild,False,7.0,False,0.255,Faible
+CMD1024119,Boutique,Fibre 1 Gb/s,Grand Public,Occitanie,PF-Sud,TelcoBuild,False,10.0,False,0.255,Faible
+CMD1026817,Boutique,Fibre 8 Gb/s,Grand Public,Nouvelle-Aquitaine,PF-Ouest,TelcoBuild,False,1.0,False,0.254,Faible
+CMD1025940,Boutique,Fibre 8 Gb/s,Pro,Auvergne-Rhone-Alpes,PF-Pro-IDF,ConnectPlus,False,10.0,False,0.253,Faible
+CMD1018632,App mobile,Fibre 1 Gb/s,Grand Public,PACA,PF-Nord,ConnectPlus,False,14.0,False,0.25,Faible
+CMD1016746,App mobile,Fibre 2 Gb/s,Grand Public,PACA,PF-Sud,ConnectPlus,False,10.0,False,0.25,Faible
+CMD1018517,Boutique,Fibre 5 Gb/s,Grand Public,Grand-Est,PF-Ouest,TelcoBuild,False,6.0,False,0.25,Faible
+CMD1047505,Boutique,Fibre 1 Gb/s,Grand Public,Occitanie,PF-Grands-Comptes,TelcoBuild,False,10.0,False,0.249,Faible
+CMD1004867,Telephone,Fibre 5 Gb/s,Pro,Hauts-de-France,PF-Est,FibreExpress,False,5.0,False,0.248,Faible
+CMD1047525,App mobile,Fibre 5 Gb/s,Grand Public,PACA,PF-Est,ConnectPlus,False,3.0,False,0.247,Faible
+CMD1025566,App mobile,Fibre 1 Gb/s,Grand Public,Hauts-de-France,PF-Pro-IDF,ConnectPlus,False,1.0,False,0.247,Faible
+CMD1033736,App mobile,Fibre 1 Gb/s,Grand Public,Nouvelle-Aquitaine,PF-Est,ConnectPlus,False,3.0,False,0.246,Faible
+CMD1013299,Telephone,Fibre 2 Gb/s,Pro,Ile-de-France,PF-Sud,FibreExpress,False,2.0,False,0.246,Faible
+CMD1040800,App mobile,Fibre 2 Gb/s,Grand Public,Nouvelle-Aquitaine,PF-Pro-IDF,ConnectPlus,False,4.0,False,0.245,Faible
+CMD1010004,App mobile,Fibre 1 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Sud,ConnectPlus,False,10.0,False,0.244,Faible
+CMD1026481,App mobile,Fibre 2 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Grands-Comptes,ConnectPlus,False,10.0,False,0.242,Faible
+CMD1035065,App mobile,Fibre 8 Gb/s,Grand Public,Ile-de-France,PF-Pro-IDF,ConnectPlus,False,7.0,False,0.242,Faible
+CMD1027566,Telephone,Fibre 1 Gb/s,Pro,Nouvelle-Aquitaine,PF-Sud,FibreExpress,False,11.0,False,0.24,Faible
+CMD1042639,Telephone,Fibre 1 Gb/s,Pro,Occitanie,PF-Est,FibreExpress,False,5.0,False,0.239,Faible
+CMD1006859,Telephone,Fibre 1 Gb/s,Pro,Grand-Est,PF-Sud,FibreExpress,False,17.0,True,0.239,Faible
+CMD1045569,App mobile,Fibre 1 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Ouest,ConnectPlus,False,1.0,False,0.237,Faible
+CMD1059190,App mobile,Fibre 5 Gb/s,Grand Public,Grand-Est,PF-Pro-IDF,ConnectPlus,False,13.0,False,0.236,Faible
+CMD1041793,App mobile,Fibre 1 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Centre,ConnectPlus,False,8.0,False,0.235,Faible
+CMD1059954,App mobile,Fibre 1 Gb/s,Grand Public,Grand-Est,PF-Grands-Comptes,ConnectPlus,False,21.0,True,0.235,Faible
+CMD1052224,App mobile,Fibre 1 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Centre,ConnectPlus,False,7.0,False,0.234,Faible
+CMD1056471,Telephone,Fibre 5 Gb/s,Pro,PACA,PF-Ouest,FibreExpress,False,1.0,False,0.233,Faible
+CMD1051820,Web,Fibre 2 Gb/s,Grand Public,Hauts-de-France,PF-Est,FibreExpress,False,5.0,False,0.233,Faible
+CMD1056325,Telephone,Fibre 1 Gb/s,Pro,Nouvelle-Aquitaine,PF-Grands-Comptes,FibreExpress,False,4.0,False,0.231,Faible
+CMD1025497,App mobile,Fibre 1 Gb/s,Grand Public,Occitanie,PF-Centre,ConnectPlus,False,5.0,False,0.23,Faible
+CMD1005590,Web,Fibre 2 Gb/s,Grand Public,Hauts-de-France,PF-Sud,FibreExpress,False,2.0,False,0.228,Faible
+CMD1016609,Web,Fibre 2 Gb/s,Grand Public,Ile-de-France,PF-Est,FibreExpress,False,7.0,False,0.227,Faible
+CMD1011949,Web,Fibre 1 Gb/s,Grand Public,Hauts-de-France,PF-Nord,FibreExpress,False,5.0,False,0.227,Faible
+CMD1058826,Web,Fibre 2 Gb/s,Grand Public,Occitanie,PF-Nord,FibreExpress,False,11.0,False,0.226,Faible
+CMD1023936,Web,Fibre 2 Gb/s,Grand Public,Ile-de-France,PF-Sud,FibreExpress,False,4.0,False,0.225,Faible
+CMD1032894,Web,Fibre 1 Gb/s,Grand Public,Nouvelle-Aquitaine,PF-Nord,FibreExpress,False,1.0,False,0.225,Faible
+CMD1033640,Web,Fibre 1 Gb/s,Grand Public,Ile-de-France,PF-Nord,FibreExpress,False,4.0,False,0.225,Faible
+CMD1009046,Web,Fibre 2 Gb/s,Grand Public,Occitanie,PF-Est,FibreExpress,False,8.0,False,0.224,Faible
+CMD1051047,Web,Fibre 2 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Sud,FibreExpress,False,2.0,False,0.224,Faible
+CMD1038979,Web,Fibre 1 Gb/s,Grand Public,Hauts-de-France,PF-Pro-IDF,FibreExpress,False,2.0,False,0.223,Faible
+CMD1013832,Web,Fibre 2 Gb/s,Grand Public,Hauts-de-France,PF-Ouest,FibreExpress,False,23.0,True,0.223,Faible
+CMD1019697,Web,Fibre 5 Gb/s,Grand Public,Nouvelle-Aquitaine,PF-Nord,FibreExpress,False,5.0,False,0.223,Faible
+CMD1055242,Web,Fibre 1 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Est,FibreExpress,False,17.0,True,0.223,Faible
+CMD1015616,Web,Fibre 2 Gb/s,Grand Public,PACA,PF-Pro-IDF,FibreExpress,False,8.0,False,0.222,Faible
+CMD1037455,Web,Fibre 1 Gb/s,Grand Public,Hauts-de-France,PF-Pro-IDF,FibreExpress,False,14.0,False,0.222,Faible
+CMD1003342,Distributeur,Fibre 5 Gb/s,Grand Public,Hauts-de-France,PF-Nord,RacoNet,False,4.0,False,0.222,Faible
+CMD1036772,Web,Fibre 1 Gb/s,Grand Public,PACA,PF-Est,FibreExpress,False,6.0,False,0.222,Faible
+CMD1026937,Web,Fibre 1 Gb/s,Grand Public,Nouvelle-Aquitaine,PF-Est,FibreExpress,False,5.0,False,0.221,Faible
+CMD1053384,Web,Fibre 1 Gb/s,Grand Public,Ile-de-France,PF-Est,FibreExpress,False,9.0,False,0.221,Faible
+CMD1058646,Web,Fibre 1 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Sud,FibreExpress,False,14.0,False,0.22,Faible
+CMD1027756,Distributeur,Fibre 1 Gb/s,Grand Public,Ile-de-France,PF-Nord,RacoNet,False,1.0,False,0.219,Faible
+CMD1019891,Web,Fibre 1 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Pro-IDF,FibreExpress,False,6.0,False,0.219,Faible
+CMD1012451,Web,Fibre 1 Gb/s,Grand Public,Nouvelle-Aquitaine,PF-Est,FibreExpress,False,3.0,False,0.219,Faible
+CMD1004109,Distributeur,Fibre 1 Gb/s,Grand Public,Ile-de-France,PF-Est,RacoNet,False,8.0,False,0.219,Faible
+CMD1007023,Web,Fibre 2 Gb/s,Grand Public,Ile-de-France,PF-Grands-Comptes,FibreExpress,False,4.0,False,0.219,Faible
+CMD1026340,Web,Fibre 5 Gb/s,Grand Public,Occitanie,PF-Est,FibreExpress,False,5.0,False,0.217,Faible
+CMD1012407,Distributeur,Fibre 8 Gb/s,Grand Public,Hauts-de-France,PF-Pro-IDF,RacoNet,False,3.0,False,0.217,Faible
+CMD1020170,Web,Fibre 5 Gb/s,Grand Public,Ile-de-France,PF-Sud,FibreExpress,False,13.0,False,0.217,Faible
+CMD1026711,Web,Fibre 5 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Sud,FibreExpress,False,1.0,False,0.216,Faible
+CMD1013385,Web,Fibre 1 Gb/s,Grand Public,Hauts-de-France,PF-Centre,FibreExpress,False,15.0,False,0.215,Faible
+CMD1007546,App mobile,Fibre 2 Gb/s,Pro,Hauts-de-France,PF-Est,FibreExpress,False,5.0,False,0.215,Faible
+CMD1051160,Distributeur,Fibre 1 Gb/s,Grand Public,Grand-Est,PF-Nord,RacoNet,False,5.0,False,0.215,Faible
+CMD1002972,Web,Fibre 1 Gb/s,Grand Public,Ile-de-France,PF-Grands-Comptes,FibreExpress,False,6.0,False,0.215,Faible
+CMD1029017,Distributeur,Fibre 1 Gb/s,Grand Public,Grand-Est,PF-Est,RacoNet,False,6.0,False,0.215,Faible
+CMD1021681,Web,Fibre 8 Gb/s,Grand Public,Hauts-de-France,PF-Grands-Comptes,FibreExpress,False,2.0,False,0.215,Faible
+CMD1046515,Web,Fibre 8 Gb/s,Grand Public,Ile-de-France,PF-Ouest,FibreExpress,False,13.0,False,0.214,Faible
+CMD1006264,App mobile,Fibre 1 Gb/s,Pro,Hauts-de-France,PF-Nord,FibreExpress,False,6.0,False,0.214,Faible
+CMD1000704,Distributeur,Fibre 2 Gb/s,Grand Public,PACA,PF-Ouest,RacoNet,False,6.0,False,0.214,Faible
+CMD1008994,Distributeur,Fibre 1 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Sud,RacoNet,False,2.0,False,0.214,Faible
+CMD1021722,Web,Fibre 1 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Ouest,FibreExpress,False,3.0,False,0.213,Faible
+CMD1008902,Distributeur,Fibre 8 Gb/s,Grand Public,Hauts-de-France,PF-Grands-Comptes,RacoNet,False,5.0,False,0.212,Faible
+CMD1058233,Web,Fibre 5 Gb/s,Grand Public,Nouvelle-Aquitaine,PF-Ouest,FibreExpress,False,1.0,False,0.211,Faible
+CMD1046459,Web,Fibre 1 Gb/s,Grand Public,Grand-Est,PF-Grands-Comptes,FibreExpress,False,11.0,False,0.21,Faible
+CMD1030742,Distributeur,Fibre 1 Gb/s,Grand Public,Hauts-de-France,PF-Centre,RacoNet,False,5.0,False,0.209,Faible
+CMD1001511,Distributeur,Fibre 1 Gb/s,Grand Public,Grand-Est,PF-Grands-Comptes,RacoNet,False,8.0,False,0.207,Faible
+CMD1023926,Distributeur,Fibre 5 Gb/s,Grand Public,Grand-Est,PF-Ouest,RacoNet,False,4.0,False,0.207,Faible
+CMD1012456,App mobile,Fibre 1 Gb/s,Pro,Hauts-de-France,PF-Sud,FibreExpress,False,6.0,False,0.206,Faible
+CMD1052051,Distributeur,Fibre 1 Gb/s,Grand Public,Nouvelle-Aquitaine,PF-Centre,RacoNet,False,1.0,False,0.204,Faible
+CMD1040289,Distributeur,Fibre 1 Gb/s,Grand Public,Occitanie,PF-Ouest,RacoNet,False,10.0,False,0.204,Faible
+CMD1039798,Boutique,Fibre 2 Gb/s,Grand Public,Nouvelle-Aquitaine,PF-Nord,ConnectPlus,False,5.0,False,0.201,Faible
+CMD1007697,Boutique,Fibre 2 Gb/s,Grand Public,Ile-de-France,PF-Est,ConnectPlus,False,2.0,False,0.201,Faible
+CMD1055624,Boutique,Fibre 2 Gb/s,Grand Public,Nouvelle-Aquitaine,PF-Est,ConnectPlus,False,8.0,False,0.2,Faible
+CMD1045751,Boutique,Fibre 5 Gb/s,Grand Public,Hauts-de-France,PF-Est,ConnectPlus,False,5.0,False,0.198,Faible
+CMD1007710,App mobile,Fibre 1 Gb/s,Pro,Occitanie,PF-Pro-IDF,FibreExpress,False,10.0,False,0.198,Faible
+CMD1050379,Boutique,Fibre 2 Gb/s,Grand Public,Ile-de-France,PF-Pro-IDF,ConnectPlus,False,7.0,False,0.197,Faible
+CMD1032954,Boutique,Fibre 2 Gb/s,Grand Public,Ile-de-France,PF-Sud,ConnectPlus,False,15.0,False,0.197,Faible
+CMD1056803,Boutique,Fibre 2 Gb/s,Grand Public,Grand-Est,PF-Est,ConnectPlus,False,7.0,False,0.197,Faible
+CMD1053082,Boutique,Fibre 1 Gb/s,Grand Public,PACA,PF-Nord,ConnectPlus,False,2.0,False,0.197,Faible
+CMD1032368,Boutique,Fibre 1 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Nord,ConnectPlus,False,10.0,False,0.197,Faible
+CMD1011588,Boutique,Fibre 1 Gb/s,Grand Public,Hauts-de-France,PF-Sud,ConnectPlus,False,11.0,False,0.197,Faible
+CMD1027742,Boutique,Fibre 5 Gb/s,Grand Public,PACA,PF-Nord,ConnectPlus,False,1.0,False,0.196,Faible
+CMD1025758,Web,Fibre 2 Gb/s,Pro,Hauts-de-France,PF-Pro-IDF,RacoNet,False,8.0,False,0.196,Faible
+CMD1026058,Boutique,Fibre 8 Gb/s,Grand Public,Ile-de-France,PF-Est,ConnectPlus,False,7.0,False,0.195,Faible
+CMD1008556,App mobile,Fibre 1 Gb/s,Pro,Nouvelle-Aquitaine,PF-Grands-Comptes,FibreExpress,False,3.0,False,0.195,Faible
+CMD1058313,Web,Fibre 1 Gb/s,Pro,Grand-Est,PF-Nord,RacoNet,False,2.0,False,0.194,Faible
+CMD1029929,Boutique,Fibre 2 Gb/s,Grand Public,Grand-Est,PF-Pro-IDF,ConnectPlus,False,3.0,False,0.194,Faible
+CMD1003605,Boutique,Fibre 1 Gb/s,Grand Public,Ile-de-France,PF-Est,ConnectPlus,False,2.0,False,0.194,Faible
+CMD1015151,Boutique,Fibre 1 Gb/s,Grand Public,Occitanie,PF-Est,ConnectPlus,False,2.0,False,0.193,Faible
+CMD1003056,Boutique,Fibre 1 Gb/s,Grand Public,Grand-Est,PF-Sud,ConnectPlus,False,6.0,False,0.192,Faible
+CMD1057294,Web,Fibre 2 Gb/s,Pro,Nouvelle-Aquitaine,PF-Pro-IDF,RacoNet,False,16.0,True,0.192,Faible
+CMD1003778,Boutique,Fibre 1 Gb/s,Grand Public,Ile-de-France,PF-Sud,ConnectPlus,False,14.0,False,0.192,Faible
+CMD1017030,Web,Fibre 1 Gb/s,Pro,Hauts-de-France,PF-Pro-IDF,RacoNet,False,4.0,False,0.192,Faible
+CMD1036520,Boutique,Fibre 1 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Pro-IDF,ConnectPlus,False,2.0,False,0.192,Faible
+CMD1046328,Web,Fibre 1 Gb/s,Pro,Hauts-de-France,PF-Pro-IDF,RacoNet,False,2.0,False,0.192,Faible
+CMD1042971,Boutique,Fibre 1 Gb/s,Grand Public,Ile-de-France,PF-Pro-IDF,ConnectPlus,False,2.0,False,0.191,Faible
+CMD1010578,Boutique,Fibre 1 Gb/s,Grand Public,Ile-de-France,PF-Ouest,ConnectPlus,False,7.0,False,0.19,Faible
+CMD1048782,Boutique,Fibre 8 Gb/s,Grand Public,Occitanie,PF-Est,ConnectPlus,False,20.0,True,0.19,Faible
+CMD1046751,Boutique,Fibre 2 Gb/s,Grand Public,Occitanie,PF-Ouest,ConnectPlus,False,6.0,False,0.19,Faible
+CMD1020503,Boutique,Fibre 1 Gb/s,Grand Public,Ile-de-France,PF-Pro-IDF,ConnectPlus,False,2.0,False,0.19,Faible
+CMD1020260,Boutique,Fibre 8 Gb/s,Grand Public,Nouvelle-Aquitaine,PF-Sud,ConnectPlus,False,11.0,False,0.189,Faible
+CMD1056394,Boutique,Fibre 1 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Ouest,ConnectPlus,False,7.0,False,0.189,Faible
+CMD1036123,Web,Fibre 5 Gb/s,Pro,Hauts-de-France,PF-Ouest,RacoNet,False,3.0,False,0.189,Faible
+CMD1051157,Boutique,Fibre 5 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Ouest,ConnectPlus,False,8.0,False,0.188,Faible
+CMD1028538,Web,Fibre 1 Gb/s,Pro,Ile-de-France,PF-Sud,RacoNet,False,7.0,False,0.188,Faible
+CMD1041271,Boutique,Fibre 1 Gb/s,Grand Public,Ile-de-France,PF-Grands-Comptes,ConnectPlus,False,1.0,False,0.188,Faible
+CMD1054521,Boutique,Fibre 1 Gb/s,Grand Public,Ile-de-France,PF-Grands-Comptes,ConnectPlus,False,9.0,False,0.188,Faible
+CMD1035378,Boutique,Fibre 2 Gb/s,Grand Public,PACA,PF-Centre,ConnectPlus,False,9.0,False,0.188,Faible
+CMD1052413,Boutique,Fibre 8 Gb/s,Grand Public,Nouvelle-Aquitaine,PF-Ouest,ConnectPlus,False,10.0,False,0.187,Faible
+CMD1037882,Boutique,Fibre 2 Gb/s,Grand Public,Nouvelle-Aquitaine,PF-Centre,ConnectPlus,False,17.0,True,0.187,Faible
+CMD1048780,Boutique,Fibre 1 Gb/s,Grand Public,PACA,PF-Ouest,ConnectPlus,False,4.0,False,0.187,Faible
+CMD1004029,Boutique,Fibre 1 Gb/s,Grand Public,Ile-de-France,PF-Ouest,ConnectPlus,False,1.0,False,0.187,Faible
+CMD1044989,Telephone,Fibre 1 Gb/s,Grand Public,Hauts-de-France,PF-Nord,FibreExpress,False,8.0,False,0.187,Faible
+CMD1057356,Telephone,Fibre 1 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Nord,FibreExpress,False,3.0,False,0.185,Faible
+CMD1035139,Web,Fibre 1 Gb/s,Pro,PACA,PF-Ouest,RacoNet,False,8.0,False,0.185,Faible
+CMD1010614,Boutique,Fibre 1 Gb/s,Grand Public,Ile-de-France,PF-Centre,ConnectPlus,False,8.0,False,0.184,Faible
+CMD1014020,Web,Fibre 5 Gb/s,Pro,PACA,PF-Grands-Comptes,RacoNet,False,1.0,False,0.184,Faible
+CMD1036913,Telephone,Fibre 1 Gb/s,Grand Public,PACA,PF-Nord,FibreExpress,False,2.0,False,0.184,Faible
+CMD1042313,Boutique,Fibre 1 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Centre,ConnectPlus,False,11.0,False,0.183,Faible
+CMD1025168,Telephone,Fibre 5 Gb/s,Grand Public,Ile-de-France,PF-Nord,FibreExpress,False,1.0,False,0.183,Faible
+CMD1000955,Telephone,Fibre 1 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Nord,FibreExpress,False,2.0,False,0.183,Faible
+CMD1024412,Telephone,Fibre 5 Gb/s,Grand Public,Ile-de-France,PF-Est,FibreExpress,False,11.0,False,0.182,Faible
+CMD1002982,Boutique,Fibre 5 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Centre,ConnectPlus,False,2.0,False,0.182,Faible
+CMD1010328,Web,Fibre 1 Gb/s,Pro,Auvergne-Rhone-Alpes,PF-Centre,RacoNet,False,4.0,False,0.181,Faible
+CMD1017880,Telephone,Fibre 2 Gb/s,Grand Public,Ile-de-France,PF-Grands-Comptes,FibreExpress,False,4.0,False,0.18,Faible
+CMD1056408,Telephone,Fibre 8 Gb/s,Grand Public,Occitanie,PF-Nord,FibreExpress,False,2.0,False,0.179,Faible
+CMD1032029,Telephone,Fibre 5 Gb/s,Grand Public,Ile-de-France,PF-Pro-IDF,FibreExpress,False,2.0,False,0.179,Faible
+CMD1002746,Telephone,Fibre 1 Gb/s,Grand Public,Ile-de-France,PF-Pro-IDF,FibreExpress,False,4.0,False,0.179,Faible
+CMD1035510,Telephone,Fibre 1 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Ouest,FibreExpress,False,8.0,False,0.178,Faible
+CMD1010504,Telephone,Fibre 2 Gb/s,Grand Public,Occitanie,PF-Grands-Comptes,FibreExpress,False,9.0,False,0.176,Faible
+CMD1047272,Telephone,Fibre 8 Gb/s,Grand Public,Nouvelle-Aquitaine,PF-Ouest,FibreExpress,False,3.0,False,0.175,Faible
+CMD1002915,Telephone,Fibre 5 Gb/s,Grand Public,Grand-Est,PF-Pro-IDF,FibreExpress,False,2.0,False,0.175,Faible
+CMD1040039,Telephone,Fibre 5 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Ouest,FibreExpress,False,3.0,False,0.175,Faible
+CMD1041783,Telephone,Fibre 1 Gb/s,Grand Public,Occitanie,PF-Sud,FibreExpress,False,4.0,False,0.174,Faible
+CMD1030372,Telephone,Fibre 1 Gb/s,Grand Public,Grand-Est,PF-Ouest,FibreExpress,False,1.0,False,0.174,Faible
+CMD1017920,Telephone,Fibre 1 Gb/s,Grand Public,Nouvelle-Aquitaine,PF-Grands-Comptes,FibreExpress,False,2.0,False,0.173,Faible
+CMD1021689,Boutique,Fibre 2 Gb/s,Pro,Ile-de-France,PF-Est,FibreExpress,False,16.0,True,0.167,Faible
+CMD1040207,Boutique,Fibre 2 Gb/s,Pro,Grand-Est,PF-Est,FibreExpress,False,3.0,False,0.164,Faible
+CMD1007106,Boutique,Fibre 1 Gb/s,Pro,Ile-de-France,PF-Nord,FibreExpress,False,4.0,False,0.164,Faible
+CMD1012505,Boutique,Fibre 2 Gb/s,Pro,Auvergne-Rhone-Alpes,PF-Pro-IDF,FibreExpress,False,9.0,False,0.163,Faible
+CMD1002936,Boutique,Fibre 2 Gb/s,Pro,PACA,PF-Ouest,FibreExpress,False,4.0,False,0.159,Faible
+CMD1005626,App mobile,Fibre 2 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Nord,FibreExpress,False,1.0,False,0.158,Faible
+CMD1020128,Boutique,Fibre 1 Gb/s,Pro,Grand-Est,PF-Pro-IDF,FibreExpress,False,8.0,False,0.157,Faible
+CMD1035016,App mobile,Fibre 2 Gb/s,Grand Public,Ile-de-France,PF-Est,FibreExpress,False,7.0,False,0.156,Faible
+CMD1005721,App mobile,Fibre 8 Gb/s,Grand Public,PACA,PF-Nord,FibreExpress,False,4.0,False,0.155,Faible
+CMD1030413,Boutique,Fibre 5 Gb/s,Pro,Hauts-de-France,PF-Grands-Comptes,FibreExpress,False,3.0,False,0.155,Faible
+CMD1059111,Boutique,Fibre 2 Gb/s,Pro,Ile-de-France,PF-Centre,FibreExpress,False,1.0,False,0.154,Faible
+CMD1016309,Boutique,Fibre 1 Gb/s,Pro,Auvergne-Rhone-Alpes,PF-Ouest,FibreExpress,False,2.0,False,0.154,Faible
+CMD1032167,Telephone,Fibre 1 Gb/s,Pro,Auvergne-Rhone-Alpes,PF-Sud,RacoNet,False,8.0,False,0.154,Faible
+CMD1001838,Boutique,Fibre 1 Gb/s,Pro,Grand-Est,PF-Ouest,FibreExpress,False,5.0,False,0.154,Faible
+CMD1032425,App mobile,Fibre 2 Gb/s,Grand Public,Ile-de-France,PF-Sud,FibreExpress,False,11.0,False,0.153,Faible
+CMD1050549,App mobile,Fibre 8 Gb/s,Grand Public,Hauts-de-France,PF-Est,FibreExpress,False,4.0,False,0.153,Faible
+CMD1021247,App mobile,Fibre 2 Gb/s,Grand Public,Grand-Est,PF-Sud,FibreExpress,False,9.0,False,0.152,Faible
+CMD1001321,App mobile,Fibre 2 Gb/s,Grand Public,Grand-Est,PF-Sud,FibreExpress,False,5.0,False,0.152,Faible
+CMD1038942,App mobile,Fibre 5 Gb/s,Grand Public,Hauts-de-France,PF-Pro-IDF,FibreExpress,False,3.0,False,0.152,Faible
+CMD1039417,App mobile,Fibre 8 Gb/s,Grand Public,Nouvelle-Aquitaine,PF-Nord,FibreExpress,False,1.0,False,0.152,Faible
+CMD1032447,Telephone,Fibre 1 Gb/s,Pro,Auvergne-Rhone-Alpes,PF-Ouest,RacoNet,False,1.0,False,0.151,Faible
+CMD1057221,App mobile,Fibre 8 Gb/s,Grand Public,Grand-Est,PF-Nord,FibreExpress,False,12.0,False,0.151,Faible
+CMD1038939,Telephone,Fibre 5 Gb/s,Pro,Occitanie,PF-Sud,RacoNet,False,8.0,False,0.151,Faible
+CMD1048492,Telephone,Fibre 1 Gb/s,Pro,Hauts-de-France,PF-Centre,RacoNet,False,2.0,False,0.151,Faible
+CMD1017483,Boutique,Fibre 5 Gb/s,Pro,PACA,PF-Centre,FibreExpress,False,11.0,False,0.15,Faible
+CMD1009618,App mobile,Fibre 2 Gb/s,Grand Public,Nouvelle-Aquitaine,PF-Ouest,FibreExpress,False,10.0,False,0.149,Faible
+CMD1053213,App mobile,Fibre 1 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Pro-IDF,FibreExpress,False,5.0,False,0.149,Faible
+CMD1011629,App mobile,Fibre 1 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Ouest,FibreExpress,False,8.0,False,0.148,Faible
+CMD1035416,Telephone,Fibre 5 Gb/s,Pro,Auvergne-Rhone-Alpes,PF-Centre,RacoNet,False,6.0,False,0.146,Faible
+CMD1002250,Web,Fibre 2 Gb/s,Grand Public,Ile-de-France,PF-Est,RacoNet,False,11.0,False,0.146,Faible
+CMD1015852,Telephone,Fibre 1 Gb/s,Pro,Ile-de-France,PF-Centre,RacoNet,False,8.0,False,0.146,Faible
+CMD1020230,Telephone,Fibre 8 Gb/s,Pro,Ile-de-France,PF-Centre,RacoNet,False,2.0,False,0.145,Faible
+CMD1016191,Web,Fibre 2 Gb/s,Grand Public,Ile-de-France,PF-Est,RacoNet,False,10.0,False,0.144,Faible
+CMD1044964,Web,Fibre 1 Gb/s,Grand Public,Ile-de-France,PF-Nord,RacoNet,False,11.0,False,0.144,Faible
+CMD1004981,App mobile,Fibre 5 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Centre,FibreExpress,False,9.0,False,0.142,Faible
+CMD1040102,Web,Fibre 1 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Nord,RacoNet,False,3.0,False,0.142,Faible
+CMD1056123,App mobile,Fibre 1 Gb/s,Grand Public,Grand-Est,PF-Centre,FibreExpress,False,12.0,False,0.142,Faible
+CMD1022955,App mobile,Fibre 5 Gb/s,Grand Public,Ile-de-France,PF-Centre,FibreExpress,False,7.0,False,0.142,Faible
+CMD1038986,Web,Fibre 1 Gb/s,Grand Public,Nouvelle-Aquitaine,PF-Nord,RacoNet,False,5.0,False,0.141,Faible
+CMD1028551,Web,Fibre 5 Gb/s,Grand Public,Hauts-de-France,PF-Pro-IDF,RacoNet,False,8.0,False,0.141,Faible
+CMD1007285,Web,Fibre 2 Gb/s,Grand Public,Occitanie,PF-Sud,RacoNet,False,18.0,True,0.14,Faible
+CMD1044851,Web,Fibre 1 Gb/s,Grand Public,Ile-de-France,PF-Sud,RacoNet,False,6.0,False,0.14,Faible
+CMD1054275,Web,Fibre 2 Gb/s,Grand Public,Grand-Est,PF-Sud,RacoNet,False,9.0,False,0.14,Faible
+CMD1003334,Web,Fibre 8 Gb/s,Grand Public,Ile-de-France,PF-Sud,RacoNet,False,5.0,False,0.14,Faible
+CMD1043914,Web,Fibre 2 Gb/s,Grand Public,Ile-de-France,PF-Ouest,RacoNet,False,10.0,False,0.14,Faible
+CMD1041985,Web,Fibre 8 Gb/s,Grand Public,Ile-de-France,PF-Sud,RacoNet,False,3.0,False,0.14,Faible
+CMD1041731,Web,Fibre 1 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Sud,RacoNet,False,7.0,False,0.139,Faible
+CMD1015674,Web,Fibre 1 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Sud,RacoNet,False,2.0,False,0.139,Faible
+CMD1052578,Web,Fibre 1 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Pro-IDF,RacoNet,False,11.0,False,0.139,Faible
+CMD1052027,Web,Fibre 2 Gb/s,Grand Public,Occitanie,PF-Sud,RacoNet,False,7.0,False,0.139,Faible
+CMD1035759,Web,Fibre 1 Gb/s,Grand Public,Occitanie,PF-Est,RacoNet,False,1.0,False,0.139,Faible
+CMD1026884,Web,Fibre 5 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Sud,RacoNet,False,6.0,False,0.139,Faible
+CMD1037757,App mobile,Fibre 1 Gb/s,Grand Public,Occitanie,PF-Centre,FibreExpress,False,4.0,False,0.139,Faible
+CMD1048223,Web,Fibre 1 Gb/s,Grand Public,Nouvelle-Aquitaine,PF-Est,RacoNet,False,3.0,False,0.139,Faible
+CMD1035995,App mobile,Fibre 2 Gb/s,Pro,Hauts-de-France,PF-Nord,RacoNet,False,15.0,False,0.139,Faible
+CMD1006101,Web,Fibre 1 Gb/s,Grand Public,PACA,PF-Pro-IDF,RacoNet,False,5.0,False,0.139,Faible
+CMD1010436,Web,Fibre 2 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Grands-Comptes,RacoNet,False,6.0,False,0.139,Faible
+CMD1011386,Web,Fibre 1 Gb/s,Grand Public,Ile-de-France,PF-Pro-IDF,RacoNet,False,7.0,False,0.138,Faible
+CMD1020675,Web,Fibre 1 Gb/s,Grand Public,PACA,PF-Sud,RacoNet,False,9.0,False,0.138,Faible
+CMD1012665,Web,Fibre 5 Gb/s,Grand Public,PACA,PF-Sud,RacoNet,False,13.0,False,0.137,Faible
+CMD1052389,Web,Fibre 1 Gb/s,Grand Public,Ile-de-France,PF-Grands-Comptes,RacoNet,False,2.0,False,0.136,Faible
+CMD1016883,Web,Fibre 1 Gb/s,Grand Public,Nouvelle-Aquitaine,PF-Grands-Comptes,RacoNet,False,5.0,False,0.135,Faible
+CMD1030027,Web,Fibre 5 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Ouest,RacoNet,False,2.0,False,0.135,Faible
+CMD1039481,Web,Fibre 1 Gb/s,Grand Public,Hauts-de-France,PF-Centre,RacoNet,False,8.0,False,0.134,Faible
+CMD1045954,Web,Fibre 5 Gb/s,Grand Public,Nouvelle-Aquitaine,PF-Ouest,RacoNet,False,4.0,False,0.134,Faible
+CMD1021001,Web,Fibre 1 Gb/s,Grand Public,PACA,PF-Centre,RacoNet,False,2.0,False,0.133,Faible
+CMD1050507,Web,Fibre 1 Gb/s,Grand Public,Occitanie,PF-Grands-Comptes,RacoNet,False,8.0,False,0.133,Faible
+CMD1002568,Web,Fibre 5 Gb/s,Grand Public,Ile-de-France,PF-Centre,RacoNet,False,5.0,False,0.132,Faible
+CMD1034370,Web,Fibre 1 Gb/s,Grand Public,Occitanie,PF-Centre,RacoNet,False,2.0,False,0.13,Faible
+CMD1015860,App mobile,Fibre 2 Gb/s,Pro,Grand-Est,PF-Sud,RacoNet,False,7.0,False,0.13,Faible
+CMD1037350,App mobile,Fibre 2 Gb/s,Pro,Auvergne-Rhone-Alpes,PF-Grands-Comptes,RacoNet,False,2.0,False,0.128,Faible
+CMD1044401,App mobile,Fibre 5 Gb/s,Pro,Ile-de-France,PF-Sud,RacoNet,False,1.0,False,0.128,Faible
+CMD1044512,Web,Fibre 5 Gb/s,Grand Public,Occitanie,PF-Centre,RacoNet,False,2.0,False,0.127,Faible
+CMD1017813,Web,Fibre 5 Gb/s,Grand Public,Occitanie,PF-Centre,RacoNet,False,7.0,False,0.127,Faible
+CMD1046588,App mobile,Fibre 8 Gb/s,Pro,Nouvelle-Aquitaine,PF-Sud,RacoNet,False,4.0,False,0.126,Faible
+CMD1027837,Boutique,Fibre 2 Gb/s,Grand Public,Hauts-de-France,PF-Est,FibreExpress,False,5.0,False,0.124,Faible
+CMD1041074,Boutique,Fibre 2 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Nord,FibreExpress,False,6.0,False,0.123,Faible
+CMD1046084,Boutique,Fibre 2 Gb/s,Grand Public,Ile-de-France,PF-Pro-IDF,FibreExpress,False,2.0,False,0.119,Faible
+CMD1043819,Boutique,Fibre 1 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Est,FibreExpress,False,1.0,False,0.119,Faible
+CMD1002758,Boutique,Fibre 1 Gb/s,Grand Public,Nouvelle-Aquitaine,PF-Nord,FibreExpress,False,4.0,False,0.119,Faible
+CMD1000001,Boutique,Fibre 2 Gb/s,Grand Public,Ile-de-France,PF-Sud,FibreExpress,False,4.0,False,0.118,Faible
+CMD1020479,Boutique,Fibre 2 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Pro-IDF,FibreExpress,False,6.0,False,0.118,Faible
+CMD1043898,Boutique,Fibre 2 Gb/s,Grand Public,Hauts-de-France,PF-Grands-Comptes,FibreExpress,False,4.0,False,0.117,Faible
+CMD1044458,Boutique,Fibre 1 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Sud,FibreExpress,False,4.0,False,0.117,Faible
+CMD1054213,Boutique,Fibre 1 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Pro-IDF,FibreExpress,False,3.0,False,0.116,Faible
+CMD1012300,Boutique,Fibre 2 Gb/s,Grand Public,Grand-Est,PF-Pro-IDF,FibreExpress,False,1.0,False,0.116,Faible
+CMD1019366,Boutique,Fibre 1 Gb/s,Grand Public,Ile-de-France,PF-Pro-IDF,FibreExpress,False,6.0,False,0.116,Faible
+CMD1020551,Boutique,Fibre 1 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Pro-IDF,FibreExpress,False,8.0,False,0.116,Faible
+CMD1046789,Boutique,Fibre 1 Gb/s,Grand Public,Ile-de-France,PF-Pro-IDF,FibreExpress,False,2.0,False,0.116,Faible
+CMD1014110,Boutique,Fibre 2 Gb/s,Grand Public,Nouvelle-Aquitaine,PF-Ouest,FibreExpress,False,7.0,False,0.115,Faible
+CMD1010607,Boutique,Fibre 1 Gb/s,Grand Public,Ile-de-France,PF-Pro-IDF,FibreExpress,False,3.0,False,0.115,Faible
+CMD1041217,Boutique,Fibre 2 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Grands-Comptes,FibreExpress,False,3.0,False,0.115,Faible
+CMD1006381,Boutique,Fibre 2 Gb/s,Grand Public,Ile-de-France,PF-Ouest,FibreExpress,False,5.0,False,0.115,Faible
+CMD1033679,Telephone,Fibre 2 Gb/s,Grand Public,Ile-de-France,PF-Pro-IDF,RacoNet,False,2.0,False,0.115,Faible
+CMD1048707,Telephone,Fibre 2 Gb/s,Grand Public,Ile-de-France,PF-Sud,RacoNet,False,13.0,False,0.115,Faible
+CMD1057171,Boutique,Fibre 1 Gb/s,Grand Public,Nouvelle-Aquitaine,PF-Pro-IDF,FibreExpress,False,7.0,False,0.114,Faible
+CMD1020894,Telephone,Fibre 1 Gb/s,Grand Public,Occitanie,PF-Nord,RacoNet,False,1.0,False,0.114,Faible
+CMD1020742,Boutique,Fibre 2 Gb/s,Grand Public,Occitanie,PF-Ouest,FibreExpress,False,9.0,False,0.114,Faible
+CMD1030656,Boutique,Fibre 5 Gb/s,Grand Public,Ile-de-France,PF-Pro-IDF,FibreExpress,False,1.0,False,0.113,Faible
+CMD1046618,Boutique,Fibre 1 Gb/s,Grand Public,Ile-de-France,PF-Ouest,FibreExpress,False,2.0,False,0.113,Faible
+CMD1031373,Boutique,Fibre 8 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Ouest,FibreExpress,False,5.0,False,0.113,Faible
+CMD1041493,Boutique,Fibre 8 Gb/s,Grand Public,Grand-Est,PF-Sud,FibreExpress,False,2.0,False,0.113,Faible
+CMD1057723,Telephone,Fibre 5 Gb/s,Grand Public,Nouvelle-Aquitaine,PF-Nord,RacoNet,False,2.0,False,0.112,Faible
+CMD1048285,Telephone,Fibre 1 Gb/s,Grand Public,PACA,PF-Pro-IDF,RacoNet,False,8.0,False,0.112,Faible
+CMD1025767,Telephone,Fibre 2 Gb/s,Grand Public,PACA,PF-Grands-Comptes,RacoNet,False,5.0,False,0.112,Faible
+CMD1059545,Telephone,Fibre 2 Gb/s,Grand Public,Ile-de-France,PF-Grands-Comptes,RacoNet,False,7.0,False,0.112,Faible
+CMD1037676,Telephone,Fibre 8 Gb/s,Grand Public,Hauts-de-France,PF-Ouest,RacoNet,False,8.0,False,0.112,Faible
+CMD1034958,Telephone,Fibre 2 Gb/s,Grand Public,Occitanie,PF-Pro-IDF,RacoNet,False,1.0,False,0.112,Faible
+CMD1014588,Boutique,Fibre 1 Gb/s,Grand Public,Hauts-de-France,PF-Centre,FibreExpress,False,9.0,False,0.112,Faible
+CMD1022047,Boutique,Fibre 1 Gb/s,Grand Public,Nouvelle-Aquitaine,PF-Ouest,FibreExpress,False,3.0,False,0.112,Faible
+CMD1028493,Telephone,Fibre 8 Gb/s,Grand Public,Nouvelle-Aquitaine,PF-Pro-IDF,RacoNet,False,5.0,False,0.111,Faible
+CMD1011770,Boutique,Fibre 2 Gb/s,Grand Public,Occitanie,PF-Centre,FibreExpress,False,1.0,False,0.111,Faible
+CMD1059868,Telephone,Fibre 1 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Grands-Comptes,RacoNet,False,2.0,False,0.11,Faible
+CMD1005329,Telephone,Fibre 1 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Grands-Comptes,RacoNet,False,3.0,False,0.109,Faible
+CMD1034008,Telephone,Fibre 2 Gb/s,Grand Public,Grand-Est,PF-Grands-Comptes,RacoNet,False,11.0,False,0.109,Faible
+CMD1015384,Telephone,Fibre 5 Gb/s,Grand Public,Ile-de-France,PF-Ouest,RacoNet,False,11.0,False,0.109,Faible
+CMD1008537,Boutique,Fibre 1 Gb/s,Grand Public,Grand-Est,PF-Centre,FibreExpress,False,12.0,False,0.107,Faible
+CMD1028595,Boutique,Fibre 5 Gb/s,Pro,PACA,PF-Nord,RacoNet,False,9.0,False,0.1,Faible
+CMD1046987,Boutique,Fibre 1 Gb/s,Pro,Occitanie,PF-Pro-IDF,RacoNet,False,1.0,False,0.095,Faible
+CMD1049561,Boutique,Fibre 8 Gb/s,Pro,Ile-de-France,PF-Grands-Comptes,RacoNet,False,1.0,False,0.095,Faible
+CMD1050568,App mobile,Fibre 8 Gb/s,Grand Public,Ile-de-France,PF-Nord,RacoNet,False,11.0,False,0.094,Faible
+CMD1047869,App mobile,Fibre 1 Gb/s,Grand Public,Ile-de-France,PF-Est,RacoNet,False,9.0,False,0.094,Faible
+CMD1024264,Boutique,Fibre 1 Gb/s,Pro,Occitanie,PF-Grands-Comptes,RacoNet,False,2.0,False,0.093,Faible
+CMD1010389,App mobile,Fibre 2 Gb/s,Grand Public,PACA,PF-Ouest,RacoNet,False,4.0,False,0.093,Faible
+CMD1049095,App mobile,Fibre 2 Gb/s,Grand Public,PACA,PF-Ouest,RacoNet,False,1.0,False,0.092,Faible
+CMD1041882,App mobile,Fibre 1 Gb/s,Grand Public,Hauts-de-France,PF-Ouest,RacoNet,False,3.0,False,0.092,Faible
+CMD1001821,App mobile,Fibre 2 Gb/s,Grand Public,Nouvelle-Aquitaine,PF-Grands-Comptes,RacoNet,False,4.0,False,0.092,Faible
+CMD1040616,App mobile,Fibre 2 Gb/s,Grand Public,Nouvelle-Aquitaine,PF-Grands-Comptes,RacoNet,False,4.0,False,0.091,Faible
+CMD1045591,App mobile,Fibre 1 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Ouest,RacoNet,False,1.0,False,0.091,Faible
+CMD1055918,App mobile,Fibre 1 Gb/s,Grand Public,Ile-de-France,PF-Centre,RacoNet,False,2.0,False,0.088,Faible
+CMD1004738,Boutique,Fibre 2 Gb/s,Grand Public,Ile-de-France,PF-Sud,RacoNet,False,5.0,False,0.073,Faible
+CMD1022181,Boutique,Fibre 2 Gb/s,Grand Public,Occitanie,PF-Est,RacoNet,False,1.0,False,0.072,Faible
+CMD1014005,Boutique,Fibre 5 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Nord,RacoNet,False,5.0,False,0.072,Faible
+CMD1049162,Boutique,Fibre 1 Gb/s,Grand Public,PACA,PF-Nord,RacoNet,False,3.0,False,0.072,Faible
+CMD1037664,Boutique,Fibre 1 Gb/s,Grand Public,Nouvelle-Aquitaine,PF-Est,RacoNet,False,4.0,False,0.071,Faible
+CMD1025438,Boutique,Fibre 1 Gb/s,Grand Public,Hauts-de-France,PF-Pro-IDF,RacoNet,False,4.0,False,0.071,Faible
+CMD1032286,Boutique,Fibre 2 Gb/s,Grand Public,Ile-de-France,PF-Pro-IDF,RacoNet,False,6.0,False,0.071,Faible
+CMD1035174,Boutique,Fibre 1 Gb/s,Grand Public,Ile-de-France,PF-Sud,RacoNet,False,7.0,False,0.07,Faible
+CMD1018083,Boutique,Fibre 2 Gb/s,Grand Public,Ile-de-France,PF-Grands-Comptes,RacoNet,False,3.0,False,0.069,Faible
+CMD1027321,Boutique,Fibre 1 Gb/s,Grand Public,Nouvelle-Aquitaine,PF-Sud,RacoNet,False,3.0,False,0.069,Faible
+CMD1053428,Boutique,Fibre 1 Gb/s,Grand Public,Nouvelle-Aquitaine,PF-Pro-IDF,RacoNet,False,3.0,False,0.069,Faible
+CMD1044739,Boutique,Fibre 8 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Sud,RacoNet,False,3.0,False,0.069,Faible
+CMD1040822,Boutique,Fibre 2 Gb/s,Grand Public,Occitanie,PF-Ouest,RacoNet,False,6.0,False,0.069,Faible
+CMD1024592,Boutique,Fibre 1 Gb/s,Grand Public,Hauts-de-France,PF-Centre,RacoNet,False,2.0,False,0.068,Faible
+CMD1004343,Boutique,Fibre 1 Gb/s,Grand Public,Occitanie,PF-Pro-IDF,RacoNet,False,2.0,False,0.068,Faible
+CMD1043441,Boutique,Fibre 1 Gb/s,Grand Public,Occitanie,PF-Sud,RacoNet,False,4.0,False,0.068,Faible
+CMD1054866,Boutique,Fibre 1 Gb/s,Grand Public,Ile-de-France,PF-Ouest,RacoNet,False,2.0,False,0.068,Faible
+CMD1004102,Boutique,Fibre 5 Gb/s,Grand Public,Hauts-de-France,PF-Centre,RacoNet,False,2.0,False,0.068,Faible
+CMD1043166,Boutique,Fibre 1 Gb/s,Grand Public,Auvergne-Rhone-Alpes,PF-Centre,RacoNet,False,20.0,True,0.067,Faible
+CMD1047906,Boutique,Fibre 1 Gb/s,Grand Public,Nouvelle-Aquitaine,PF-Ouest,RacoNet,False,7.0,False,0.067,Faible
+CMD1033240,Boutique,Fibre 1 Gb/s,Grand Public,Grand-Est,PF-Ouest,RacoNet,False,4.0,False,0.067,Faible
+CMD1038367,Boutique,Fibre 8 Gb/s,Grand Public,Occitanie,PF-Grands-Comptes,RacoNet,False,4.0,False,0.066,Faible

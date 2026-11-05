@@ -1,33 +1,37 @@
-# Fibre 360 - orchestration du pipeline d'analyse
-PY ?= python3
-N  ?= 12000
+# Fibre 360 - orchestration de la plateforme
+PY   ?= python3
+N    ?= 60000
 SEED ?= 42
 
-.PHONY: all install data mart mining scoring kpi agent clean
+.PHONY: help install all generate quality datamart analytics report test clean
 
-all:        ## Lance tout le pipeline
-	$(PY) scripts/run_all.py --n $(N) --seed $(SEED)
+help:        ## Affiche cette aide
+	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | \
+	 awk 'BEGIN{FS=":.*?## "}{printf "  \033[36m%-12s\033[0m %s\n", $$1, $$2}'
 
-install:    ## Installe les dependances Python
+install:     ## Installe les dependances
 	$(PY) -m pip install -r requirements.txt
 
-data:       ## Genere les donnees brutes
-	$(PY) scripts/01_generate_data.py --n $(N) --seed $(SEED)
+all:         ## Pipeline complet (generation -> datamart -> analytics/ML -> reporting)
+	$(PY) -m fibre360.cli all --n $(N) --seed $(SEED)
 
-mart:       ## Construit le datamart
-	$(PY) scripts/02_build_datamart.py
+generate:    ## Genere uniquement les donnees
+	$(PY) -m fibre360.cli generate --n $(N) --seed $(SEED)
 
-mining:     ## Process mining
-	$(PY) scripts/03_process_mining.py
+quality:     ## Controle qualite des donnees
+	$(PY) -m fibre360.cli quality
 
-scoring:    ## Modele de scoring
-	$(PY) scripts/04_scoring_model.py
+datamart:    ## Construit le datamart
+	$(PY) -m fibre360.cli datamart
 
-kpi:        ## Export KPI Excel/CSV
-	$(PY) scripts/05_kpi_export.py
+analytics:   ## Analytics + ML (sans reecrire les livrables)
+	$(PY) -m fibre360.cli analytics
 
-agent:      ## Agent IA (note d'analyse + plan d'actions)
-	$(PY) ai_agent/agent_insights.py
+report:      ## Exports Excel/CSV + dashboard + note IA
+	$(PY) -m fibre360.cli report
 
-clean:      ## Supprime les donnees generees (garde les exports)
-	rm -rf data/raw/*.csv data/mart/*.csv
+test:        ## Lance la suite de tests
+	$(PY) -m pytest -q
+
+clean:       ## Supprime les donnees generees (garde exports/dashboard/docs)
+	rm -rf data/raw/*.csv data/mart/*.csv models/*.joblib

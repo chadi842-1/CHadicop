@@ -1,0 +1,11 @@
+feature,importance,ecart_type
+zone_a_construire,0.3051,0.0065
+sous_traitant,0.0606,0.002
+canal,0.0222,0.0016
+segment,0.0027,0.0005
+offre,0.0002,0.0001
+montant_mensuel,0.0001,0.0001
+anciennete_client_mois,0.0001,0.0
+debit_gbps,0.0,0.0
+gestionnaire_portefeuille,-0.0,0.0001
+region,-0.0,0.0001

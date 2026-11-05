@@ -61,7 +61,12 @@ CALCULATE ( [Nb commandes], faits_parcours[alerte_sla] = TRUE )
 | **2. Multi-canalité** | Barres empilées par `canal` (statut), barres [Taux livraison délai %] par canal, [NPS moyen] par canal | Comparer les canaux |
 | **3. Portefeuille** | Matrice `gestionnaire_portefeuille` × KPI, carte régionale (`departement`) | Piloter les portefeuilles |
 | **4. Sous-traitance & process** | [Taux d'échec %] par `sous_traitant`, top motifs d'échec, tornade des goulots (import `pm_goulots.csv`) | Qualité de production |
-| **5. Commandes à risque** | Table des commandes en cours (import `scoring_commandes_en_cours.csv`) triée par `score_risque`, filtre `niveau_risque` | Action opérationnelle |
+| **5. Commandes à risque** | Table des commandes en cours (import `scoring_en_cours.csv`) triée par `score_risque`, filtre `niveau_risque` | Action opérationnelle |
+| **6. Rétention & churn** | Rétention à 12 mois par canal (`retention_canal.csv`), courbes de cohortes (`retention_cohortes.csv`), top clients à risque de churn (`churn_a_risque.csv`) | Fidélisation / rétention |
+
+> Le modèle s'appuie désormais sur 8 sources (clients, techniciens,
+> réclamations, factures en plus). Un **dashboard HTML autonome** (`dashboard/`)
+> fournit une alternative sans licence, directement partageable.
 
 ## 4. Segments (slicers) communs
 

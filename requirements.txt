@@ -1,7 +1,15 @@
-# Fibre 360 - dependances Python du pipeline d'analyse
+# Fibre 360 - dependances du pipeline d'analyse
 pandas>=2.1
 numpy>=1.26
 scikit-learn>=1.3
-openpyxl>=3.1
-# Optionnel : agent IA brancher sur un LLM (fallback hors-ligne sinon)
+statsmodels>=0.14      # prevision de series temporelles (Holt-Winters)
+openpyxl>=3.1          # export Excel
+joblib>=1.3            # persistance des modeles
+PyYAML>=6.0            # chargement de la configuration
+
+# -- Outils de developpement (optionnel) --
+pytest>=7.4
+matplotlib>=3.7
+
+# -- Agent IA branche sur un LLM (optionnel ; fallback hors-ligne sinon) --
 anthropic>=0.39 ; python_version >= "3.9"

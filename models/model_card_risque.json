@@ -1,0 +1,42 @@
+{
+  "nom": "Scoring risque de parcours Fibre degrade",
+  "cible": "echec de raccordement OU livraison hors delai",
+  "meilleur_modele": "Regression logistique",
+  "base_apprentissage": 55998,
+  "taux_risque_observe_pct": 40.5,
+  "test_auc": 0.8799,
+  "test_pr_auc": 0.8517,
+  "precision_classe_risque": 0.84,
+  "rappel_classe_risque": 0.71,
+  "features_num": [
+    "debit_gbps",
+    "montant_mensuel",
+    "anciennete_client_mois"
+  ],
+  "features_cat": [
+    "canal",
+    "offre",
+    "segment",
+    "region",
+    "gestionnaire_portefeuille",
+    "zone_a_construire",
+    "sous_traitant"
+  ],
+  "comparaison_modeles": [
+    {
+      "modele": "Regression logistique",
+      "cv_auc_moyen": 0.8795,
+      "cv_auc_ecart_type": 0.0028
+    },
+    {
+      "modele": "Random Forest",
+      "cv_auc_moyen": 0.8767,
+      "cv_auc_ecart_type": 0.0029
+    },
+    {
+      "modele": "Gradient Boosting",
+      "cv_auc_moyen": 0.8791,
+      "cv_auc_ecart_type": 0.0026
+    }
+  ]
+}

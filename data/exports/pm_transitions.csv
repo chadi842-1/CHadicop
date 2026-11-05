@@ -1,9 +1,0 @@
-etape,etape_suivante,nb,duree_moyenne_j
-Commande enregistree,Etude eligibilite,12000,1.51
-Etude eligibilite,Prise de RDV,11420,2.5
-Intervention technicien,Mise en service,10349,3.6
-Prise de RDV,Intervention technicien,7982,2.99
-Prise de RDV,Construction ligne,3159,12.46
-Construction ligne,Intervention technicien,3016,3.0
-Intervention technicien,Echec raccordement,649,0.1
-Etude eligibilite,Annulation client,580,1.58

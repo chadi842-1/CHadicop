@@ -32,12 +32,13 @@ performance (délais, échecs, satisfaction) et d'outiller la décision.
 | Étape | Outil | Livrable |
 |-------|-------|----------|
 | Collecte & modélisation | **GCP / BigQuery (SQL)** | `sql/bigquery/*.sql`, datamart |
-| Préparation & qualité | **Python / Excel** | `scripts/`, `KPI_pilotage_fibre.xlsx` |
-| Analyse de processus | **Process mining** (Celonis/UiPath en prod) | `scripts/03_process_mining.py` |
-| Scoring | **IA / BigQuery ML** | `scripts/04_scoring_model.py` |
-| Restitution | **Power BI, Looker Studio** | specs `powerbi/`, `looker_studio/` |
+| Qualité & préparation | **Python / Excel** | `fibre360/pipeline/`, `KPI_pilotage_fibre.xlsx` |
+| Analyse de processus | **Process mining** (Celonis/UiPath en prod) | `fibre360/analytics/process_mining.py` |
+| Analytics avancée | **Python** | cohortes, prévision, anomalies, segmentation (`fibre360/analytics/`) |
+| Scoring & churn | **IA / BigQuery ML** | `fibre360/ml/` + `sql/bigquery/` |
+| Restitution | **Power BI, Looker Studio, dashboard HTML** | `powerbi/`, `looker_studio/`, `dashboard/` |
 | Automatisation | **Power Automate** | `power_automate/flow_alertes.md` |
-| Aide à la décision | **Agent IA** | `ai_agent/agent_insights.py` |
+| Aide à la décision | **Agent IA** | `fibre360/reporting/insights.py` |
 
 ## Méthode & posture
 

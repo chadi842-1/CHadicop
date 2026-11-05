@@ -1,106 +1,127 @@
-# Fibre 360° — Pilotage du parcours Commande → Livraison
+# Fibre 360° — Plateforme décisionnelle du parcours Commande → Livraison
 
-Projet de **Data Analyse** de bout en bout, conçu pour illustrer les missions et
-les outils d'un stage d'analyste de données sur les **parcours Commande →
-Livraison des offres Fibre** (contexte opérateur télécom).
+Plateforme de **data analyse de bout en bout** pour piloter et améliorer les
+**parcours Commande → Livraison des offres Fibre** (contexte opérateur télécom).
+Du jeu de données jusqu'au dashboard et au plan d'actions, en passant par la
+qualité de données, le process mining, la prévision et le machine learning.
 
-> ⚠️ **Données 100 % fictives.** Toutes les données sont générées par le
-> pipeline (`scripts/01_generate_data.py`). Aucune donnée réelle ni
-> confidentielle n'est utilisée. Projet **original**, construit from scratch.
+> ⚠️ **Données 100 % fictives**, générées par le pipeline. Aucune donnée réelle
+> ni confidentielle. Projet **original** (ne reprend aucun projet existant).
+
+<p align="center"><em>Pipeline reproductible · 8 sources · ~60 000 commandes ·
+2 ans d'historique · 2 modèles ML · dashboard interactif · tests + CI</em></p>
 
 ---
 
-## Pourquoi ce projet ?
+## 1. Ce que fait la plateforme
 
-L'offre demande d'**enrichir des analyses existantes**, de **croiser plusieurs
-sources**, de **réfléchir à des modèles de scoring**, de **proposer des plans
-d'actions** (portefeuille, multi-canalité) et d'**aider à la décision**, en
-mobilisant **Power BI, GCP (SQL), Looker Studio, Excel, Power Automate /
-process mining et des agents IA**.
+```
+8 sources  ──► Qualité ──► Datamart ──►  Analytics            ──►  Reporting
+(générées)     (checks)    (croise­    ├─ KPI multi-axes           ├─ Excel (20 onglets)
+                           ment)       ├─ Process mining           ├─ Dashboard HTML
+                                       ├─ Cohortes / rétention     ├─ Note IA + plan
+                                       ├─ Prévision (Holt-Winters)      d'actions
+                                       ├─ Détection d'anomalies
+                                       ├─ Segmentation clients
+                                       ├─ Scoring risque livraison (AUC ≈ 0,88)
+                                       └─ Modèle de churn
+```
 
-Ce dépôt matérialise une **chaîne décisionnelle complète** qui répond à chacun
-de ces points sur un cas concret : mesurer et améliorer la performance de
-livraison de la Fibre.
+Orchestration : `make all` (ou `python -m fibre360.cli all`).
 
-## Correspondance offre ↔ projet
+## 2. Correspondance avec l'offre de stage
 
 | Mission de l'offre | Dans ce projet |
 |--------------------|----------------|
-| Croiser plusieurs sources de données | 4 sources (commandes, événements, interventions, satisfaction) croisées en un datamart — `scripts/02_build_datamart.py`, `sql/bigquery/02_datamart_parcours.sql` |
-| Enrichir analyses et rapports | KPI multi-axes + classeur Excel — `scripts/05_kpi_export.py` |
-| Réfléchir à des modèles de scoring | Scoring du risque de non-livraison (AUC ≈ 0,88, explicable) — `scripts/04_scoring_model.py` + BigQuery ML |
-| Analyse de processus (Celonis/UiPath) | Process mining du parcours (variantes, goulots, conformité) — `scripts/03_process_mining.py` |
+| Croiser plusieurs sources | 8 sources relationnelles croisées en un datamart (`fibre360/pipeline/datamart.py`, `sql/bigquery/02_*.sql`) |
+| Enrichir analyses & rapports | KPI multi-axes + classeur Excel 20 onglets + dashboard (`reporting/`) |
+| Modèles de scoring | Risque de non-livraison (3 modèles comparés, CV, explicabilité) **et** churn (`ml/`) |
+| Analyse de processus (Celonis/UiPath) | Process mining : variantes, goulots, conformité (`analytics/process_mining.py`) |
 | Plans d'actions (portefeuille, multi-canalité) | `docs/plan_actions.md` + note auto `docs/note_analyse_auto.md` |
-| Vision business / aide à la décision | Rapports Power BI & Looker Studio — `powerbi/`, `looker_studio/` |
-| Améliorer les outils / automatiser | Flux Power Automate (alertes + reporting) — `power_automate/` |
-| Analyses par IA / agents IA | Agent IA qui rédige note + plan — `ai_agent/agent_insights.py` |
+| Vision business / décision | Dashboard interactif + specs Power BI / Looker Studio |
+| Améliorer les outils / automatiser | Flux Power Automate (`power_automate/`) |
+| Analyses par IA / agents IA | Agent IA qui rédige note + plan (`reporting/insights.py`) |
 
 | Outil de l'offre | Où il est mobilisé |
 |------------------|--------------------|
-| **GCP / BigQuery (SQL)** | `sql/bigquery/` (staging, datamart, KPI, scoring + BigQuery ML) |
-| **Power BI** | `powerbi/SPEC_powerbi.md` (modèle, mesures DAX, 5 pages) |
-| **Looker Studio** (ex-Data Studio) | `looker_studio/SPEC_looker_studio.md` |
-| **Excel** | `data/exports/KPI_pilotage_fibre.xlsx` (7 onglets) |
-| **Power Automate / process mining** | `power_automate/`, `scripts/03_process_mining.py` |
-| **Agents IA** | `ai_agent/agent_insights.py` (mode LLM Claude ou fallback hors-ligne) |
+| **GCP / BigQuery (SQL)** | `sql/bigquery/` (staging, datamart partitionné, KPI, scoring & churn BigQuery ML, cohortes) |
+| **Power BI** | `powerbi/SPEC_powerbi.md` (modèle en étoile, DAX, 5 pages) |
+| **Looker Studio** | `looker_studio/SPEC_looker_studio.md` |
+| **Excel** | `data/exports/KPI_pilotage_fibre.xlsx` (20 onglets stylés) |
+| **Power Automate / process mining** | `power_automate/`, `analytics/process_mining.py` |
+| **Agents IA** | `reporting/insights.py` (mode LLM Claude ou fallback hors-ligne) |
 
-## Architecture
-
-```
-Sources (CSV / BigQuery)                 Restitution
-  commandes ─┐                            ┌─ Power BI (DAX, 5 pages)
-  evenements ─┤   ┌───────────────┐       ├─ Looker Studio
-  interventions ──┤  DATAMART      ├──────┤─ Excel (KPI)
-  satisfaction ─┘  │ faits_parcours│      └─ Power Automate (alertes/reporting)
-                   └──────┬────────┘
-                          ├─ Process mining (variantes, goulots)
-                          ├─ Scoring risque (sklearn / BigQuery ML)
-                          └─ Agent IA → note d'analyse + plan d'actions
-```
-
-## Démarrage rapide
+## 3. Démarrage rapide
 
 ```bash
-pip install -r requirements.txt
-python scripts/run_all.py            # lance tout le pipeline (ou : make all)
+pip install -r requirements.txt       # ou : pip install -e ".[dev]"
+make all                              # pipeline complet (~1 min)
 ```
 
-Étapes individuelles :
+Puis ouvrir **`dashboard/index.html`** dans un navigateur.
+
+Étapes à la carte :
 
 ```bash
-make data      # 1. génère les données fictives
-make mart      # 2. construit le datamart (croisement des sources)
-make mining    # 3. process mining du parcours
-make scoring   # 4. modèle de scoring du risque
-make kpi       # 5. export KPI Excel/CSV
-make agent     # 6. agent IA : note d'analyse + plan d'actions
+make generate     # 1. génère les 8 sources fictives
+make quality      # 2. contrôles qualité de données
+make datamart     # 3. croise les sources -> table de faits
+make analytics    # 4. KPI, process mining, cohortes, prévision, anomalies, ML
+make report       # 5. Excel + dashboard HTML + note IA
+make test         # lance la suite de tests (pytest)
 ```
 
-L'agent IA fonctionne **hors-ligne** par défaut (moteur de règles). Pour le
-brancher sur un vrai LLM : `export ANTHROPIC_API_KEY=...` puis `make agent`.
+Configuration dans `config/config.yaml` (volume, seed, SLA).
+L'agent IA tourne **hors-ligne** par défaut ; `export ANTHROPIC_API_KEY=...` pour
+le brancher sur un LLM.
 
-## Principaux résultats (données de démonstration, seed 42)
+## 4. Aperçu du dashboard
 
-- **64 %** des livraisons dans les délais (SLA 15 j), délai moyen **13,9 j**.
-- Multi-canalité : **Boutique** 69,7 % (NPS 45) vs **Distributeur** 56,8 % (NPS 14).
-- Process mining : goulot principal **« Prise de RDV → Construction ligne »** (12,5 j/cas).
-- Scoring : **AUC 0,88** ; facteurs de risque = zone à construire, sous-traitant OptiReseau, canal Distributeur.
-- **422** commandes en cours scorées, dont **149** à risque élevé et **44** en alerte SLA.
+Tableau de bord HTML **autonome** (Chart.js embarqué, thème clair/sombre,
+responsive) : tuiles KPI, performance multi-canalité, répartition du risque,
+volume historique **+ prévision**, délai mensuel, goulots du process, rétention
+par canal, et table des commandes en cours à traiter en priorité.
 
-## Structure du dépôt
+## 5. Résultats (données de démonstration, seed 42)
+
+- Taux de livraison dans les délais ≈ **64 %** (SLA 15 j), délai moyen ≈ **14 j**.
+- Multi-canalité : **Boutique** la plus performante, **Distributeur** la plus faible.
+- Process mining : goulot principal **« Prise de RDV → Construction ligne »**.
+- Scoring risque : **AUC ≈ 0,88** (régression logistique retenue sur 3 modèles).
+- Churn : **AUC ≈ 0,61** (problème volontairement difficile, résultat assumé).
+- Facteurs de risque : zone à construire, sous-traitant, canal (explicabilité).
+
+## 6. Structure du dépôt
 
 ```
-scripts/        pipeline Python (génération, datamart, mining, scoring, KPI, orchestration)
-sql/bigquery/   équivalent GCP/BigQuery (SQL + BigQuery ML)
-powerbi/        spécification du rapport Power BI (mesures DAX)
-looker_studio/  spécification du tableau de bord Looker Studio
-power_automate/ flux d'automatisation (alertes, reporting)
-ai_agent/       agent IA d'aide à la décision
-data/exports/   résultats versionnés (KPI, process mining, scoring)
-docs/           cadrage, dictionnaire de données, plan d'actions, note auto
+fibre360/              package Python
+  config.py            configuration centralisée
+  data_generation/     génération des 8 sources
+  pipeline/            qualité de données + datamart
+  analytics/           kpis, process_mining, cohorts, forecasting, anomaly, segmentation
+  ml/                  features, train (risque), churn, explicabilité
+  reporting/           excel_report, dashboard HTML, insights (agent IA)
+  cli.py               orchestration (sous-commandes)
+sql/bigquery/          équivalent GCP (staging, datamart, KPI, ML, cohortes)
+powerbi/ looker_studio/ power_automate/   spécifications de restitution/automatisation
+dashboard/             dashboard HTML généré (+ Chart.js embarqué)
+data/exports/          résultats versionnés (KPI, PM, scoring, qualité)
+models/                cartes de modèle (model cards)
+tests/                 suite pytest
+docs/                  cadrage, architecture, dictionnaire, gouvernance, plan d'actions
+.github/workflows/     intégration continue
 ```
 
-## Technologies
+## 7. Qualité logicielle
 
-Python (pandas, scikit-learn, openpyxl) · SQL BigQuery / BigQuery ML ·
-Power BI (DAX) · Looker Studio · Excel · Power Automate · Agent IA (Claude).
+- **Tests** : `pytest` (génération, qualité, datamart, analytics, ML) — 22 tests.
+- **CI** : GitHub Actions (tests + smoke test du pipeline, Python 3.11 & 3.12).
+- **Reproductibilité** : graine fixée, configuration par fichier, logs horodatés.
+- **Packaging** : `pyproject.toml`, commande `fibre360`.
+
+## 8. Technologies
+
+Python (pandas, scikit-learn, statsmodels, joblib) · SQL BigQuery / BigQuery ML ·
+Power BI (DAX) · Looker Studio · Excel · Power Automate · Chart.js · Agent IA (Claude).
+
+Voir `docs/architecture.md` pour le détail des modules et des flux.
