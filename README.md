@@ -29,29 +29,8 @@ qualité de données, le process mining, la prévision et le machine learning.
 
 Orchestration : `make all` (ou `python -m fibre360.cli all`).
 
-## 2. Correspondance avec l'offre de stage
 
-| Mission de l'offre | Dans ce projet |
-|--------------------|----------------|
-| Croiser plusieurs sources | 8 sources relationnelles croisées en un datamart (`fibre360/pipeline/datamart.py`, `sql/bigquery/02_*.sql`) |
-| Enrichir analyses & rapports | KPI multi-axes + classeur Excel 20 onglets + dashboard (`reporting/`) |
-| Modèles de scoring | Risque de non-livraison (3 modèles comparés, CV, explicabilité) **et** churn (`ml/`) |
-| Analyse de processus (Celonis/UiPath) | Process mining : variantes, goulots, conformité (`analytics/process_mining.py`) |
-| Plans d'actions (portefeuille, multi-canalité) | `docs/plan_actions.md` + note auto `docs/note_analyse_auto.md` |
-| Vision business / décision | Dashboard interactif + specs Power BI / Looker Studio |
-| Améliorer les outils / automatiser | Flux Power Automate (`power_automate/`) |
-| Analyses par IA / agents IA | Agent IA qui rédige note + plan (`reporting/insights.py`) |
-
-| Outil de l'offre | Où il est mobilisé |
-|------------------|--------------------|
-| **GCP / BigQuery (SQL)** | `sql/bigquery/` (staging, datamart partitionné, KPI, scoring & churn BigQuery ML, cohortes) |
-| **Power BI** | `powerbi/SPEC_powerbi.md` (modèle en étoile, DAX, 5 pages) |
-| **Looker Studio** | `looker_studio/SPEC_looker_studio.md` |
-| **Excel** | `data/exports/KPI_pilotage_fibre.xlsx` (20 onglets stylés) |
-| **Power Automate / process mining** | `power_automate/`, `analytics/process_mining.py` |
-| **Agents IA** | `reporting/insights.py` (mode LLM Claude ou fallback hors-ligne) |
-
-## 3. Démarrage rapide
+## 2.3. Démarrage rapide
 
 ```bash
 pip install -r requirements.txt       # ou : pip install -e ".[dev]"
